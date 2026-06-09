@@ -70,7 +70,7 @@ const EXPLORE_CATEGORIES = [
 const LOCAL_FAQS = [
   {
     q: "What are the hours for St Clair Cannabis?",
-    a: "St Clair Cannabis at 875 St Clair Ave W, Toronto is Open 24 Hours a day, 7 days a week. Walk in anytime — no appointment needed.",
+    a: "St Clair Cannabis at 875 St Clair Ave W, Toronto is open daily from 12:00 AM to 11:59 PM. Walk in anytime — no appointment needed.",
   },
   {
     q: "What cannabis products do you carry?",
@@ -218,7 +218,7 @@ export default function HomePage() {
             <img src="/storeFavicon.webp" alt="St Clair Cannabis Icon" style={{ height: "60px", width: "60px", objectFit: "contain", borderRadius: "8px", marginBottom: "8px" }} />
             <h1 className={styles.brandTitle}>ST CLAIR CANNABIS</h1>
             <p className={styles.brandSub}>Premium Cannabis Dispensary</p>
-            <div className={styles.brandBadge}>Open 24 Hours</div>
+            <div className={styles.brandBadge}>Open Daily: 12:00 AM - 11:59 PM</div>
           </div>
 
           {/* Bento Grid */}
@@ -301,15 +301,15 @@ export default function HomePage() {
       <section className={styles.seoSection}>
         <div className={styles.container}>
           <div className={styles.seoPanel}>
-            <h2 className={styles.seoPanelTitle}>875 St Clair Ave W & Nearby Expressway's Premier Cannabis Dispensary — Open 24 Hours</h2>
+            <h2 className={styles.seoPanelTitle}>875 St Clair Ave W & Nearby Expressway's Premier Cannabis Dispensary — Open Daily: 12:00 AM - 11:59 PM</h2>
             <p className={styles.seoPanelText}>
-              Welcome to <strong>St Clair Cannabis</strong>, Toronto's premier 24-hour cannabis destination at 875 St Clair Ave W. We carry an electrifying selection of top-shelf strains around the clock — from ultra-rare exotics to solid everyday budget picks.
+              Welcome to <strong>St Clair Cannabis</strong>, Toronto's premier cannabis destination at 875 St Clair Ave W. We carry an electrifying selection of top-shelf strains — from ultra-rare exotics to solid everyday budget picks.
             </p>
             <p className={styles.seoPanelText}>
-              Open 24 hours, 7 days a week — St Clair Cannabis never closes. Our live menu is constantly refreshed with the freshest drops, premium prerolls, artisan edibles, and everything in between. Whether you're winding down after a late shift or stocking up for the weekend, our knowledgeable staff is always here for you.
+              We are open Open Daily: 12:00 AM - 11:59 PM — St Clair Cannabis is here to serve you. Our live menu is constantly refreshed with the freshest drops, premium prerolls, artisan edibles, and everything in between. Whether you're winding down or stocking up for the weekend, our knowledgeable staff is always here for you.
             </p>
             <p className={styles.seoPanelText}>
-              Searching for a cannabis dispensary in Toronto or the surrounding area? St Clair Cannabis is your 24-hour destination for premium flower, potent prerolls, and artisan edibles. Our six-tier pricing system means quality cannabis at every budget level — starting from just $3/g.
+              Searching for a cannabis dispensary in Toronto or the surrounding area? St Clair Cannabis is your go-to destination for premium flower, potent prerolls, and artisan edibles. Our six-tier pricing system means quality cannabis at every budget level — starting from just $3/g.
             </p>
           </div>
         </div>

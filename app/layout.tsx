@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: "%s | St Clair Cannabis",
   },
   description:
-    "Shop 200+ premium cannabis strains at St Clair Cannabis. Exotic, Premium, AAA+, AA & Budget flower from $3/g. Toronto's uplifting dispensary at 875 St Clair Ave W. Open 24 Hours.",
+    "Shop 200+ premium cannabis strains at St Clair Cannabis. Exotic, Premium, AAA+, AA & Budget flower from $3/g. Toronto's uplifting dispensary at 875 St Clair Ave W. Open Daily: 12:00 AM - 11:59 PM.",
   keywords: [
     "cannabis dispensary Toronto",
     "weed store Toronto",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     siteName: "St Clair Cannabis",
     title: "St Clair Cannabis — Premium Toronto Cannabis Dispensary",
     description:
-      "200+ strains from $3/g. Exotic to Budget. Toronto's uplifting dispensary at 875 St Clair Ave W. Open 24 Hours.",
+      "200+ strains from $3/g. Exotic to Budget. Toronto's uplifting dispensary at 875 St Clair Ave W. Open Daily: 12:00 AM - 11:59 PM.",
     images: [
       {
         url: "https://stclaircannabis.com/wp-content/uploads/2026/04/46Oi5.jpg",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "St Clair Cannabis — Toronto's Uplifting Dispensary",
-    description: "200+ strains from $3/g. Open 24 Hours at 875 St Clair Ave W, Toronto.",
+    description: "200+ strains from $3/g. Open Daily: 12:00 AM - 11:59 PM at 875 St Clair Ave W, Toronto.",
     images: ["https://stclaircannabis.com/wp-content/uploads/2026/04/46Oi5.jpg"],
   },
   robots: {
@@ -75,7 +75,7 @@ const jsonLd = {
   additionalType: "https://schema.org/Store",
   "@id": "https://stclaircannabis.com",
   name: "St Clair Cannabis",
-  description: "Cannabis dispensary at 875 St Clair Ave W in Toronto, ON. Shop exotic, premium, AAA+, AA, and budget flower tiers plus edibles, prerolls, and vapes. Open 24 Hours.",
+  description: "Cannabis dispensary at 875 St Clair Ave W in Toronto, ON. Shop exotic, premium, AAA+, AA, and budget flower tiers plus edibles, prerolls, and vapes. Open Daily: 12:00 AM - 11:59 PM.",
   url: "https://stclaircannabis.com",
   telephone: "+14375953295",
   image: "https://stclaircannabis.com/wp-content/uploads/2026/04/7Clmh.jpg",
@@ -90,17 +90,25 @@ const jsonLd = {
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: 43.6799300,
-    longitude: -79.4332500,
+    latitude: 43.6532,
+    longitude: -79.3832,
   },
   openingHoursSpecification: [
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-      opens: "00:00",
-      closes: "23:59",
-    },
-  ],
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+],
   sameAs: [
     "https://stclaircannabis.com/",
     "https://stclaircannabis.com/",
@@ -128,8 +136,8 @@ export default function RootLayout({
       <head>
         <meta name="geo.region" content="CA-ON" />
         <meta name="geo.placename" content="Toronto" />
-        <meta name="geo.position" content="43.6799300;-79.4332500" />
-        <meta name="ICBM" content="43.6799300, -79.4332500" />
+        <meta name="geo.position" content="43.6532;-79.3832" />
+        <meta name="ICBM" content="43.6532, -79.3832" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
