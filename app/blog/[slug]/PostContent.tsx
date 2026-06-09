@@ -128,7 +128,7 @@ export default function PostContent() {
 
         <div className={styles.cta}>
           <p>
-            <strong>St Clair Cannabis</strong> — 875 St Clair Ave W, Toronto · Open Daily: 12:00 AM - 11:59 PM · (437) 595-3295
+            <strong>St Clair Cannabis</strong> — 875 St Clair Ave W, Toronto · Open 24 Hours · (437) 595-3295
           </p>
           <Link href="/exotic" className={styles.ctaBtn}>Browse Our Menu</Link>
         </div>

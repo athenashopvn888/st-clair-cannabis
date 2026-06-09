@@ -101,7 +101,7 @@ export default function DeliveryContent() {
         <div className={styles.ctaSection}>
           <p className={styles.ctaText}>
             Can&apos;t wait? Visit us in-store at <strong>875 St Clair Ave W, Toronto</strong> —
-            open <strong>24 hours</strong>. Call <strong>(437) 595-3295</strong>.
+            we are <strong>Open 24 Hours</strong>. Call <strong>(437) 595-3295</strong>.
           </p>
         </div>
       </div>
