@@ -24,7 +24,7 @@ export const gbpLocation = {
     "Accessories"
   ],
   menuUrl: "/",
-  directionsUrl: "https://stclaircannabis.com/",
+  directionsUrl: "https://www.google.com/maps/search/?api=1&query=875%20St%20Clair%20Ave%20W%2C%20Toronto%2C%20ON%20M6C%201C4",
   mapEmbedUrl: "https://maps.google.com/maps?q=St%20Clair%20Cannabis%20875%20St%20Clair%20Ave%20W%2C%20Toronto%2C%20ON%20M6C%201C4&t=&z=15&ie=UTF8&iwloc=&output=embed",
   latitude: "43.6799300",
   longitude: "-79.4332500",
