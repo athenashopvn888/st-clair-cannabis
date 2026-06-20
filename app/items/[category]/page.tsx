@@ -130,14 +130,6 @@ export default async function ItemsCategoryPage({
             <p className={styles.visitText}>
               875 St Clair Ave W, Toronto, ON M6C 1C4 · Open 24 Hours
             </p>
-            <a
-              href="https://stclaircannabis.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.visitBtn}
-            >
-              📍 Get Directions
-            </a>
           </div>
         </div>
       </section>

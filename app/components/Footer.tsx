@@ -17,20 +17,6 @@ export default function Footer() {
               Open: Open 24 Hours.
             </p>
             <div className={styles.buttons}>
-              <a
-                href="tel:+14375953295"
-                className={styles.btnPrimary}
-              >
-                Call Now
-              </a>
-              <a
-                href="https://stclaircannabis.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.btnSecondary}
-              >
-                Get Directions
-              </a>
             </div>
           </div>
 
