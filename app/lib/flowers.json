@@ -1,5 +1,24 @@
 [
   {
+    "sku": "314",
+    "name": "TAHOE COOKIES",
+    "slug": "tahoe-cookies",
+    "tier": "AAA+",
+    "type": "indica",
+    "isHot": false,
+    "isSale": false,
+    "thc": "31%",
+    "price3g": {
+      "regular": 20,
+      "sale": null
+    },
+    "price5g": null,
+    "price14g": null,
+    "price28g": null,
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/03/99262-314-TAHOE-COOKIE.webp",
+    "promoImage": null
+  },
+  {
     "sku": "315",
     "name": "GREASE MONKEY",
     "slug": "grease-monkey",
@@ -8,14 +27,46 @@
     "isHot": false,
     "isSale": false,
     "thc": "31%",
-    "price3g": null,
-    "price5g": null,
+    "price3g": {
+      "regular": 20,
+      "sale": null
+    },
+    "price5g": {
+      "regular": 30,
+      "sale": null
+    },
     "price14g": {
       "regular": 70,
       "sale": null
     },
     "price28g": null,
-    "image": "/products/99253-315-GREASE-MONKEY.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/03/99253-315-GREASE-MONKEY.webp",
+    "promoImage": null
+  },
+  {
+    "sku": "318",
+    "name": "PINK ROZAY",
+    "slug": "pink-rozay",
+    "tier": "AAA+",
+    "type": "indica",
+    "isHot": false,
+    "isSale": false,
+    "thc": "31%",
+    "price3g": {
+      "regular": 20,
+      "sale": null
+    },
+    "price5g": {
+      "regular": 30,
+      "sale": null
+    },
+    "price14g": {
+      "regular": 70,
+      "sale": null
+    },
+    "price28g": null,
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/99264-318-PINK-ROZAY.webp",
+    "promoImage": null
   },
   {
     "sku": "380",
@@ -30,23 +81,27 @@
       "regular": 20,
       "sale": null
     },
-    "price5g": null,
+    "price5g": {
+      "regular": 30,
+      "sale": null
+    },
     "price14g": {
       "regular": 70,
       "sale": null
     },
     "price28g": null,
-    "image": "/products/99268-380-PEANUTBUTTER-BREATHE.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/99268-380-PEANUTBUTTER-BREATHE.webp",
+    "promoImage": null
   },
   {
-    "sku": "490",
-    "name": "PINK JOKER",
-    "slug": "pink-joker",
+    "sku": "491",
+    "name": "SUPER DRIP",
+    "slug": "super-drip",
     "tier": "PREMIUM",
     "type": "indica",
     "isHot": false,
     "isSale": false,
-    "thc": "33%",
+    "thc": "32%",
     "price3g": {
       "regular": 30,
       "sale": null
@@ -60,28 +115,8 @@
       "sale": null
     },
     "price28g": null,
-    "image": "/products/99255-490-PINK-JOKER.webp"
-  },
-  {
-    "sku": "539",
-    "name": "PEANUT BUTTER ROCKSTAR",
-    "slug": "peanut-butter-rockstar",
-    "tier": "EXOTIC",
-    "type": "indica",
-    "isHot": false,
-    "isSale": false,
-    "thc": "38%",
-    "price3g": {
-      "regular": 40,
-      "sale": null
-    },
-    "price5g": {
-      "regular": 60,
-      "sale": null
-    },
-    "price14g": null,
-    "price28g": null,
-    "image": "/products/99258-539-PEANUT-BUTTER-ROCKSTAR.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/03/99259-491-SUPER-DRIP.webp",
+    "promoImage": null
   },
   {
     "sku": "540",
@@ -105,7 +140,8 @@
       "sale": null
     },
     "price28g": null,
-    "image": "/products/99260-540-PINK-ICKY-STICKY.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/03/99260-540-PINK-ICKY-STICKY.webp",
+    "promoImage": null
   },
   {
     "sku": "543",
@@ -124,30 +160,10 @@
       "regular": 60,
       "sale": null
     },
-    "price14g": {
-      "regular": 140,
-      "sale": null
-    },
-    "price28g": null,
-    "image": "/products/99257-543-PINK-SUPREME.webp"
-  },
-  {
-    "sku": "102",
-    "name": "BANANA KUSH Shreds",
-    "slug": "banana-kush-shreds",
-    "tier": "BUDGET",
-    "type": "indica",
-    "isHot": false,
-    "isSale": false,
-    "thc": "24%",
-    "price3g": null,
-    "price5g": null,
     "price14g": null,
-    "price28g": {
-      "regular": 40,
-      "sale": null
-    },
-    "image": "/products/102-Banana-Kush-Shake.jpg"
+    "price28g": null,
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/03/99257-543-PINK-SUPREME.webp",
+    "promoImage": null
   },
   {
     "sku": "112",
@@ -165,7 +181,8 @@
       "regular": 40,
       "sale": null
     },
-    "image": "/products/112-Pink-Biscuits-Shake.jpg"
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/05/110-Purple-Sherbet-Shake-Strain-1.jpg",
+    "promoImage": "https://kennedyloudcannabis.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-7-2026-03_04_10-AM.png"
   },
   {
     "sku": "113",
@@ -183,7 +200,8 @@
       "regular": 40,
       "sale": null
     },
-    "image": "/products/113-PinkGelato.jpg"
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/05/113-PinkGelato-1.jpg",
+    "promoImage": "https://kennedyloudcannabis.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-7-2026-03_04_10-AM.png"
   },
   {
     "sku": "114",
@@ -201,17 +219,40 @@
       "regular": 40,
       "sale": null
     },
-    "image": "/products/114-Hell-Fire-Shake.jpg"
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/05/114-Hell-Fire-Shake-strain.jpg",
+    "promoImage": null
   },
   {
-    "sku": "183",
-    "name": "MANGO HAZE",
-    "slug": "mango-haze",
+    "sku": "168",
+    "name": "OG KUSH",
+    "slug": "og-kush",
     "tier": "BUDGET",
-    "type": "sativa",
+    "type": "indica",
     "isHot": false,
     "isSale": false,
-    "thc": "27%",
+    "thc": "26%",
+    "price3g": {
+      "regular": 10,
+      "sale": null
+    },
+    "price5g": null,
+    "price14g": null,
+    "price28g": {
+      "regular": 55,
+      "sale": null
+    },
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2025/12/168-OG-KUSH-2.webp",
+    "promoImage": null
+  },
+  {
+    "sku": "179",
+    "name": "LONDON POUNDCAKE",
+    "slug": "london-poundcake",
+    "tier": "BUDGET",
+    "type": "indica",
+    "isHot": false,
+    "isSale": false,
+    "thc": "26%",
     "price3g": {
       "regular": 10,
       "sale": null
@@ -222,28 +263,8 @@
       "regular": 60,
       "sale": null
     },
-    "image": "/products/99230-289-JUNGLE-JUICE.webp"
-  },
-  {
-    "sku": "205",
-    "name": "PINK STICKY ALIEN",
-    "slug": "pink-sticky-alien",
-    "tier": "AA",
-    "type": "indica",
-    "isHot": false,
-    "isSale": false,
-    "thc": "29%",
-    "price3g": null,
-    "price5g": {
-      "regular": 20,
-      "sale": null
-    },
-    "price14g": {
-      "regular": 45,
-      "sale": null
-    },
-    "price28g": null,
-    "image": "/products/205-PINK-STICKY-ALIEN.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/02/99220-275-LONDON-POUNDCAKE.webp",
+    "promoImage": null
   },
   {
     "sku": "210",
@@ -263,8 +284,37 @@
       "regular": 50,
       "sale": null
     },
-    "price28g": null,
-    "image": "/products/210-WHITE-CHAMPAGNE-99224.webp"
+    "price28g": {
+      "regular": 85,
+      "sale": null
+    },
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/02/210-WHITE-CHAMPAGNE-99224.webp",
+    "promoImage": null
+  },
+  {
+    "sku": "211",
+    "name": "BC KUSH",
+    "slug": "bc-kush",
+    "tier": "AA",
+    "type": "indica",
+    "isHot": false,
+    "isSale": false,
+    "thc": "28%",
+    "price3g": null,
+    "price5g": {
+      "regular": 20,
+      "sale": null
+    },
+    "price14g": {
+      "regular": 45,
+      "sale": null
+    },
+    "price28g": {
+      "regular": 80,
+      "sale": null
+    },
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/02/211-BC-KUSH-99225.webp",
+    "promoImage": null
   },
   {
     "sku": "213",
@@ -284,8 +334,12 @@
       "regular": 45,
       "sale": null
     },
-    "price28g": null,
-    "image": "/products/213-Master-Kush.webp"
+    "price28g": {
+      "regular": 80,
+      "sale": null
+    },
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/213-Master-Kush.webp",
+    "promoImage": null
   },
   {
     "sku": "261",
@@ -305,8 +359,12 @@
       "regular": 45,
       "sale": null
     },
-    "price28g": null,
-    "image": "/products/261-DAYDREAM-DIESEL-99140.jpg"
+    "price28g": {
+      "regular": 80,
+      "sale": null
+    },
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/11/261-DAYDREAM-DIESEL-99140.jpg",
+    "promoImage": null
   },
   {
     "sku": "269",
@@ -326,8 +384,12 @@
       "regular": 40,
       "sale": null
     },
-    "price28g": null,
-    "image": "/products/99149-OREO-COOKIES.webp"
+    "price28g": {
+      "regular": 70,
+      "sale": null
+    },
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2025/12/99149-OREO-COOKIES.webp",
+    "promoImage": null
   },
   {
     "sku": "271",
@@ -347,8 +409,56 @@
       "regular": 40,
       "sale": null
     },
-    "price28g": null,
-    "image": "/products/99146-271-DANTE-INFERNO.webp"
+    "price28g": {
+      "regular": 70,
+      "sale": null
+    },
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/01/99146-271-DANTE-INFERNO.webp",
+    "promoImage": null
+  },
+  {
+    "sku": "272",
+    "name": "SKYWALKER KUSH",
+    "slug": "skywalker-kush",
+    "tier": "AA",
+    "type": "indica",
+    "isHot": false,
+    "isSale": false,
+    "thc": "29%",
+    "price3g": null,
+    "price5g": {
+      "regular": 20,
+      "sale": null
+    },
+    "price14g": null,
+    "price28g": {
+      "regular": 80,
+      "sale": null
+    },
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/01/99151-272-SKYWALKER-KUSH.webp",
+    "promoImage": "https://kennedyloudcannabis.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-7-2026-03_04_10-AM.png"
+  },
+  {
+    "sku": "274",
+    "name": "CHEM FIRE",
+    "slug": "chem-fire",
+    "tier": "AA",
+    "type": "indica",
+    "isHot": false,
+    "isSale": false,
+    "thc": "29%",
+    "price3g": null,
+    "price5g": {
+      "regular": 20,
+      "sale": null
+    },
+    "price14g": null,
+    "price28g": {
+      "regular": 70,
+      "sale": null
+    },
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/01/258-PINK-JET-FUEL-99136.jpg",
+    "promoImage": null
   },
   {
     "sku": "275",
@@ -368,47 +478,12 @@
       "regular": 40,
       "sale": null
     },
-    "price28g": null,
-    "image": "/products/99244-275-SUGAR-COOKIES.webp"
-  },
-  {
-    "sku": "278",
-    "name": "SLURRICANE",
-    "slug": "slurricane",
-    "tier": "AA",
-    "type": "indica",
-    "isHot": false,
-    "isSale": false,
-    "thc": "27%",
-    "price3g": null,
-    "price5g": {
-      "regular": 20,
+    "price28g": {
+      "regular": 75,
       "sale": null
     },
-    "price14g": null,
-    "price28g": null,
-    "image": "/products/278-SLURRICANE.webp"
-  },
-  {
-    "sku": "288",
-    "name": "FROSTED COOKIES",
-    "slug": "frosted-cookies",
-    "tier": "AA",
-    "type": "indica",
-    "isHot": false,
-    "isSale": false,
-    "thc": "28%",
-    "price3g": null,
-    "price5g": {
-      "regular": 20,
-      "sale": null
-    },
-    "price14g": {
-      "regular": 45,
-      "sale": null
-    },
-    "price28g": null,
-    "image": "/products/99243-288-FROSTED-COOKIES.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/03/99244-275-SUGAR-COOKIES.webp",
+    "promoImage": null
   },
   {
     "sku": "289",
@@ -417,16 +492,23 @@
     "tier": "AA",
     "type": "indica",
     "isHot": false,
-    "isSale": false,
+    "isSale": true,
     "thc": "28%",
     "price3g": null,
-    "price5g": null,
+    "price5g": {
+      "regular": 20,
+      "sale": 15
+    },
     "price14g": {
       "regular": 40,
       "sale": null
     },
-    "price28g": null,
-    "image": "/products/99230-289-JUNGLE-JUICE.webp"
+    "price28g": {
+      "regular": 70,
+      "sale": null
+    },
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/99230-289-JUNGLE-JUICE.webp",
+    "promoImage": null
   },
   {
     "sku": "290",
@@ -446,50 +528,37 @@
       "regular": 45,
       "sale": null
     },
-    "price28g": null,
-    "image": "/products/99263-290-SWEET-KUSH.webp"
+    "price28g": {
+      "regular": 75,
+      "sale": null
+    },
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/99263-290-SWEET-KUSH.webp",
+    "promoImage": null
   },
   {
-    "sku": "291",
-    "name": "DIAMOND OG",
-    "slug": "diamond-og",
-    "tier": "AA",
+    "sku": "303",
+    "name": "PINK LOBSTER",
+    "slug": "pink-lobster",
+    "tier": "AAA+",
     "type": "indica",
     "isHot": false,
     "isSale": false,
-    "thc": "29%",
-    "price3g": null,
-    "price5g": {
+    "thc": "30%",
+    "price3g": {
       "regular": 20,
       "sale": null
     },
-    "price14g": {
-      "regular": 40,
-      "sale": null
-    },
-    "price28g": null,
-    "image": "/products/291-DIAMOND-KUSH.webp"
-  },
-  {
-    "sku": "292",
-    "name": "QUANTUM KUSH",
-    "slug": "quantum-kush",
-    "tier": "AA",
-    "type": "indica",
-    "isHot": false,
-    "isSale": false,
-    "thc": "29%",
-    "price3g": null,
     "price5g": {
-      "regular": 20,
+      "regular": 30,
       "sale": null
     },
     "price14g": {
-      "regular": 45,
+      "regular": 70,
       "sale": null
     },
     "price28g": null,
-    "image": "/products/292-QUANTUM-KUSH.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/03/99245-303-PINK-LOBSTER.webp",
+    "promoImage": null
   },
   {
     "sku": "304",
@@ -504,13 +573,11 @@
       "regular": 20,
       "sale": null
     },
-    "price5g": {
-      "regular": 30,
-      "sale": null
-    },
+    "price5g": null,
     "price14g": null,
     "price28g": null,
-    "image": "/products/99248-304-WHITE-SHARK.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/03/99248-304-WHITE-SHARK.webp",
+    "promoImage": null
   },
   {
     "sku": "319",
@@ -534,7 +601,30 @@
       "sale": null
     },
     "price28g": null,
-    "image": "/products/99261-319-WHITEWALKEROG.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/99261-319-WHITEWALKEROG.webp",
+    "promoImage": null
+  },
+  {
+    "sku": "320",
+    "name": "BLACK TUNA",
+    "slug": "black-tuna",
+    "tier": "AAA+",
+    "type": "indica",
+    "isHot": false,
+    "isSale": false,
+    "thc": "31%",
+    "price3g": {
+      "regular": 20,
+      "sale": null
+    },
+    "price5g": null,
+    "price14g": {
+      "regular": 70,
+      "sale": null
+    },
+    "price28g": null,
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/99267-320-BLACK-TUNA.webp",
+    "promoImage": null
   },
   {
     "sku": "321",
@@ -545,14 +635,62 @@
     "isHot": false,
     "isSale": false,
     "thc": "31%",
-    "price3g": null,
+    "price3g": {
+      "regular": 20,
+      "sale": null
+    },
+    "price5g": {
+      "regular": 30,
+      "sale": null
+    },
+    "price14g": {
+      "regular": 70,
+      "sale": null
+    },
+    "price28g": null,
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/99269-MK-ULTRA-321.webp",
+    "promoImage": null
+  },
+  {
+    "sku": "323",
+    "name": "PINK GODZILLA",
+    "slug": "pink-godzilla",
+    "tier": "AAA+",
+    "type": "indica",
+    "isHot": false,
+    "isSale": false,
+    "thc": "31%",
+    "price3g": {
+      "regular": 20,
+      "sale": null
+    },
     "price5g": {
       "regular": 30,
       "sale": null
     },
     "price14g": null,
     "price28g": null,
-    "image": "/products/99269-MK-ULTRA-321.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/99275-PINK-GODIZLLA-323.webp",
+    "promoImage": null
+  },
+  {
+    "sku": "324",
+    "name": "PINK VIOLATOR",
+    "slug": "pink-violator",
+    "tier": "AAA+",
+    "type": "indica",
+    "isHot": false,
+    "isSale": false,
+    "thc": "31%",
+    "price3g": {
+      "regular": 20,
+      "sale": null
+    },
+    "price5g": null,
+    "price14g": null,
+    "price28g": null,
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/99256-PINK-VIOLATOR-324.webp",
+    "promoImage": null
   },
   {
     "sku": "327",
@@ -576,100 +714,8 @@
       "sale": null
     },
     "price28g": null,
-    "image": "/products/327-PINKHAL-OG99277.webp"
-  },
-  {
-    "sku": "329",
-    "name": "MUELLER FUEL",
-    "slug": "mueller-fuel",
-    "tier": "AAA+",
-    "type": "indica",
-    "isHot": false,
-    "isSale": false,
-    "thc": "31%",
-    "price3g": {
-      "regular": 20,
-      "sale": null
-    },
-    "price5g": {
-      "regular": 30,
-      "sale": null
-    },
-    "price14g": {
-      "regular": 70,
-      "sale": null
-    },
-    "price28g": null,
-    "image": "/products/329-MUELLER-FUEL.webp"
-  },
-  {
-    "sku": "332",
-    "name": "PINK GAS",
-    "slug": "pink-gas",
-    "tier": "AAA+",
-    "type": "indica",
-    "isHot": false,
-    "isSale": false,
-    "thc": "31%",
-    "price3g": {
-      "regular": 20,
-      "sale": null
-    },
-    "price5g": {
-      "regular": 30,
-      "sale": null
-    },
-    "price14g": {
-      "regular": 70,
-      "sale": null
-    },
-    "price28g": null,
-    "image": "/products/332-PINK-GAS.webp"
-  },
-  {
-    "sku": "333",
-    "name": "PINK PABLO",
-    "slug": "pink-pablo",
-    "tier": "AAA+",
-    "type": "indica",
-    "isHot": false,
-    "isSale": false,
-    "thc": "31%",
-    "price3g": null,
-    "price5g": {
-      "regular": 30,
-      "sale": null
-    },
-    "price14g": {
-      "regular": 70,
-      "sale": null
-    },
-    "price28g": null,
-    "image": "/products/333-PINK-PABLO.webp"
-  },
-  {
-    "sku": "334",
-    "name": "PINK GOO",
-    "slug": "pink-goo",
-    "tier": "AAA+",
-    "type": "indica",
-    "isHot": false,
-    "isSale": false,
-    "thc": "31%",
-    "price3g": {
-      "regular": 20,
-      "sale": null
-    },
-    "price5g": {
-      "regular": 30,
-      "sale": null
-    },
-    "price14g": {
-      "regular": 70,
-      "sale": null
-    },
-    "price28g": null,
-    "image": "/products/334-PINK-GOO.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/327-PINKHAL-OG99277.webp",
+    "promoImage": null
   },
   {
     "sku": "336",
@@ -688,60 +734,10 @@
       "regular": 30,
       "sale": null
     },
-    "price14g": {
-      "regular": 70,
-      "sale": null
-    },
+    "price14g": null,
     "price28g": null,
-    "image": "/products/336-OMFG-Sativa.webp"
-  },
-  {
-    "sku": "339",
-    "name": "PURPLE PUNCH",
-    "slug": "purple-punch",
-    "tier": "AAA+",
-    "type": "indica",
-    "isHot": false,
-    "isSale": false,
-    "thc": "30%",
-    "price3g": {
-      "regular": 20,
-      "sale": null
-    },
-    "price5g": {
-      "regular": 30,
-      "sale": null
-    },
-    "price14g": {
-      "regular": 70,
-      "sale": null
-    },
-    "price28g": null,
-    "image": "/products/99296-PURPLE-PUNCH-339.webp"
-  },
-  {
-    "sku": "340",
-    "name": "FROZEN GRAPES",
-    "slug": "frozen-grapes",
-    "tier": "AAA+",
-    "type": "indica",
-    "isHot": false,
-    "isSale": false,
-    "thc": "31%",
-    "price3g": {
-      "regular": 20,
-      "sale": null
-    },
-    "price5g": {
-      "regular": 30,
-      "sale": null
-    },
-    "price14g": {
-      "regular": 70,
-      "sale": null
-    },
-    "price28g": null,
-    "image": "/products/99298-FROZEN-GRAPES-340.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/05/336-OMFG-Sativa.webp",
+    "promoImage": null
   },
   {
     "sku": "392",
@@ -765,12 +761,13 @@
       "sale": 40
     },
     "price28g": null,
-    "image": "/products/393-PINK-KUSH-99212.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/02/393-PINK-KUSH-99212.webp",
+    "promoImage": null
   },
   {
     "sku": "392",
-    "name": "RAINBOW KUSH",
-    "slug": "rainbow-kush",
+    "name": "RAINBOW KUSH AAA+ SALE!",
+    "slug": "rainbow-kush-aaa-sale",
     "tier": "BUDGET",
     "type": "indica",
     "isHot": false,
@@ -786,7 +783,27 @@
     },
     "price14g": null,
     "price28g": null,
-    "image": "/products/393-PINK-KUSH-99212.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/02/393-PINK-KUSH-99212.webp",
+    "promoImage": null
+  },
+  {
+    "sku": "393",
+    "name": "PINK KUSH",
+    "slug": "pink-kush",
+    "tier": "AAA+",
+    "type": "indica",
+    "isHot": false,
+    "isSale": false,
+    "thc": "31%",
+    "price3g": {
+      "regular": 20,
+      "sale": null
+    },
+    "price5g": null,
+    "price14g": null,
+    "price28g": null,
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/02/393-PINK-KUSH-99212.webp",
+    "promoImage": null
   },
   {
     "sku": "396",
@@ -810,12 +827,13 @@
       "sale": 40
     },
     "price28g": null,
-    "image": "/products/396-DURIAN-99219.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/02/396-DURIAN-99219.webp",
+    "promoImage": null
   },
   {
     "sku": "396",
-    "name": "KHALIFA KUSH",
-    "slug": "khalifa-kush",
+    "name": "KHALIFA KUSH (AAA+ ON SALE)",
+    "slug": "khalifa-kush-aaa-on-sale",
     "tier": "BUDGET",
     "type": "indica",
     "isHot": false,
@@ -831,12 +849,51 @@
     },
     "price14g": null,
     "price28g": null,
-    "image": "/products/396-DURIAN-99219.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/02/396-DURIAN-99219.webp",
+    "promoImage": null
   },
   {
-    "sku": "415",
-    "name": "DEATH VALLEY",
-    "slug": "death-valley",
+    "sku": "463",
+    "name": "PINK YODA",
+    "slug": "pink-yoda",
+    "tier": "PREMIUM",
+    "type": "indica",
+    "isHot": false,
+    "isSale": false,
+    "thc": "33%",
+    "price3g": {
+      "regular": 30,
+      "sale": null
+    },
+    "price5g": null,
+    "price14g": null,
+    "price28g": null,
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/11/463-Pink-Yoda.jpg",
+    "promoImage": null
+  },
+  {
+    "sku": "470",
+    "name": "PINK GELATO",
+    "slug": "pink-gelato",
+    "tier": "PREMIUM",
+    "type": "indica",
+    "isHot": false,
+    "isSale": false,
+    "thc": "32%",
+    "price3g": {
+      "regular": 30,
+      "sale": null
+    },
+    "price5g": null,
+    "price14g": null,
+    "price28g": null,
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/02/99142-470-PINK-GELATO.webp",
+    "promoImage": null
+  },
+  {
+    "sku": "472",
+    "name": "PINK BAZOOKA",
+    "slug": "pink-bazooka",
     "tier": "PREMIUM",
     "type": "indica",
     "isHot": false,
@@ -850,30 +907,13 @@
       "regular": 45,
       "sale": null
     },
-    "price14g": null,
-    "price28g": null,
-    "image": "/products/99254-415-DEATH-VALLEY.webp"
-  },
-  {
-    "sku": "416",
-    "name": "PINK DEATH",
-    "slug": "pink-death",
-    "tier": "PREMIUM",
-    "type": "indica",
-    "isHot": false,
-    "isSale": false,
-    "thc": "32%",
-    "price3g": {
-      "regular": 30,
+    "price14g": {
+      "regular": 95,
       "sale": null
     },
-    "price5g": {
-      "regular": 45,
-      "sale": null
-    },
-    "price14g": null,
     "price28g": null,
-    "image": "/products/99266-415-PINK-DEATH.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/01/99203-472-PINK-BAZOOKA.webp",
+    "promoImage": null
   },
   {
     "sku": "473",
@@ -888,16 +928,11 @@
       "regular": 30,
       "sale": null
     },
-    "price5g": {
-      "regular": 45,
-      "sale": null
-    },
-    "price14g": {
-      "regular": 95,
-      "sale": null
-    },
+    "price5g": null,
+    "price14g": null,
     "price28g": null,
-    "image": "/products/473-GMO-COOKIES.jpg"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/02/473-GMO-COOKIES.jpg",
+    "promoImage": null
   },
   {
     "sku": "475",
@@ -918,7 +953,30 @@
     },
     "price14g": null,
     "price28g": null,
-    "image": "/products/99225-475-SUPER-MARIO-KUSH.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/02/99225-475-SUPER-MARIO-KUSH.webp",
+    "promoImage": null
+  },
+  {
+    "sku": "477",
+    "name": "PINK ROCK STAR",
+    "slug": "pink-rock-star",
+    "tier": "PREMIUM",
+    "type": "indica",
+    "isHot": false,
+    "isSale": false,
+    "thc": "33%",
+    "price3g": {
+      "regular": 30,
+      "sale": null
+    },
+    "price5g": {
+      "regular": 45,
+      "sale": null
+    },
+    "price14g": null,
+    "price28g": null,
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/02/477-PINK-ROCK-STAR-99208.webp",
+    "promoImage": null
   },
   {
     "sku": "480",
@@ -937,36 +995,10 @@
       "regular": 45,
       "sale": null
     },
-    "price14g": {
-      "regular": 95,
-      "sale": null
-    },
+    "price14g": null,
     "price28g": null,
-    "image": "/products/480-Lemon-Cherry-Gelato.webp"
-  },
-  {
-    "sku": "481",
-    "name": "PINK PANTIES",
-    "slug": "pink-panties",
-    "tier": "PREMIUM",
-    "type": "indica",
-    "isHot": false,
-    "isSale": false,
-    "thc": "31%",
-    "price3g": {
-      "regular": 30,
-      "sale": null
-    },
-    "price5g": {
-      "regular": 45,
-      "sale": null
-    },
-    "price14g": {
-      "regular": 95,
-      "sale": null
-    },
-    "price28g": null,
-    "image": "/products/99235-481-PINK-PANTIES.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/03/480-Lemon-Cherry-Gelato.webp",
+    "promoImage": null
   },
   {
     "sku": "482",
@@ -987,7 +1019,8 @@
     },
     "price14g": null,
     "price28g": null,
-    "image": "/products/99238-482-MENDO-BREATHE.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/03/99238-482-MENDO-BREATHE.webp",
+    "promoImage": null
   },
   {
     "sku": "484",
@@ -1006,60 +1039,10 @@
       "regular": 45,
       "sale": null
     },
-    "price14g": {
-      "regular": 95,
-      "sale": null
-    },
+    "price14g": null,
     "price28g": null,
-    "image": "/products/99246-484-PINK-CHAPO.webp"
-  },
-  {
-    "sku": "492",
-    "name": "PLATINUM TUNA",
-    "slug": "platinum-tuna",
-    "tier": "PREMIUM",
-    "type": "indica",
-    "isHot": false,
-    "isSale": false,
-    "thc": "32%",
-    "price3g": {
-      "regular": 30,
-      "sale": null
-    },
-    "price5g": {
-      "regular": 45,
-      "sale": null
-    },
-    "price14g": {
-      "regular": 95,
-      "sale": null
-    },
-    "price28g": null,
-    "image": "/products/492-PLATINUM-TUNA.webp"
-  },
-  {
-    "sku": "493",
-    "name": "O PINK",
-    "slug": "o-pink",
-    "tier": "PREMIUM",
-    "type": "indica",
-    "isHot": false,
-    "isSale": false,
-    "thc": "33%",
-    "price3g": {
-      "regular": 30,
-      "sale": null
-    },
-    "price5g": {
-      "regular": 45,
-      "sale": null
-    },
-    "price14g": {
-      "regular": 95,
-      "sale": null
-    },
-    "price28g": null,
-    "image": "/products/493-O-PINK.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/03/99246-484-PINK-CHAPO.webp",
+    "promoImage": null
   },
   {
     "sku": "504",
@@ -1074,13 +1057,17 @@
       "regular": 40,
       "sale": null
     },
-    "price5g": null,
+    "price5g": {
+      "regular": 60,
+      "sale": null
+    },
     "price14g": {
       "regular": 140,
       "sale": null
     },
     "price28g": null,
-    "image": "/products/99205-504PINK-BELLAGIO.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/01/99205-504PINK-BELLAGIO.webp",
+    "promoImage": null
   },
   {
     "sku": "505",
@@ -1095,10 +1082,42 @@
       "regular": 40,
       "sale": null
     },
-    "price5g": null,
-    "price14g": null,
+    "price5g": {
+      "regular": 60,
+      "sale": null
+    },
+    "price14g": {
+      "regular": 140,
+      "sale": null
+    },
     "price28g": null,
-    "image": "/products/99207-505PINK-LIZARD.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/01/99207-505PINK-LIZARD.webp",
+    "promoImage": null
+  },
+  {
+    "sku": "507",
+    "name": "PINK DEATHSTAR",
+    "slug": "pink-deathstar",
+    "tier": "EXOTIC",
+    "type": "indica",
+    "isHot": false,
+    "isSale": false,
+    "thc": "36%",
+    "price3g": {
+      "regular": 40,
+      "sale": null
+    },
+    "price5g": {
+      "regular": 60,
+      "sale": null
+    },
+    "price14g": {
+      "regular": 140,
+      "sale": null
+    },
+    "price28g": null,
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/01/99216-507PINK-DEATHSTAR.webp",
+    "promoImage": null
   },
   {
     "sku": "513",
@@ -1113,27 +1132,6 @@
       "regular": 40,
       "sale": null
     },
-    "price5g": null,
-    "price14g": {
-      "regular": 140,
-      "sale": null
-    },
-    "price28g": null,
-    "image": "/products/99240-513-PINK-TOMFORD.webp"
-  },
-  {
-    "sku": "514",
-    "name": "PINK PERMANENT MARKER",
-    "slug": "pink-permanent-marker",
-    "tier": "EXOTIC",
-    "type": "indica",
-    "isHot": false,
-    "isSale": false,
-    "thc": "35%",
-    "price3g": {
-      "regular": 40,
-      "sale": null
-    },
     "price5g": {
       "regular": 60,
       "sale": null
@@ -1143,54 +1141,32 @@
       "sale": null
     },
     "price28g": null,
-    "image": "/products/544-PINK-PERMANENT-MARKER.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/03/99240-513-PINK-TOMFORD.webp",
+    "promoImage": null
   },
   {
-    "sku": "536",
-    "name": "PINK HELLFIRE",
-    "slug": "pink-hellfire",
+    "sku": "530",
+    "name": "PERMANENT MARKER",
+    "slug": "permanent-marker",
     "tier": "EXOTIC",
     "type": "indica",
     "isHot": false,
     "isSale": false,
-    "thc": "38%",
-    "price3g": null,
-    "price5g": null,
-    "price14g": {
-      "regular": 140,
-      "sale": null
-    },
-    "price28g": null,
-    "image": "/products/536-PINK-HELLFIRE.webp"
-  },
-  {
-    "sku": "550",
-    "name": "PINK STARKILLER",
-    "slug": "pink-starkiller",
-    "tier": "EXOTIC",
-    "type": "indica",
-    "isHot": false,
-    "isSale": false,
-    "thc": "35%",
+    "thc": "36%",
     "price3g": {
       "regular": 40,
       "sale": null
     },
-    "price5g": {
-      "regular": 60,
-      "sale": null
-    },
-    "price14g": {
-      "regular": 140,
-      "sale": null
-    },
+    "price5g": null,
+    "price14g": null,
     "price28g": null,
-    "image": "/products/550-PINK-STARKILLER.webp"
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/09/530-PERMANENT-MARKER.jpg",
+    "promoImage": "https://kennedyloudcannabis.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-7-2026-03_04_10-AM.png"
   },
   {
-    "sku": "562",
-    "name": "DONNIE BURGER",
-    "slug": "donnie-burger",
+    "sku": "538",
+    "name": "PINK TUNA",
+    "slug": "pink-tuna",
     "tier": "EXOTIC",
     "type": "indica",
     "isHot": false,
@@ -1206,7 +1182,52 @@
     },
     "price14g": null,
     "price28g": null,
-    "image": "/products/99234-562-DONNIE-BURGER.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/538-PINK-TUNA-99137N.jpg",
+    "promoImage": null
+  },
+  {
+    "sku": "561",
+    "name": "RED CONGOLESE",
+    "slug": "red-congolese",
+    "tier": "EXOTIC",
+    "type": "sativa",
+    "isHot": false,
+    "isSale": true,
+    "thc": "38%",
+    "price3g": {
+      "regular": 40,
+      "sale": 30
+    },
+    "price5g": {
+      "regular": 60,
+      "sale": 45
+    },
+    "price14g": {
+      "regular": 140,
+      "sale": 95
+    },
+    "price28g": null,
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/03/561-RED-CONGOLESE.webp",
+    "promoImage": null
+  },
+  {
+    "sku": "570",
+    "name": "MOCHI (stv)",
+    "slug": "mochi-stv",
+    "tier": "EXOTIC",
+    "type": "indica",
+    "isHot": false,
+    "isSale": false,
+    "thc": "36%",
+    "price3g": {
+      "regular": 40,
+      "sale": null
+    },
+    "price5g": null,
+    "price14g": null,
+    "price28g": null,
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/05/570-MOCHI.webp",
+    "promoImage": null
   },
   {
     "sku": "593",
@@ -1230,7 +1251,8 @@
       "sale": null
     },
     "price28g": null,
-    "image": "/products/593-MIKE-TYSON-KO-99138.jpg"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2025/12/593-MIKE-TYSON-KO-99138.jpg",
+    "promoImage": "https://kennedyloudcannabis.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-7-2026-03_04_10-AM.png"
   },
   {
     "sku": "595",
@@ -1249,12 +1271,10 @@
       "regular": 60,
       "sale": null
     },
-    "price14g": {
-      "regular": 140,
-      "sale": null
-    },
+    "price14g": null,
     "price28g": null,
-    "image": "/products/99224-595-PURPLE-SPACE-QUEEN.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/02/99224-595-PURPLE-SPACE-QUEEN.webp",
+    "promoImage": null
   },
   {
     "sku": "596",
@@ -1278,6 +1298,7 @@
       "sale": 95
     },
     "price28g": null,
-    "image": "/products/596-PINK-GOEY-FROST2.webp"
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/02/596-PINK-GOEY-FROST2.webp",
+    "promoImage": null
   }
 ]

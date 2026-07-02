@@ -8,7 +8,19 @@
     "thc": "50%+",
     "mg": "",
     "price": "$20",
-    "image": "/products/920-DEADLY-PREROLL.png",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/03/920-DEADLY-PREROLL.png",
+    "promoImage": null
+  },
+  {
+    "sku": "910",
+    "name": "DRIZZLE DELTA D9",
+    "slug": "drizzle-delta-d9",
+    "category": "PREROLLS",
+    "type": "i/h/s",
+    "thc": "40%+",
+    "mg": "",
+    "price": "$50",
+    "image": "https://bramptonsmokecannabis.com/wp-content/uploads/2026/01/DRIZZLE-DELTA-D9.jpg",
     "promoImage": null
   },
   {
@@ -17,22 +29,22 @@
     "slug": "knock-out-infused-prerolls-x2-each",
     "category": "PREROLLS",
     "type": "i/h/s",
-    "thc": "0.33",
+    "thc": "33%",
     "mg": "",
     "price": "$25",
-    "image": "/products/e42b5a7c-28f1-4378-b89a-107df2ee4e12.png",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/01/e42b5a7c-28f1-4378-b89a-107df2ee4e12.png",
     "promoImage": null
   },
   {
-    "sku": "1023",
-    "name": "* ROLLED GOLD FULL",
-    "slug": "rolled-gold-full",
-    "category": "CIGARETTES",
+    "sku": "836",
+    "name": "*CLEARANCE* ZLAB ZPODS ASSORTED 2 ML",
+    "slug": "clearance-zlab-zpods-assorted-2-ml",
+    "category": "VAPE PENS",
     "type": "",
     "thc": "",
     "mg": "",
-    "price": "$25",
-    "image": "/products/Rolled-Gold-Full-Flavor-1-800x800.png.webp",
+    "price": "$1",
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/05/836-Ziip-Lab-Zpods-Assorted.jpg",
     "promoImage": null
   },
   {
@@ -43,20 +55,20 @@
     "type": "",
     "thc": "",
     "mg": "",
-    "price": "$25",
-    "image": "/products/Afghan-Hash.webp",
+    "price": "$30",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/Afghan-Hash.webp",
     "promoImage": null
   },
   {
-    "sku": "999",
-    "name": "10 X PREMIUM MIX CIGARETTES",
-    "slug": "10-x-premium-mix-cigarettes",
-    "category": "CIGARETTES",
+    "sku": "880, 881, 882",
+    "name": "2G DUAL CHAMBER GOOBER VAPE PEN",
+    "slug": "2g-dual-chamber-goober-vape-pen",
+    "category": "VAPE PENS",
     "type": "",
     "thc": "",
     "mg": "",
-    "price": "$3",
-    "image": "/products/999Cigs.webp",
+    "price": "$50",
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/06/Goober-2G-disposable.jpg",
     "promoImage": null
   },
   {
@@ -68,7 +80,7 @@
     "thc": "98%+",
     "mg": "",
     "price": "$50",
-    "image": "/products/gasgang2gvol3assorted.webp",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/05/gasgang_2g_vol3_assorted.webp",
     "promoImage": null
   },
   {
@@ -77,10 +89,10 @@
     "slug": "amnesia-haze-1g-sat-pre-roll",
     "category": "ADD ONS",
     "type": "SH",
-    "thc": "0.28",
+    "thc": "28%",
     "mg": "",
     "price": "$5",
-    "image": "/products/amnesiahaze.webp",
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/05/189-Pink-Amnesia-1.jpg",
     "promoImage": null
   },
   {
@@ -91,8 +103,20 @@
     "type": "",
     "thc": "",
     "mg": "",
-    "price": "$20",
-    "image": "/products/backwoodsassorted600x600.webp",
+    "price": "$20/$25",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/05/backwoods_assorted_600x600.webp",
+    "promoImage": null
+  },
+  {
+    "sku": "856, 857",
+    "name": "BLONDIE MOROCON HASH",
+    "slug": "blondie-morocon-hash",
+    "category": "CONCENTRATES",
+    "type": "",
+    "thc": "",
+    "mg": "",
+    "price": "$30 / $45",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-5-2026-05_38_47-PM.png",
     "promoImage": null
   },
   {
@@ -103,8 +127,8 @@
     "type": "",
     "thc": "",
     "mg": "",
-    "price": "$25",
-    "image": "/products/1014-CANADIAN-CLASSSICS-ORIGINAL.webp",
+    "price": "25/carton",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/1014-CANADIAN-CLASSSICS-ORIGINAL.webp",
     "promoImage": null
   },
   {
@@ -115,8 +139,8 @@
     "type": "",
     "thc": "",
     "mg": "",
-    "price": "$25",
-    "image": "/products/1015-CANADIAN-CLASSICS-SILVER.webp",
+    "price": "25/carton",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/1015-CANADIAN-CLASSICS-SILVER.webp",
     "promoImage": null
   },
   {
@@ -127,8 +151,8 @@
     "type": "",
     "thc": "",
     "mg": "",
-    "price": "$25",
-    "image": "/products/1006-CANADIAN-FULL.webp",
+    "price": "25/carton",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/1006-CANADIAN-FULL.webp",
     "promoImage": null
   },
   {
@@ -139,8 +163,8 @@
     "type": "",
     "thc": "",
     "mg": "",
-    "price": "$25",
-    "image": "/products/1011-CANADIAN-GOOSE.webp",
+    "price": "25/carton",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/1011-CANADIAN-GOOSE.webp",
     "promoImage": null
   },
   {
@@ -151,8 +175,8 @@
     "type": "",
     "thc": "",
     "mg": "",
-    "price": "$25",
-    "image": "/products/1012-CANADIAN-GOOSE-LIGHTS.webp",
+    "price": "25/carton",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/1012-CANADIAN-GOOSE-LIGHTS.webp",
     "promoImage": null
   },
   {
@@ -163,8 +187,8 @@
     "type": "",
     "thc": "",
     "mg": "",
-    "price": "$25",
-    "image": "/products/1005-CANADIAN-LIGHTS.webp",
+    "price": "25/carton",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/1005-CANADIAN-LIGHTS.webp",
     "promoImage": null
   },
   {
@@ -175,8 +199,8 @@
     "type": "",
     "thc": "",
     "mg": "",
-    "price": "$25",
-    "image": "/products/1013-CANADIAN-MENTHOL.webp",
+    "price": "25/carton",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/1013-CANADIAN-MENTHOL.webp",
     "promoImage": null
   },
   {
@@ -188,19 +212,19 @@
     "thc": "",
     "mg": "1500mg",
     "price": "$45",
-    "image": "/products/Dank-Chocolate.jpg",
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/05/Dank-Chocolate.jpg",
     "promoImage": null
   },
   {
-    "sku": "970, 971",
-    "name": "DRINK 50MG / 200MG EUPHORIA EXT",
-    "slug": "drink-50mg-200mg-euphoria-ext",
-    "category": "EDIBLES",
-    "type": "",
-    "thc": "",
+    "sku": "810",
+    "name": "DRIZZLE SWITCH 3in1 / 1G",
+    "slug": "drizzle-switch-3in1-1g",
+    "category": "VAPE DISPOSABLE",
+    "type": "i/h/s",
+    "thc": "98%+",
     "mg": "",
-    "price": "$15",
-    "image": "/products/970-971-DRINK-50MG-200MG-EUPHORIA-EXT.webp",
+    "price": "$40",
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/10/810-DRIZZLE-SWITCHs-3in1.png",
     "promoImage": null
   },
   {
@@ -212,7 +236,7 @@
     "thc": "98%+",
     "mg": "",
     "price": "$50",
-    "image": "/products/DRIZZLESWITCH2GASSORTEDFLAVORS600x600.webp",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/05/DRIZZLE_SWITCH_2G_ASSORTED_FLAVORS_600x600.webp",
     "promoImage": null
   },
   {
@@ -223,20 +247,20 @@
     "type": "",
     "thc": "",
     "mg": "",
-    "price": "$20",
-    "image": "/products/961-962-963-DUMMY-BEARS.webp",
+    "price": "20/50/100",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/02/961-962-963-DUMMY-BEARS.webp",
     "promoImage": null
   },
   {
-    "sku": "1093",
-    "name": "Flavour Beast e-liquid salt",
-    "slug": "flavour-beast-e-liquid-salt",
+    "sku": "1092",
+    "name": "ENVI DRIP’N – 5% | 28K PUFFS",
+    "slug": "envi-dripn-5-28k-puffs",
     "category": "VAPE PENS",
     "type": "",
     "thc": "",
     "mg": "",
-    "price": "$35",
-    "image": "/products/1093-Flavour-Beast-e-liquid-salt.webp",
+    "price": "$40",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/01/1092-Envi-Dripn-28K.webp",
     "promoImage": null
   },
   {
@@ -260,43 +284,7 @@
     "thc": "98%+",
     "mg": "",
     "price": "$45",
-    "image": "/products/GasGang.jpg",
-    "promoImage": null
-  },
-  {
-    "sku": "1073",
-    "name": "GEEK MAX – 5% | 20K–30K PUFFS | MANY FLAVORS",
-    "slug": "geek-max-5-20k30k-puffs-many-flavors",
-    "category": "VAPE PENS",
-    "type": "",
-    "thc": "",
-    "mg": "",
-    "price": "$35",
-    "image": "/products/GEEKMAX500x500HQ.webp",
-    "promoImage": null
-  },
-  {
-    "sku": "966",
-    "name": "GOOBER THC CHOCOLATE 1000MG",
-    "slug": "goober-thc-chocolate-1000mg",
-    "category": "EDIBLES",
-    "type": "",
-    "thc": "",
-    "mg": "1000MG",
-    "price": "$30",
-    "image": "/products/966-GOOBER-THC-CHOCOLOATE-1000MG.webp",
-    "promoImage": null
-  },
-  {
-    "sku": "965",
-    "name": "GOOBER THC GUMMIES 1000MG",
-    "slug": "goober-thc-gummies-1000mg",
-    "category": "EDIBLES",
-    "type": "",
-    "thc": "",
-    "mg": "1000MG",
-    "price": "$30",
-    "image": "/products/965-GOOBER-THC-GUMMIES-1000MG.webp",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2025/12/GasGang.jpg",
     "promoImage": null
   },
   {
@@ -308,7 +296,7 @@
     "thc": "",
     "mg": "",
     "price": "$5",
-    "image": "/products/GRABBA-2G.webp",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/01/GRABBA-2G.webp",
     "promoImage": null
   },
   {
@@ -320,7 +308,7 @@
     "thc": "",
     "mg": "",
     "price": "$5",
-    "image": "/products/GRABBA-2G.webp",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/01/GRABBA-2G.webp",
     "promoImage": null
   },
   {
@@ -331,8 +319,8 @@
     "type": "",
     "thc": "",
     "mg": "",
-    "price": "$19",
-    "image": "/products/GrabbaShaker.webp",
+    "price": "$19 / $18",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2025/12/GrabbaShaker.webp",
     "promoImage": null
   },
   {
@@ -343,20 +331,8 @@
     "type": "",
     "thc": "",
     "mg": "",
-    "price": "$40",
-    "image": "/products/GrandCannabis.png",
-    "promoImage": null
-  },
-  {
-    "sku": "1053",
-    "name": "HAPPY DAD 6MGx20 NICOTINE POUCHES",
-    "slug": "happy-dad-6mgx20-nicotine-pouches",
-    "category": "CONCENTRATES",
-    "type": "",
-    "thc": "",
-    "mg": "",
-    "price": "$20",
-    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/11/1053-Happy-Dad-Nicotine-Pouches.jpg",
+    "price": "$40 / $30 / $20",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/GC-HASH-859-860-861.webp",
     "promoImage": null
   },
   {
@@ -367,8 +343,8 @@
     "type": "",
     "thc": "",
     "mg": "1500mg / 3000mg / 5000mg",
-    "price": "$25",
-    "image": "/products/KnockOutGummies.jpg",
+    "price": "$25 / $35 / $50",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2025/12/KnockOutGummies.jpg",
     "promoImage": null
   },
   {
@@ -377,22 +353,10 @@
     "slug": "laughing-buddha-1g-sat-pre-roll",
     "category": "ADD ONS",
     "type": "SH",
-    "thc": "0.31",
+    "thc": "31%",
     "mg": "",
     "price": "$8",
-    "image": "/products/pinkkush.webp",
-    "promoImage": null
-  },
-  {
-    "sku": "680, 681, 682, 683",
-    "name": "LIVE RESIN GUMMIES IND / SAT in ASSORTED FLAVORS",
-    "slug": "live-resin-gummies-ind-sat-in-assorted-flavors",
-    "category": "EDIBLES",
-    "type": "",
-    "thc": "",
-    "mg": "150mg / 600mg",
-    "price": "$16",
-    "image": "/products/LiveResinGummies.webp",
+    "image": "https://bramptonsmokecannabis.com/wp-content/uploads/2026/01/389-Laughing-Buddha-1.jpg",
     "promoImage": null
   },
   {
@@ -401,10 +365,10 @@
     "slug": "maui-wowie-1g-sat-pre-roll",
     "category": "ADD ONS",
     "type": "SH",
-    "thc": "0.33",
+    "thc": "33%",
     "mg": "",
     "price": "$10",
-    "image": "/products/mauiwowie.webp",
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/05/489-MauiWowie.jpg",
     "promoImage": null
   },
   {
@@ -416,7 +380,7 @@
     "thc": "",
     "mg": "8000mg",
     "price": "$60",
-    "image": "/products/MindFCK-Psilocybin-Chocolate-8000mg.jpg",
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/05/mindfuck-chocolate.jpg",
     "promoImage": null
   },
   {
@@ -428,7 +392,19 @@
     "thc": "",
     "mg": "5000mg",
     "price": "$35",
-    "image": "/products/631-Mindfck-Psilocybin-Gummies-Bar-5000mg.jpg",
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/05/631-Mindfck-Psilocybin-Gummies-Bar-5000mg.jpg",
+    "promoImage": null
+  },
+  {
+    "sku": "1096",
+    "name": "MOSMO STORM-X – 5% | 10K PUFFS",
+    "slug": "mosmo-storm-x-5-10k-puffs",
+    "category": "VAPE PENS",
+    "type": "",
+    "thc": "",
+    "mg": "",
+    "price": "$10",
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/09/Storm10000X.jpg",
     "promoImage": null
   },
   {
@@ -439,20 +415,8 @@
     "type": "",
     "thc": "",
     "mg": "",
-    "price": "$25",
-    "image": "/products/1017-NEXUS-FULL.webp",
-    "promoImage": null
-  },
-  {
-    "sku": "1018",
-    "name": "NEXUS LIGHTS",
-    "slug": "nexus-lights",
-    "category": "CIGARETTES",
-    "type": "",
-    "thc": "",
-    "mg": "",
-    "price": "$25",
-    "image": "/products/1018-NEXUS-LIGHTS.webp",
+    "price": "25/carton",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/1017-NEXUS-FULL.webp",
     "promoImage": null
   },
   {
@@ -464,7 +428,7 @@
     "thc": "",
     "mg": "",
     "price": "$20",
-    "image": "/products/assortednicotinepouches600.webp",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/05/assorted_nicotine_pouches_600.webp",
     "promoImage": null
   },
   {
@@ -476,7 +440,7 @@
     "thc": "",
     "mg": "400mg",
     "price": "$20",
-    "image": "/products/Fruit-Gummies-1.jpg",
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/05/Fruit-Gummies-1.jpg",
     "promoImage": null
   },
   {
@@ -488,7 +452,19 @@
     "thc": "",
     "mg": "1200mg",
     "price": "$25",
-    "image": "/products/Fruit-Gummies-1.jpg",
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/05/Fruit-Gummies-1.jpg",
+    "promoImage": null
+  },
+  {
+    "sku": "1084",
+    "name": "OVNS DISPOSABLE – 5% | 8ML | MANY FLAVORS",
+    "slug": "ovns-disposable-5-8ml-many-flavors",
+    "category": "VAPE PENS",
+    "type": "",
+    "thc": "",
+    "mg": "",
+    "price": "$35",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/01/OVNS_500x500_HQ.webp",
     "promoImage": null
   },
   {
@@ -497,10 +473,10 @@
     "slug": "pink-animal-1g-ind-pre-roll",
     "category": "ADD ONS",
     "type": "IH",
-    "thc": "0.28",
+    "thc": "28%",
     "mg": "",
     "price": "$5",
-    "image": "/products/pinkanimal.webp",
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/05/188PinkAnimal-1.jpg",
     "promoImage": null
   },
   {
@@ -509,10 +485,10 @@
     "slug": "pink-godfather-og-1g-ind-pre-roll",
     "category": "ADD ONS",
     "type": "IH",
-    "thc": "0.38",
+    "thc": "38%",
     "mg": "",
     "price": "$12",
-    "image": "/products/pinkgodfatherog.webp",
+    "image": "https://bramptonsmokecannabis.com/wp-content/uploads/2026/01/PinkGodfather.jpg",
     "promoImage": null
   },
   {
@@ -521,10 +497,10 @@
     "slug": "pink-kush-1g-ind-pr-roll",
     "category": "ADD ONS",
     "type": "IH",
-    "thc": "0.31",
+    "thc": "31%",
     "mg": "",
     "price": "$8",
-    "image": "/products/laughingbuddha.webp",
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/07/388-Pink-Kush-1.jpg",
     "promoImage": null
   },
   {
@@ -533,10 +509,10 @@
     "slug": "pink-predator-1g-ind-pre-roll",
     "category": "ADD ONS",
     "type": "IH",
-    "thc": "0.33",
+    "thc": "33%",
     "mg": "",
     "price": "$10",
-    "image": "/products/pinkpredator.webp",
+    "image": "https://bramptonsmokecannabis.com/wp-content/uploads/2026/01/488Pink-Predator.jpg",
     "promoImage": null
   },
   {
@@ -547,8 +523,8 @@
     "type": "",
     "thc": "",
     "mg": "",
-    "price": "$25",
-    "image": "/products/1008-PUTTERS-FULL.webp",
+    "price": "25/carton",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/1008-PUTTERS-FULL.webp",
     "promoImage": null
   },
   {
@@ -560,19 +536,7 @@
     "thc": "",
     "mg": "",
     "price": "$3",
-    "image": "/products/rawblackkingsizeslimupnsmokeonline580x2xc0c39f81-d3b7-402b-9de1-f73d1f563d49.webp",
-    "promoImage": null
-  },
-  {
-    "sku": "876, 877, 878",
-    "name": "RESIN TAG ALONG 2G HYBRID, IND, SAT",
-    "slug": "resin-tag-along-2g-hybrid-ind-sat",
-    "category": "CONCENTRATES",
-    "type": "",
-    "thc": "",
-    "mg": "",
-    "price": "$50",
-    "image": "/products/876-RESIN-TAG-ALONG-2G-HYBRID.webp",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/01/raw_black_king_size_slim_upnsmokeonline_580x_2x_c0c39f81-d3b7-402b-9de1-f73d1f563d49.webp",
     "promoImage": null
   },
   {
@@ -584,7 +548,7 @@
     "thc": "",
     "mg": "500mg",
     "price": "$40",
-    "image": "/products/Shatter-Bar.jpg",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/05/Shatter-Bar.jpg",
     "promoImage": null
   },
   {
@@ -596,7 +560,7 @@
     "thc": "",
     "mg": "150mg",
     "price": "$20",
-    "image": "/products/Euphoria-Extractions-Shatter-Chews-120mg.jpg",
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/05/Euphoria-Extractions-Shatter-Chews-120mg.jpg",
     "promoImage": null
   },
   {
@@ -608,7 +572,7 @@
     "thc": "",
     "mg": "600mg",
     "price": "$40",
-    "image": "/products/Euphoria-Extractions-Shatter-Chews-600mg.jpg",
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/05/Euphoria-Extractions-Shatter-Chews-600mg-1.jpg",
     "promoImage": null
   },
   {
@@ -620,7 +584,7 @@
     "thc": "",
     "mg": "600mg",
     "price": "$40",
-    "image": "/products/Euphoria-Extractions-Shatter-Chews-600mg.jpg",
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/05/Euphoria-Extractions-Shatter-Chews-600mg.jpg",
     "promoImage": null
   },
   {
@@ -631,20 +595,20 @@
     "type": "",
     "thc": "",
     "mg": "1000mg / 2000mg",
-    "price": "$40",
-    "image": "/products/stellargummies600x600.webp",
+    "price": "$40 / $55",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/stellar_gummies_600x600.webp",
     "promoImage": null
   },
   {
-    "sku": "1087",
-    "name": "STLTH Type-C device",
-    "slug": "stlth-type-c-device",
-    "category": "VAPE PENS",
+    "sku": "615",
+    "name": "STELLAR GUMMIES 500MG",
+    "slug": "stellar-gummies-500mg",
+    "category": "EDIBLES",
     "type": "",
     "thc": "",
-    "mg": "",
-    "price": "$15",
-    "image": "",
+    "mg": "500mg",
+    "price": "$25",
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/05/Stellar-Gummies.jpg",
     "promoImage": null
   },
   {
@@ -656,7 +620,7 @@
     "thc": "",
     "mg": "1000mg",
     "price": "$35",
-    "image": "/products/STONERPATCHTHCSYRUP500x500HQ.webp",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/01/STONER_PATCH_THC_SYRUP_500x500_HQ.webp",
     "promoImage": null
   },
   {
@@ -665,10 +629,10 @@
     "slug": "strawberry-cough-1g-sat-pre-roll",
     "category": "ADD ONS",
     "type": "SH",
-    "thc": "0.38",
+    "thc": "38%",
     "mg": "",
     "price": "$12",
-    "image": "/products/strawberrycough.webp",
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/07/589-Strawberry-Coughs.jpg",
     "promoImage": null
   },
   {
@@ -679,8 +643,8 @@
     "type": "",
     "thc": "",
     "mg": "",
-    "price": "$25",
-    "image": "/products/1019-TIMES-FULL.webp",
+    "price": "25/carton",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/1019-TIMES-FULL.webp",
     "promoImage": null
   },
   {
@@ -692,7 +656,7 @@
     "thc": "",
     "mg": "5000mg",
     "price": "$50",
-    "image": "/products/635-Triptonik-Milk-Choco.jpg",
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/05/Tripnotik-Psilocybin-Chocolate.jpeg",
     "promoImage": null
   },
   {
@@ -704,19 +668,7 @@
     "thc": "",
     "mg": "4000mg",
     "price": "$30",
-    "image": "/products/Tripnotik-Psilocybin-Gummies.jpg",
-    "promoImage": null
-  },
-  {
-    "sku": "1088",
-    "name": "Uwell Caliburn pod",
-    "slug": "uwell-caliburn-pod",
-    "category": "VAPE PENS",
-    "type": "",
-    "thc": "",
-    "mg": "",
-    "price": "$10",
-    "image": "/products/1088-Uwell-Caliburn-pod.webp",
+    "image": "https://afterdarkcannabis.com/wp-content/uploads/2025/05/637-Tripnotik-Psilocybin-Gummies-4000mg.jpg",
     "promoImage": null
   },
   {
@@ -740,19 +692,7 @@
     "thc": "",
     "mg": "40mg / 20mg + 20mg",
     "price": "$8",
-    "image": "/products/WesleyHotCoco.webp",
-    "promoImage": null
-  },
-  {
-    "sku": "686",
-    "name": "WESLEY TEA",
-    "slug": "wesley-tea",
-    "category": "EDIBLES",
-    "type": "",
-    "thc": "",
-    "mg": "40mg",
-    "price": "$5",
-    "image": "/products/WesleyTea.webp",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2026/04/WesleyHotCoco.webp",
     "promoImage": null
   },
   {
@@ -764,19 +704,7 @@
     "thc": "",
     "mg": "",
     "price": "$20",
-    "image": "/products/ZpodsMANGO-PINEAPPLE-E-CigzVapeShopGuelph.webp",
-    "promoImage": null
-  },
-  {
-    "sku": "1054",
-    "name": "ZYN NICOTINE POUCHES",
-    "slug": "zyn-nicotine-pouches",
-    "category": "CONCENTRATES",
-    "type": "",
-    "thc": "",
-    "mg": "",
-    "price": "$20",
-    "image": "/products/Zyn-Nicotine-pouches.webp",
+    "image": "https://kennedyloudcannabis.com/wp-content/uploads/2025/12/ZpodsMANGO-PINEAPPLE-_E-CigzVapeShopGuelph.webp",
     "promoImage": null
   }
 ]
