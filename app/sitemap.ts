@@ -11,7 +11,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE, lastModified: now, changeFrequency: "daily", priority: 1 },
     { url: `${BASE}/weed-dispensary-toronto/`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE}/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
-    { url: `${BASE}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE}/faq`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/delivery`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE}/games`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
