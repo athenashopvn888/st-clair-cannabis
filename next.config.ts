@@ -8,6 +8,13 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "stclaircannabis.com" },
     ],
   },
+  async rewrites() {
+    return {
+      beforeFiles: [
+        { source: "/", destination: "/takeover/index.html" },
+      ],
+    };
+  },
   async redirects() {
     return [
       { source: "/blog", destination: "/", permanent: true },
