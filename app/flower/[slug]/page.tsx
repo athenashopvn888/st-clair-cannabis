@@ -31,7 +31,7 @@ export async function generateMetadata({
     title: `${flower.name} | ${tierName} ${flower.type === "indica" ? "Indica" : flower.type === "sativa" ? "Sativa" : "Hybrid"} | THC ${flower.thc} | St Clair Cannabis Toronto`,
     description: strainData.metaDescription,
     alternates: {
-      canonical: `https://stclaircannabis.com/flower/${slug}`,
+      canonical: `https://stclaircannabis.ca/flower/${slug}`,
     },
     openGraph: {
       title: `${flower.name} | St Clair Cannabis`,
@@ -60,7 +60,7 @@ function getJsonLd(flower: FlowerProduct) {
 
   const offers: any = {
     "@type": "Offer",
-    url: `https://stclaircannabis.com/flower/${flower.slug}`,
+    url: `https://stclaircannabis.ca/flower/${flower.slug}`,
     priceCurrency: "CAD",
     availability: "https://schema.org/InStock",
     itemCondition: "https://schema.org/NewCondition",
@@ -80,7 +80,7 @@ function getJsonLd(flower: FlowerProduct) {
     "@context": "https://schema.org",
     "@type": "Product",
     name: flower.name,
-    image: flower.image ? [flower.image.startsWith('http') ? flower.image : `https://stclaircannabis.com${flower.image.startsWith('/') ? '' : '/'}${flower.image}`] : undefined,
+    image: flower.image ? [flower.image.startsWith('http') ? flower.image : `https://stclaircannabis.ca${flower.image.startsWith('/') ? '' : '/'}${flower.image}`] : undefined,
     description: strainData.description,
     brand: { "@type": "Brand", name: "St Clair Cannabis" },
     sku: cleanSku(flower.sku || flower.slug),
@@ -101,19 +101,19 @@ function getBreadcrumbJsonLd(flower: FlowerProduct) {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://stclaircannabis.com"
+        "item": "https://stclaircannabis.ca"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": tierName,
-        "item": `https://stclaircannabis.com/${tierSlug}`
+        "item": `https://stclaircannabis.ca/${tierSlug}`
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": flower.name,
-        "item": `https://stclaircannabis.com/flower/${flower.slug}`
+        "item": `https://stclaircannabis.ca/flower/${flower.slug}`
       }
     ]
   };

@@ -3,7 +3,7 @@ import "./globals.css";
 import AgeGate from "./components/AgeGate";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://stclaircannabis.com"),
+  metadataBase: new URL("https://stclaircannabis.ca"),
   title: {
     default: "St Clair Cannabis — Premium Cannabis Dispensary, Toronto",
     template: "%s | St Clair Cannabis",
@@ -29,14 +29,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_CA",
-    url: "https://stclaircannabis.com",
+    url: "https://stclaircannabis.ca",
     siteName: "St Clair Cannabis",
     title: "St Clair Cannabis — Premium Toronto Cannabis Dispensary",
     description:
       "200+ strains from $3/g. Exotic to Budget. Toronto's uplifting dispensary at 875 St Clair Ave W. Open 24 Hours.",
     images: [
       {
-        url: "https://stclaircannabis.com/wp-content/uploads/2026/04/46Oi5.jpg",
+        url: "https://stclaircannabis.ca/wp-content/uploads/2026/04/46Oi5.jpg",
         width: 1200,
         height: 630,
         alt: "St Clair Cannabis — Premium Cannabis Dispensary Toronto",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "St Clair Cannabis — Toronto's Uplifting Dispensary",
     description: "200+ strains from $3/g. Open 24 Hours at 875 St Clair Ave W, Toronto.",
-    images: ["https://stclaircannabis.com/wp-content/uploads/2026/04/46Oi5.jpg"],
+    images: ["https://stclaircannabis.ca/wp-content/uploads/2026/04/46Oi5.jpg"],
   },
   robots: {
     index: true,
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://stclaircannabis.com",
+    canonical: "https://stclaircannabis.ca",
   },
   verification: {
     // google: "your-google-verification-code",
@@ -73,12 +73,12 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Store",
   additionalType: "https://schema.org/Store",
-  "@id": "https://stclaircannabis.com",
+  "@id": "https://stclaircannabis.ca",
   name: "St Clair Cannabis",
   description: "Cannabis dispensary at 875 St Clair Ave W in Toronto, ON. Shop exotic, premium, AAA+, AA, and budget flower tiers plus edibles, prerolls, and vapes. Open 24 Hours.",
-  url: "https://stclaircannabis.com",
+  url: "https://stclaircannabis.ca",
   telephone: "+14375953295",
-  image: "https://stclaircannabis.com/wp-content/uploads/2026/04/7Clmh.jpg",
+  image: "https://stclaircannabis.ca/wp-content/uploads/2026/04/7Clmh.jpg",
   priceRange: "$3 - $12/g",
   address: {
     "@type": "PostalAddress",
@@ -110,10 +110,9 @@ const jsonLd = {
   }
 ],
   sameAs: [
-    "https://stclaircannabis.com/",
-    "https://stclaircannabis.com/",
+    "https://stclaircannabis.ca/",
   ],
-  hasMap: "https://stclaircannabis.com/",
+  hasMap: "https://stclaircannabis.ca/",
   areaServed: {
     "@type": "City",
     name: "Toronto",

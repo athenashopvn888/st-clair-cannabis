@@ -28,7 +28,7 @@ export async function generateMetadata({
     title: page.title,
     description: page.metaDescription,
     alternates: {
-      canonical: `https://stclaircannabis.com/info/${slug}`,
+      canonical: `https://stclaircannabis.ca/info/${slug}`,
     },
   };
 }

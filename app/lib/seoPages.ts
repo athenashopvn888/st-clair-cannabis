@@ -32,7 +32,7 @@ export const SEO_PAGES: SeoPageData[] = [
       },
       {
         heading: "Beyond Flower — Edibles, Vapes, Concentrates & More",
-        body: "St Clair Cannabis is more than just a flower shop. We carry a comprehensive selection of cannabis edibles (gummies, chocolates, baked goods), vape pens and disposable vapes, concentrates (shatter, wax, hash, diamonds, live resin), pre-rolled joints, native cigarettes, rolling papers, and accessories. Our live digital menu at stclaircannabis.com updates in real time so you always know exactly what's in stock before you make the trip.",
+        body: "St Clair Cannabis is more than just a flower shop. We carry a comprehensive selection of cannabis edibles (gummies, chocolates, baked goods), vape pens and disposable vapes, concentrates (shatter, wax, hash, diamonds, live resin), pre-rolled joints, native cigarettes, rolling papers, and accessories. Our live digital menu at stclaircannabis.ca updates in real time so you always know exactly what's in stock before you make the trip.",
       },
       {
         heading: "Open 24 Hours on 875 St Clair Ave W & Nearby Expressway",
@@ -52,9 +52,9 @@ export const SEO_PAGES: SeoPageData[] = [
       { q: "What are the hours for St Clair Cannabis?", a: "We are open 24 hours a day, 7 days a week. Walk in anytime — no appointment needed. Whether it's day or night, our staff is here to help." },
       { q: "What cannabis products does St Clair Cannabis carry?", a: "We carry 200+ strains of cannabis flower across 5 quality tiers (Exotic, Premium, AAA+, AA, Budget), plus edibles, vapes, concentrates, pre-rolls, native cigarettes, and accessories. Our menu updates in real time online." },
       { q: "What is the cheapest weed at St Clair Cannabis?", a: "Our Budget tier starts at $3/g with value ounces from $40. Our AA tier is $4/g. Every tier includes our 3g bundle pricing, making our prices even more competitive." },
-      { q: "Does St Clair Cannabis have a live menu?", a: "Yes! Our online menu at stclaircannabis.com updates in real time with current stock, prices, and availability. You can see exactly what we have before you visit." },
+      { q: "Does St Clair Cannabis have a live menu?", a: "Yes! Our online menu at stclaircannabis.ca updates in real time with current stock, prices, and availability. You can see exactly what we have before you visit." },
       { q: "What makes St Clair Cannabis different from other Toronto dispensaries?", a: "Three things set us apart: (1) we are open 24 hours a day, 7 days a week, (2) our transparent 5-tier pricing system means no confusing markups, and (3) every purchase includes our 3g bundle pricing. Plus we carry one of Toronto's largest selections with over 200 strains." },
-      { q: "Can I check stock before visiting?", a: "Absolutely. Visit stclaircannabis.com to see our live menu. All flower, edibles, vapes, and accessories are listed with real-time stock status, THC levels, and pricing." },
+      { q: "Can I check stock before visiting?", a: "Absolutely. Visit stclaircannabis.ca to see our live menu. All flower, edibles, vapes, and accessories are listed with real-time stock status, THC levels, and pricing." },
       { q: "Is there parking near St Clair Cannabis?", a: "Yes. Free street parking is available nearby and surrounding residential streets. We're also easily accessible via local transit." },
     ],
   },
@@ -158,7 +158,7 @@ export const SEO_PAGES: SeoPageData[] = [
       },
       {
         heading: "Full Menu — Cannabis, Edibles, Vapes & More",
-        body: "When you make the trip up to Toronto, make it count. St Clair Cannabis carries a full selection including 200+ flower strains, edibles, vape pens, disposable vapes, concentrates (shatter, wax, hash, live resin), pre-rolled joints, native cigarettes, and accessories. Check our live online menu at stclaircannabis.com before you visit to see exactly what's in stock.",
+        body: "When you make the trip up to Toronto, make it count. St Clair Cannabis carries a full selection including 200+ flower strains, edibles, vape pens, disposable vapes, concentrates (shatter, wax, hash, live resin), pre-rolled joints, native cigarettes, and accessories. Check our live online menu at stclaircannabis.ca before you visit to see exactly what's in stock.",
       },
     ],
     faqs: [
@@ -198,7 +198,7 @@ export const SEO_PAGES: SeoPageData[] = [
       { q: "Where is the closest dispensary in 875 St Clair Ave W & Nearby Expressway?", a: "St Clair Cannabis at 875 St Clair Ave W is conveniently located in the heart of Toronto — easily accessible from 875 St Clair Ave W & Nearby Expressway." },
       { q: "Is St Clair Cannabis walk-in friendly?", a: "Absolutely! No appointment needed. Walk in anytime during our hours — we are open 24 hours a day, 7 days a week. Our friendly staff is always ready to help." },
       { q: "What neighbourhoods does St Clair Cannabis serve?", a: "We serve all of Toronto and surrounding areas, including 875 St Clair Ave W & Nearby Expressway and surrounding areas." },
-      { q: "How do I check what's in stock?", a: "Visit stclaircannabis.com for our live menu with real-time stock, pricing, and THC levels for all products." },
+      { q: "How do I check what's in stock?", a: "Visit stclaircannabis.ca for our live menu with real-time stock, pricing, and THC levels for all products." },
       { q: "Do you sell edibles and vapes?", a: "Yes! In addition to 200+ flower strains, we carry edibles (gummies, chocolates), vape pens, disposable vapes, concentrates, pre-rolls, and accessories." },
     ],
   },

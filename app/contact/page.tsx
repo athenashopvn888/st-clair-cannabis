@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Visit St Clair Cannabis at 875 St Clair Ave W, Toronto, ON M6C 1C4. We are open 24 hours a day, 7 days a week. Walk-ins welcome.",
   alternates: {
-    canonical: "https://stclaircannabis.com/contact",
+    canonical: "https://stclaircannabis.ca/contact",
   },
   openGraph: {
     title: "Contact St Clair Cannabis — Toronto Dispensary",

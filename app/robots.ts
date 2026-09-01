@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/"],
     },
-    sitemap: "https://stclaircannabis.com/sitemap.xml",
+    sitemap: "https://stclaircannabis.ca/sitemap.xml",
   };
 }

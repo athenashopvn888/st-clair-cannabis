@@ -675,7 +675,7 @@ const TICKER_SLIDES = [
   "200+ Strains In Stock",
   "Open 24 Hours",
   "ALL SALES ARE FINAL",
-  "🎮 Play Games at stclaircannabis.com/games",
+  "🎮 Play Games at stclaircannabis.ca/games",
 ];
 
 function VerticalTicker() {

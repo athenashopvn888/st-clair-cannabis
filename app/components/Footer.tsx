@@ -62,7 +62,7 @@ export default function Footer() {
               <Link href="/weed-dispensary-toronto/">St Clair Cannabis Weed Dispensary in Toronto</Link>
               <Link href="/contact">Contact Us</Link>
               <a
-                href="https://stclaircannabis.com/"
+                href="https://stclaircannabis.ca/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

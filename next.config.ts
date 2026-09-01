@@ -3,9 +3,8 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
-      { protocol: "https", hostname: "stclaircannabis.com" },
+      { protocol: "https", hostname: "stclaircannabis.ca" },
       { protocol: "https", hostname: "kennedyloudcannabis.com" },
-      { protocol: "https", hostname: "stclaircannabis.com" },
     ],
   },
   async rewrites() {
@@ -17,6 +16,24 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.stclaircannabis.ca" }],
+        destination: "https://stclaircannabis.ca/:path*",
+        permanent: true,
+      },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "stclaircannabis.com" }],
+        destination: "https://stclaircannabis.ca/:path*",
+        permanent: true,
+      },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.stclaircannabis.com" }],
+        destination: "https://stclaircannabis.ca/:path*",
+        permanent: true,
+      },
       { source: "/blog", destination: "/", permanent: true },
       { source: "/blog/:path*", destination: "/", permanent: true },
       { source: "/edibles", destination: "/items/edibles", permanent: true },

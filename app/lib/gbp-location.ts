@@ -1,7 +1,7 @@
 // Auto-generated Google Business Profile Local SEO Location Configuration
 export const gbpLocation = {
   storeName: "St Clair Cannabis",
-  domain: "stclaircannabis.com",
+  domain: "stclaircannabis.ca",
   city: "Toronto",
   province: "ON",
   country: "CA",

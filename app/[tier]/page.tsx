@@ -34,7 +34,7 @@ export async function generateMetadata({
     title: seo?.seoTitle || `${tierInfo.config.name} Cannabis Flower — ${flowers.length} Strains`,
     description: seo?.seoIntro || `Shop ${flowers.length} ${tierInfo.config.name.toLowerCase()} cannabis strains at St Clair Cannabis.`,
     alternates: {
-      canonical: `https://stclaircannabis.com/${tierSlug}`,
+      canonical: `https://stclaircannabis.ca/${tierSlug}`,
     },
     openGraph: {
       title: `${tierInfo.config.name} Flower | St Clair Cannabis`,

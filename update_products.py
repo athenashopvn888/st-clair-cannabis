@@ -237,7 +237,7 @@ def main():
              "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; vercel --prod --yes"],
             cwd=SCRIPT_DIR
         )
-        print("\n  [OK] Deployed! Check https://stclaircannabis.com")
+        print("\n  [OK] Deployed! Check https://stclaircannabis.ca")
     else:
         print("\n  To deploy manually, run:")
         print("    vercel --prod --yes")

@@ -529,7 +529,7 @@ def main():
             capture_output=True, text=True
         )
         if result.returncode == 0:
-            print("  [OK] Live at https://stclaircannabis.com")
+            print("  [OK] Live at https://stclaircannabis.ca")
         else:
             print(f"  Output:\n{result.stdout[-500:]}")
     else:

@@ -34,7 +34,7 @@ export async function generateMetadata({
     title: catInfo.config.seoTitle || `${catInfo.config.name} — ${items.length} Products`,
     description: catInfo.config.seoIntro || `Shop ${items.length} ${catInfo.config.name.toLowerCase()} at St Clair Cannabis.`,
     alternates: {
-      canonical: `https://stclaircannabis.com/items/${catSlug}`,
+      canonical: `https://stclaircannabis.ca/items/${catSlug}`,
     },
   };
 }

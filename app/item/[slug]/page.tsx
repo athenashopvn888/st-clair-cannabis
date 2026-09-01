@@ -29,7 +29,7 @@ export async function generateMetadata({
     title: `${item.name} | ${item.category} | St Clair Cannabis Toronto`,
     description: itemData.metaDescription,
     alternates: {
-      canonical: `https://stclaircannabis.com/item/${slug}`,
+      canonical: `https://stclaircannabis.ca/item/${slug}`,
     },
     openGraph: {
       title: `${item.name} | St Clair Cannabis`,
@@ -54,7 +54,7 @@ function getJsonLd(item: ItemProduct) {
 
   const offers: any = {
     "@type": "Offer",
-    url: `https://stclaircannabis.com/item/${item.slug}`,
+    url: `https://stclaircannabis.ca/item/${item.slug}`,
     priceCurrency: "CAD",
     availability: "https://schema.org/InStock",
     itemCondition: "https://schema.org/NewCondition",
@@ -74,7 +74,7 @@ function getJsonLd(item: ItemProduct) {
     "@context": "https://schema.org",
     "@type": "Product",
     name: item.name,
-    image: item.image ? [item.image.startsWith('http') ? item.image : `https://stclaircannabis.com${item.image.startsWith('/') ? '' : '/'}${item.image}`] : undefined,
+    image: item.image ? [item.image.startsWith('http') ? item.image : `https://stclaircannabis.ca${item.image.startsWith('/') ? '' : '/'}${item.image}`] : undefined,
     description: itemData.description,
     brand: { "@type": "Brand", name: "St Clair Cannabis" },
     sku: cleanSku(item.sku || item.slug),
@@ -93,19 +93,19 @@ function getBreadcrumbJsonLd(item: ItemProduct) {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://stclaircannabis.com"
+        "item": "https://stclaircannabis.ca"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": item.category,
-        "item": `https://stclaircannabis.com/items/${catSlug}`
+        "item": `https://stclaircannabis.ca/items/${catSlug}`
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": item.name,
-        "item": `https://stclaircannabis.com/item/${item.slug}`
+        "item": `https://stclaircannabis.ca/item/${item.slug}`
       }
     ]
   };

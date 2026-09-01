@@ -709,7 +709,13 @@ body.stc-burger-open .stc-burger{background:transparent !important;color:current
       relocate();
     }
   });
-  obs.observe(document.body, {childList: true});
+  if (document.body) {
+    obs.observe(document.body, {childList: true});
+  } else {
+    document.addEventListener('DOMContentLoaded', function(){
+      obs.observe(document.body, {childList: true});
+    }, {once: true});
+  }
   setTimeout(function(){ obs.disconnect(); }, 3000);
 })();
 </script>
@@ -1322,7 +1328,7 @@ body.page-template-elementor_canvas main {
   @media (min-width: 1280px){
     .hero-bg img, .hero-bg video { object-position: 65% center; }
   }
-</style><style id="stc-kill-legacy-burger">#menuBtn,#mobileMenu{display:none !important;}</style><script src="https://stclaircannabis.ca/wp-includes/js/wp-emoji-release.min.js?ver=7.1" defer=""></script><meta name="robots" content="noindex,nofollow,noarchive"><link rel="stylesheet" href="/clone.css"><script defer src="/takeover.js"></script></head>
+</style><style id="stc-kill-legacy-burger">#menuBtn,#mobileMenu{display:none !important;}</style><script src="https://stclaircannabis.ca/wp-includes/js/wp-emoji-release.min.js?ver=7.1" defer=""></script><link rel="stylesheet" href="/clone.css"><script defer src="/takeover.js"></script></head>
 <body class="home wp-singular page-template page-template-elementor_canvas page page-id-315 wp-embed-responsive wp-theme-hello-elementor hello-elementor-default" style="">
 
 

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Delivery Coming Soon — St Clair Cannabis | Toronto",
   description: "Get notified when St Clair Cannabis launches same-day weed delivery across Toronto and surrounding areas.",
   alternates: {
-    canonical: "https://stclaircannabis.com/delivery",
+    canonical: "https://stclaircannabis.ca/delivery",
   },
 };
 
