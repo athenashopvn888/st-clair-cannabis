@@ -1,0 +1,1742 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T16:15:46.093Z",
+  "sourceHost": "https://stclaircannabis.ca",
+  "strategy": "Mirror only explicitly referenced public upload media and static theme CSS at their original URL paths. Exclude WordPress admin, API, feeds, XML-RPC, plugin runtime, and emoji runtime dependencies.",
+  "discoveredUniqueSameOriginUrls": 162,
+  "selectedStaticAssets": 147,
+  "mirroredAssets": 147,
+  "failedAssets": 0,
+  "mirroredBytes": 38728045,
+  "mirrored": [
+    {
+      "url": "https://stclaircannabis.ca/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=3.5.1",
+      "publicPath": "/wp-content/themes/hello-elementor/assets/css/header-footer.css",
+      "repositoryPath": "public/wp-content/themes/hello-elementor/assets/css/header-footer.css",
+      "bytes": 7534,
+      "sha256": "d4428ab6d474bf08e6d95cb1beafc2ebc48ee97d229b7d07295c4e89be053b93",
+      "contentType": "text/css",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.5.1",
+      "publicPath": "/wp-content/themes/hello-elementor/assets/css/reset.css",
+      "repositoryPath": "public/wp-content/themes/hello-elementor/assets/css/reset.css",
+      "bytes": 5829,
+      "sha256": "72eaeaf7ea81956ddf733ceac890269ab63e0aec77558bfaf045a5facd0bb6d4",
+      "contentType": "text/css",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/themes/hello-elementor/assets/css/theme.css?ver=3.5.1",
+      "publicPath": "/wp-content/themes/hello-elementor/assets/css/theme.css",
+      "repositoryPath": "public/wp-content/themes/hello-elementor/assets/css/theme.css",
+      "bytes": 5827,
+      "sha256": "d5c91a4cfdd98dba2870eeb3699e5ae57ad54203eef5fbe46accaee6b678d7df",
+      "contentType": "text/css",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1001-bb-lights-carton.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1001-bb-lights-carton.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1001-bb-lights-carton.webp",
+      "bytes": 11082,
+      "sha256": "ef0c69059959e84c31bb7eda5dc9b151b4c4d2dc0dc4dacb9e37cadd4b82167d",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1003-bb-full-carton.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1003-bb-full-carton.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1003-bb-full-carton.webp",
+      "bytes": 13598,
+      "sha256": "6d0dd7c2a73b46e11a0ae45d54b74f11c288d9c19a0536b5ec530a5e2f330bcd",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1005-canadian-lights.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1005-canadian-lights.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1005-canadian-lights.webp",
+      "bytes": 21780,
+      "sha256": "daa92b5dd72e4c2eaa127cf0ba50590d2d4738bb30ced90a3e88041429529221",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1006-canadian-full.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1006-canadian-full.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1006-canadian-full.webp",
+      "bytes": 18410,
+      "sha256": "d7a60126864826c753205ecf211837059f1077869e12c1a32b156158d251ad65",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1008-putters.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1008-putters.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1008-putters.webp",
+      "bytes": 14324,
+      "sha256": "4856462b7d949f478a8d38d873b3de9dc4ecfcfafe2afa8be07e86a3e3bec458",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1009-playfare-ultra-lights.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1009-playfare-ultra-lights.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1009-playfare-ultra-lights.webp",
+      "bytes": 20536,
+      "sha256": "902d95060e39aab89cb58576049d4808a07f2dddfea44a77cd98faf5c0e449d8",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1011-canadian-goose-full.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1011-canadian-goose-full.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1011-canadian-goose-full.webp",
+      "bytes": 15404,
+      "sha256": "f0e6af875daab5d7c970e63105562c514068779df453d389ff2291f4696d7b54",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1012-canadian-goose-lights.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1012-canadian-goose-lights.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1012-canadian-goose-lights.webp",
+      "bytes": 13606,
+      "sha256": "b5df8b8e18172609434c335b175e64192afa314ccb825a72a8d80573994128c1",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1013-canadian-menthol.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1013-canadian-menthol.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1013-canadian-menthol.webp",
+      "bytes": 16832,
+      "sha256": "d86e043519e8ae3bc96c4c77e1596c45616e3eccf7df98fd8a18bf400078f293",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1014-canadian-classics-original.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1014-canadian-classics-original.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1014-canadian-classics-original.webp",
+      "bytes": 30816,
+      "sha256": "a452f99fb7dc71ebc1fe9e1531285f687c3f3b8ebee637ca3f440a9db37341d8",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1015-canadian-classics-silver.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1015-canadian-classics-silver.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1015-canadian-classics-silver.webp",
+      "bytes": 23076,
+      "sha256": "79e08f7c423f0f3ecfbfbd535efc8a813085714a94ae518127427a2001737bce",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1016-rolled-gold-lights.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1016-rolled-gold-lights.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1016-rolled-gold-lights.webp",
+      "bytes": 21578,
+      "sha256": "41597577576c12081a023529bc3ad4e6c56678b89b8325513913f5f039c2d401",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1017-nexus-full.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1017-nexus-full.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1017-nexus-full.webp",
+      "bytes": 23144,
+      "sha256": "056e45dbb0aa6f515a2710586409c5057bd0742a68c02bda9204a2357fdd1816",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1018-nexus-lights.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1018-nexus-lights.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1018-nexus-lights.webp",
+      "bytes": 21372,
+      "sha256": "10df9d71f30620614a19d7e053371b67ec5afdb2f5555d3c4ecbbc6eda40f4fa",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1019-time-full.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1019-time-full.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1019-time-full.webp",
+      "bytes": 27450,
+      "sha256": "ffb3e34d12edfbcae959f0eb803d48a67aa9665a57afa37a42d4b770dae57dbc",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1023-rolled-gold-full.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1023-rolled-gold-full.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1023-rolled-gold-full.webp",
+      "bytes": 71326,
+      "sha256": "51575c9acb5f00ec7a3cdb11a8b7181693efa1ba527728d1b928a56987eb3eca",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1026-belmont-ks-pack-only.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1026-belmont-ks-pack-only.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1026-belmont-ks-pack-only.webp",
+      "bytes": 22066,
+      "sha256": "94ff39e058741e47c255d55a1be0ea8d47a9de09709db469e8552113890bb90f",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1053-happy-dad-6mgx20-nicotine-pouches.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/1053-happy-dad-6mgx20-nicotine-pouches.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1053-happy-dad-6mgx20-nicotine-pouches.jpg",
+      "bytes": 210431,
+      "sha256": "f3a0ac73f622e737049f8aef6938972bbc7c4787ec0043b1822637d8bcc0bb18",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1054-zyn-nicotine-pouches.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1054-zyn-nicotine-pouches.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1054-zyn-nicotine-pouches.webp",
+      "bytes": 15926,
+      "sha256": "a7351cbea30e0c28008a30f3aaeed1b7176253e2c900e14785a1f0e6a55a5c66",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1055-zpods-zpods-mango-pineapple-3-2-ml-pods-5-synthetic-nic.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1055-zpods-zpods-mango-pineapple-3-2-ml-pods-5-synthetic-nic.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1055-zpods-zpods-mango-pineapple-3-2-ml-pods-5-synthetic-nic.webp",
+      "bytes": 14544,
+      "sha256": "d7ab2a844989a243e1e90220d6b7b278847860dd1fbb98c39cf64a3ee0094005",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1064-elf-bar-ice-king-5-30k-puffs-many-flavors.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1064-elf-bar-ice-king-5-30k-puffs-many-flavors.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1064-elf-bar-ice-king-5-30k-puffs-many-flavors.webp",
+      "bytes": 70188,
+      "sha256": "a0ac32fe9ab7786443362ad89270fa75255d32c3ca6e954045bb2667c0783de6",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1065-elf-23000-5-23k-puffs.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/1065-elf-23000-5-23k-puffs.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1065-elf-23000-5-23k-puffs.jpg",
+      "bytes": 340611,
+      "sha256": "53337ecd27c117ba2bacaf3a970ecbef51704ac2f91dad1393aca233df663bbb",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1066-elf-bar-prime.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1066-elf-bar-prime.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1066-elf-bar-prime.webp",
+      "bytes": 23154,
+      "sha256": "127f5e02cb76b008fc2860f864179694b49811d527030447c0287b6f0aa92750",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1068-elf-bar-moonlight-70k.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1068-elf-bar-moonlight-70k.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1068-elf-bar-moonlight-70k.webp",
+      "bytes": 26920,
+      "sha256": "29c89ccbd5567077ffe80acfca73698d980785558cdc10e37944b1c427263d9f",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1070-geek-9000-pulse-2-9k-puffs.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/1070-geek-9000-pulse-2-9k-puffs.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1070-geek-9000-pulse-2-9k-puffs.jpg",
+      "bytes": 373972,
+      "sha256": "dbe3a13e0dafc1a4b706ed04d3756dbb0e12f590785fe2573ec6129b1f83750c",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1072-geek-promax-5-30k-puffs.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/1072-geek-promax-5-30k-puffs.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1072-geek-promax-5-30k-puffs.jpg",
+      "bytes": 384639,
+      "sha256": "cafc97386f34b054c231cd6d3dc3ab8853c79660a731d4c22bf812abdc801198",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1073-geek-max-5-20k-30k-puffs-many-flavors.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1073-geek-max-5-20k-30k-puffs-many-flavors.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1073-geek-max-5-20k-30k-puffs-many-flavors.webp",
+      "bytes": 62014,
+      "sha256": "ec8b60bf4b16ed1851c8c421e2378c0e7e742a71c01f9d91333227cd6f510f4b",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1074-geek-supreme-60000-5-60k-puffs-many-flavors.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1074-geek-supreme-60000-5-60k-puffs-many-flavors.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1074-geek-supreme-60000-5-60k-puffs-many-flavors.webp",
+      "bytes": 67766,
+      "sha256": "f240bc7b59c91edcdd388052e84598e135f5fbacadaa3f848ed43418021d2f55",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1080-ovns-2500-5-2-5k-puffs.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/1080-ovns-2500-5-2-5k-puffs.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1080-ovns-2500-5-2-5k-puffs.jpg",
+      "bytes": 313642,
+      "sha256": "269aeeb7a638c573fae1da75c854fe6cb81b50ba9b98e01c902b1ec6588f9907",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1081-ovns-10000-5-10k-puffs.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/1081-ovns-10000-5-10k-puffs.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1081-ovns-10000-5-10k-puffs.jpg",
+      "bytes": 358919,
+      "sha256": "4430a7bce2fb8effbbcf71cde074105296a9bf2675587c71fdbcc28460ee95b4",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1082-ovns-pioneer-5-22k-puffs.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/1082-ovns-pioneer-5-22k-puffs.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1082-ovns-pioneer-5-22k-puffs.jpg",
+      "bytes": 462945,
+      "sha256": "201a14be824ba93d0012908817cf16cbd558de33c10e62624545a4414d7766a3",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1083-ovns-max-5-3k-puffs.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1083-ovns-max-5-3k-puffs.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1083-ovns-max-5-3k-puffs.webp",
+      "bytes": 35166,
+      "sha256": "b2164564227fada4c968d2f615266e14fc1e1985427a9d3ad902bac7b603d048",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1084-ovns-disposable-5-8ml-many-flavors.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1084-ovns-disposable-5-8ml-many-flavors.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1084-ovns-disposable-5-8ml-many-flavors.webp",
+      "bytes": 34304,
+      "sha256": "83ca031404310f2b2d2c770e02d74d52fb5ff46ae109f244348b87aade7baf17",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1085-level-x-boost-g2-device-kit.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1085-level-x-boost-g2-device-kit.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1085-level-x-boost-g2-device-kit.webp",
+      "bytes": 15640,
+      "sha256": "f088bc9aa82b8f322b760d7448324fdbd4c1f94e9bc1743ba96412be94039a93",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1086-level-x-g2-pod.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1086-level-x-g2-pod.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1086-level-x-g2-pod.webp",
+      "bytes": 41204,
+      "sha256": "bead5382f847d4811d85f42fa1fb48270d691c095e72cfac51d83a78f7659c4a",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1088-uwell-caliburn-pod.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1088-uwell-caliburn-pod.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1088-uwell-caliburn-pod.webp",
+      "bytes": 21086,
+      "sha256": "05a8001ec5badf406ca866fdcb5626cc8873dfc5acbbe6c0e7cc3a9933d5f914",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1090-breeze-2000-5-2k-puffs.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/1090-breeze-2000-5-2k-puffs.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1090-breeze-2000-5-2k-puffs.jpg",
+      "bytes": 352635,
+      "sha256": "df646a32eed08aecad21e95db96e82683339ef18e3875adeb38c83b0c2c74812",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1091-beast-mode-max-many-flavors.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1091-beast-mode-max-many-flavors.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1091-beast-mode-max-many-flavors.webp",
+      "bytes": 30444,
+      "sha256": "d0cfbdabf8727fc06666ed66f4e9367a3c9cb1c5566e2c171e3e94cf5c99e57c",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1092-envi-drip-n-5-28k-puffs.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1092-envi-drip-n-5-28k-puffs.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1092-envi-drip-n-5-28k-puffs.webp",
+      "bytes": 20950,
+      "sha256": "76341d0360d0ab9e07841e196b49602cb44f3302e8fd14b3cdc9c5b06e050596",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1093-flavour-beast-e-liquid-salt.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1093-flavour-beast-e-liquid-salt.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1093-flavour-beast-e-liquid-salt.webp",
+      "bytes": 26008,
+      "sha256": "8c4bd9146b4c94d62f4527b218ebed895e92210cc858e4131e823960c760ce84",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1094-kraze-luna-many-flavors.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1094-kraze-luna-many-flavors.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1094-kraze-luna-many-flavors.webp",
+      "bytes": 32754,
+      "sha256": "e650cd75003262b5107b3ba63d8d73e497324c3985c3a8637c082e89a573a5cc",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1095-cocobar-5-12k-puffs.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/1095-cocobar-5-12k-puffs.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1095-cocobar-5-12k-puffs.jpg",
+      "bytes": 486658,
+      "sha256": "12e246672b6f8e7594c1cd1379f64b9efbd9a6af505551ac2cb20e2e1abb8b26",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1096-mosmo-storm-x-5-10k-puffs.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/1096-mosmo-storm-x-5-10k-puffs.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1096-mosmo-storm-x-5-10k-puffs.jpg",
+      "bytes": 368892,
+      "sha256": "39037840bf35d806541173dc7db20e44eb22811f8b3af06d2d58e2b10417c125",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1097-movement-lv-18k-5-18k-puffs-many-flavors.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1097-movement-lv-18k-5-18k-puffs-many-flavors.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1097-movement-lv-18k-5-18k-puffs-many-flavors.webp",
+      "bytes": 45018,
+      "sha256": "7d85597fc79fce254fcc1fbc197532d0cf51a26aa9cd28cff297afe71c537dc5",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1098-nexa-pix-5-35k-puffs-many-flavors.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1098-nexa-pix-5-35k-puffs-many-flavors.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1098-nexa-pix-5-35k-puffs-many-flavors.webp",
+      "bytes": 41370,
+      "sha256": "b4b3d447b0a1783e5f75946d1f638ba94896da9c6fd5ffd1c83d3135c792227a",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/1099-sale-crown-bar-al-fakher-10k.webp",
+      "publicPath": "/wp-content/uploads/2026/05/1099-sale-crown-bar-al-fakher-10k.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/1099-sale-crown-bar-al-fakher-10k.webp",
+      "bytes": 15558,
+      "sha256": "d7dcf8518eb5f81eef5d34f4eb768a9f3be82572d281b54074404e8c76256bba",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/172-lavender-kush.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/172-lavender-kush.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/172-lavender-kush.jpg",
+      "bytes": 454083,
+      "sha256": "239961fe7fb6f7ea7637e7403bc367b0ced673a4a9d250270a635ddb3d1a183e",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/188-pink-animal-1g-ind-pre-roll.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/188-pink-animal-1g-ind-pre-roll.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/188-pink-animal-1g-ind-pre-roll.jpg",
+      "bytes": 728590,
+      "sha256": "57494888f844d4ec6c6ab8c4c64b6ef8461c4f2c4dd6401af2459799d22a8436",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/189-amnesia-haze-1g-sat-pre-roll.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/189-amnesia-haze-1g-sat-pre-roll.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/189-amnesia-haze-1g-sat-pre-roll.jpg",
+      "bytes": 746741,
+      "sha256": "9339960d603031080330fe43689514f2214257e07a9a7072f67e0ecbc04092d4",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/210-white-champagne.webp",
+      "publicPath": "/wp-content/uploads/2026/05/210-white-champagne.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/210-white-champagne.webp",
+      "bytes": 74900,
+      "sha256": "682552dc9630c5515d567377b0f5348cd13e1ad57e5d5bfcf7d70b7b22a5629d",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/213-master-kush.webp",
+      "publicPath": "/wp-content/uploads/2026/05/213-master-kush.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/213-master-kush.webp",
+      "bytes": 89836,
+      "sha256": "b6ffb5f92caa553ba6906b87f8b160020d543825b9f53c69d7d589c0a14becda",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/240-grabba.webp",
+      "publicPath": "/wp-content/uploads/2026/05/240-grabba.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/240-grabba.webp",
+      "bytes": 17214,
+      "sha256": "cffeaed9591b8b3d526b8b1e175bc8180edef74db4d416b6aebd38d21f00165b",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/261-daydream-diesel.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/261-daydream-diesel.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/261-daydream-diesel.jpg",
+      "bytes": 551146,
+      "sha256": "316dc13b4f1b466367b0739b13c288b8419925d731214e6704b6b579af5af075",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/271-dante-inferno.webp",
+      "publicPath": "/wp-content/uploads/2026/05/271-dante-inferno.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/271-dante-inferno.webp",
+      "bytes": 79784,
+      "sha256": "7e544cb98f4a4ec0a3bb6ca009d53455f0ad5a25da13a759748d857c2edd3504",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/275-sugar-cookies.webp",
+      "publicPath": "/wp-content/uploads/2026/05/275-sugar-cookies.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/275-sugar-cookies.webp",
+      "bytes": 80836,
+      "sha256": "50aa6ee732d6f5211dfe5943bc56743b79af72107bee407a93836781a216b817",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/278-slurricane.webp",
+      "publicPath": "/wp-content/uploads/2026/05/278-slurricane.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/278-slurricane.webp",
+      "bytes": 72082,
+      "sha256": "a8f0fbb9840302a19627845c930953e55cd76c829b193643dcb73a6a6e80ca0f",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/290-sweet-kush.webp",
+      "publicPath": "/wp-content/uploads/2026/05/290-sweet-kush.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/290-sweet-kush.webp",
+      "bytes": 110540,
+      "sha256": "f48bb08008fe7ff15c5d4cdc6bc5d7c1c194172b02c4cd66035fd83f660da2d9",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/291-diamond-og.webp",
+      "publicPath": "/wp-content/uploads/2026/05/291-diamond-og.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/291-diamond-og.webp",
+      "bytes": 87466,
+      "sha256": "e2cf36cf24a09e67725a75ffaf0872a9b8e4a40a5ce95afdc5c14f3df95f4a5b",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/292-quantum-kush.webp",
+      "publicPath": "/wp-content/uploads/2026/05/292-quantum-kush.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/292-quantum-kush.webp",
+      "bytes": 118610,
+      "sha256": "51d0bca01675fbcbeb15b69f326d33d1d732162361af4e6f5f43c219c2532113",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/300-pineapple-express.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/300-pineapple-express.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/300-pineapple-express.jpg",
+      "bytes": 418683,
+      "sha256": "b90fbd6e679679875fcfd77c3fe7c36d73a514a4e5ff155abd0f7451687f6e80",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/301-peanut-rockstar.webp",
+      "publicPath": "/wp-content/uploads/2026/05/301-peanut-rockstar.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/301-peanut-rockstar.webp",
+      "bytes": 70044,
+      "sha256": "79aa1f99cbec7061bbb8f00f765f94b0627cd12055da4cc925f32fb1956848a8",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/302-durian-haze.webp",
+      "publicPath": "/wp-content/uploads/2026/05/302-durian-haze.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/302-durian-haze.webp",
+      "bytes": 80076,
+      "sha256": "fd794d5a940a1e8f20f9573720e7a33a006943cb7ce998b08b12709ee4ee55c5",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/304-white-shark.webp",
+      "publicPath": "/wp-content/uploads/2026/05/304-white-shark.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/304-white-shark.webp",
+      "bytes": 84542,
+      "sha256": "409399bceb39e04ddda65ef35353f82ef1f39585b5d35d045a68959513c802c3",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/310-pink-escobar.webp",
+      "publicPath": "/wp-content/uploads/2026/05/310-pink-escobar.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/310-pink-escobar.webp",
+      "bytes": 86200,
+      "sha256": "330f2b210ca66bbc667100208a3cc698ab4e3a15c51979848884d7f11488933f",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/311-pink-phantom.webp",
+      "publicPath": "/wp-content/uploads/2026/05/311-pink-phantom.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/311-pink-phantom.webp",
+      "bytes": 75192,
+      "sha256": "ed7d5596701bb5a1bb708d2ffa44cc34856fbc4759e256e8ac047785ac65fa5d",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/312-mango-haze.webp",
+      "publicPath": "/wp-content/uploads/2026/05/312-mango-haze.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/312-mango-haze.webp",
+      "bytes": 74080,
+      "sha256": "5a253c2b7b58154bffb08356383cca5c3c741617dea3c07577d1623a95fb8fa7",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/315-grease-monkey.webp",
+      "publicPath": "/wp-content/uploads/2026/05/315-grease-monkey.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/315-grease-monkey.webp",
+      "bytes": 55640,
+      "sha256": "a3bc617deb63ff807e694d5b51d720b4351a3c1d34730b8b980090230d3d446d",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/318-pink-rozay.webp",
+      "publicPath": "/wp-content/uploads/2026/05/318-pink-rozay.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/318-pink-rozay.webp",
+      "bytes": 90820,
+      "sha256": "5c2843fae2fdbd5749bdf25d98a48e70bbc36e21df93713807faf1cdf5403fa9",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/324-pink-violator.webp",
+      "publicPath": "/wp-content/uploads/2026/05/324-pink-violator.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/324-pink-violator.webp",
+      "bytes": 136184,
+      "sha256": "18060c6d1c701ace24b5266fd67ab917e3bc2cad33f4873af2dbb95f2fbd24f0",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/327-pink-halo-og.webp",
+      "publicPath": "/wp-content/uploads/2026/05/327-pink-halo-og.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/327-pink-halo-og.webp",
+      "bytes": 125978,
+      "sha256": "bb38227dd6795b69c56d914536e41c267f3729144dc63b179a61e35cffb2b8e8",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/329-mueller-fuel.webp",
+      "publicPath": "/wp-content/uploads/2026/05/329-mueller-fuel.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/329-mueller-fuel.webp",
+      "bytes": 130418,
+      "sha256": "966770ad9425aca618a2dc92b398b46d2fcb7a442ea19edc60af1f8913171d27",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/368-strawberry-cough.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/368-strawberry-cough.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/368-strawberry-cough.jpg",
+      "bytes": 409356,
+      "sha256": "b8da0ea1ca12e1d685ad3d4c609bee1aad196111ad0a03d5ed31a59fe60ab8fd",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/372-pink-jealousy.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/372-pink-jealousy.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/372-pink-jealousy.jpg",
+      "bytes": 551133,
+      "sha256": "813d480d01a2b5f20e603074cec10032a628f7072a0f603ae1c8a6f692723972",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/380-peanutbutter-breathe.webp",
+      "publicPath": "/wp-content/uploads/2026/05/380-peanutbutter-breathe.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/380-peanutbutter-breathe.webp",
+      "bytes": 78054,
+      "sha256": "95e6bc22fdf71fbca1fe6af0113f34bd1cf0df5d175cec8afe2df35f1e837ac6",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/388-pink-kush-1g-ind-pr-roll.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/388-pink-kush-1g-ind-pr-roll.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/388-pink-kush-1g-ind-pr-roll.jpg",
+      "bytes": 727392,
+      "sha256": "2b876299187cd4fe0750ac9ab72e797283795a187fe9eae187ffd9b2f33dd2aa",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/389-laughing-buddha-1g-sat-pre-roll.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/389-laughing-buddha-1g-sat-pre-roll.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/389-laughing-buddha-1g-sat-pre-roll.jpg",
+      "bytes": 834488,
+      "sha256": "e4d5a873ab00d47ae04da43b7e8512b8cdc9061e366c2e564507ce8b5a7c47de",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/403-forbidden-fruits.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/403-forbidden-fruits.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/403-forbidden-fruits.jpg",
+      "bytes": 443783,
+      "sha256": "e05288fab7c92443b8ee9dd5894c172f2836f6664ca433197b8ab2c3623407bc",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/408-pink-tuna-kush.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/408-pink-tuna-kush.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/408-pink-tuna-kush.jpg",
+      "bytes": 429317,
+      "sha256": "0ca6a8680fd05f58026b403056693e77ef40c61d00b5b9191f1e330854deca95",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/415-death-valley.webp",
+      "publicPath": "/wp-content/uploads/2026/05/415-death-valley.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/415-death-valley.webp",
+      "bytes": 101780,
+      "sha256": "93ce38ba1418079f8407a0fdd9ccb75206eab3638d96ef38823547dd49543564",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/470-pink-gelato.webp",
+      "publicPath": "/wp-content/uploads/2026/05/470-pink-gelato.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/470-pink-gelato.webp",
+      "bytes": 87568,
+      "sha256": "a084210d6cd9f25f0ee29f2262f14d7219cb8a8b4b59a74af4ee9580ace51ce2",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/477-pink-rock-star.webp",
+      "publicPath": "/wp-content/uploads/2026/05/477-pink-rock-star.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/477-pink-rock-star.webp",
+      "bytes": 71980,
+      "sha256": "dc20c46af22cbb4a3575e6e1ce09cd486f9398e71b6ee8e4a0b0e75a83aee287",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/484-pink-chapo.webp",
+      "publicPath": "/wp-content/uploads/2026/05/484-pink-chapo.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/484-pink-chapo.webp",
+      "bytes": 83162,
+      "sha256": "2b02ce722bffeac80795d3e1a02b90d4afee82ab8335587e5b3e416be28a99ba",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/488-pink-predator-1g-ind-pre-roll.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/488-pink-predator-1g-ind-pre-roll.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/488-pink-predator-1g-ind-pre-roll.jpg",
+      "bytes": 728098,
+      "sha256": "029413e80382380715a7137a731b5fb7dad34bfcd8df02827256347bb4db030b",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/489-maui-wowie-1g-sat-pre-roll.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/489-maui-wowie-1g-sat-pre-roll.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/489-maui-wowie-1g-sat-pre-roll.jpg",
+      "bytes": 865513,
+      "sha256": "bec0591fae6c6c6dda714c3faba616d7fea1147316a05aff5361972b6de4f192",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/491-super-drip.webp",
+      "publicPath": "/wp-content/uploads/2026/05/491-super-drip.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/491-super-drip.webp",
+      "bytes": 72834,
+      "sha256": "b8018ba6679d86c0c69d0a17f188ba8b8e549059d71a59b9f2351becbd48474c",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/492-platinum-tuna.webp",
+      "publicPath": "/wp-content/uploads/2026/05/492-platinum-tuna.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/492-platinum-tuna.webp",
+      "bytes": 58382,
+      "sha256": "ed7b305217a29dc5b31ed4233f610d1aeacb663ff8b013ced8ce2b7796b2c7d0",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/493-o-pink.webp",
+      "publicPath": "/wp-content/uploads/2026/05/493-o-pink.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/493-o-pink.webp",
+      "bytes": 151468,
+      "sha256": "0ecfe9f0ae2203681a9ce94c67abe3555562960cc010cb5b8393e4745359bd35",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/494-pink-atomic-bomb.webp",
+      "publicPath": "/wp-content/uploads/2026/05/494-pink-atomic-bomb.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/494-pink-atomic-bomb.webp",
+      "bytes": 153270,
+      "sha256": "db261124ac25b0e8a987ae06ecd4c112f3ca6e4a36920b349dfb84b9536c9ea1",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/495-king-louis-xiii.webp",
+      "publicPath": "/wp-content/uploads/2026/05/495-king-louis-xiii.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/495-king-louis-xiii.webp",
+      "bytes": 120512,
+      "sha256": "6e91287a2e759c2fb949d7f26afb0b48c3b2a183096eae2fa12fd7be0d7da8a0",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/505-pink-lizard.webp",
+      "publicPath": "/wp-content/uploads/2026/05/505-pink-lizard.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/505-pink-lizard.webp",
+      "bytes": 56276,
+      "sha256": "f393e19a7bb2ab12a6edbdafe912604df47218fa658133e19e75b417a17917ca",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/507-pink-deathstar.webp",
+      "publicPath": "/wp-content/uploads/2026/05/507-pink-deathstar.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/507-pink-deathstar.webp",
+      "bytes": 51772,
+      "sha256": "f7bfa04dcb5e7f6516cdcf7e71d316dbf5f805ebdbfefeaf93f9246d0780cce0",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/530-permanent-marker.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/530-permanent-marker.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/530-permanent-marker.jpg",
+      "bytes": 458960,
+      "sha256": "914e7e20d0c1c371ca63448ff0a5c2688b4b928fb1ce11c01818d2776f890592",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/536-pink-hellfire.webp",
+      "publicPath": "/wp-content/uploads/2026/05/536-pink-hellfire.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/536-pink-hellfire.webp",
+      "bytes": 94832,
+      "sha256": "8efe6b1c20bf785535f73b9ee60fa6461ee96ce1714f6d6662de1d664db8aa0b",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/538-pink-tuna.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/538-pink-tuna.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/538-pink-tuna.jpg",
+      "bytes": 456792,
+      "sha256": "c1d5a26d65d387f93369a21606b8423b9b06196e776decfb4f4dc6eea4518477",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/540-pink-icky-sticky.webp",
+      "publicPath": "/wp-content/uploads/2026/05/540-pink-icky-sticky.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/540-pink-icky-sticky.webp",
+      "bytes": 64672,
+      "sha256": "dede99b9cf770b6cf0174cfdaa7ee56e4c40f5144da85102e32b0abac0d1e0f1",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/543-pink-supreme.webp",
+      "publicPath": "/wp-content/uploads/2026/05/543-pink-supreme.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/543-pink-supreme.webp",
+      "bytes": 80022,
+      "sha256": "e17f429dfd636037df127da844339e2106eac92808fb827ef2e3f597c6ca1b19",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/546-24k-gold.webp",
+      "publicPath": "/wp-content/uploads/2026/05/546-24k-gold.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/546-24k-gold.webp",
+      "bytes": 92534,
+      "sha256": "239db722fd7d8255f604f5c339d12d5ac5676b6ad4a2ea6f1b5c43cde984f1b1",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/547-thc-syrup-500mg.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/547-thc-syrup-500mg.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/547-thc-syrup-500mg.jpg",
+      "bytes": 175287,
+      "sha256": "b81095db784ea44d0b81d07b44f6f976c2b82f550087d52f2c5aa2846c9d2c15",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/550-pink-starkiller.webp",
+      "publicPath": "/wp-content/uploads/2026/05/550-pink-starkiller.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/550-pink-starkiller.webp",
+      "bytes": 86732,
+      "sha256": "1324e5fca8a79a0bef72873b2f0edd12c3068ea5ddeb003d4d7c2d453e62dd0f",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/561-red-congolese.webp",
+      "publicPath": "/wp-content/uploads/2026/05/561-red-congolese.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/561-red-congolese.webp",
+      "bytes": 63826,
+      "sha256": "901757ace2da89ddfe90a57f10b7d25d1eadf0fdb495ecf6c9aba61c1e96d9d5",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/564-dank-choco-bar-1500mg.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/564-dank-choco-bar-1500mg.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/564-dank-choco-bar-1500mg.jpg",
+      "bytes": 387833,
+      "sha256": "b6771e05f22d28b3e73829eee1efae03767f737b9ec3162e4ca22607d3ff4e89",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/588-pink-godfather-og-1g-ind-pre-roll.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/588-pink-godfather-og-1g-ind-pre-roll.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/588-pink-godfather-og-1g-ind-pre-roll.jpg",
+      "bytes": 611820,
+      "sha256": "cbd5fff9418547911473ca0dbb623e44039738ee350cd8a5458096bfcba9ac1d",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/589-strawberry-cough-1g-sat-pre-roll.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/589-strawberry-cough-1g-sat-pre-roll.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/589-strawberry-cough-1g-sat-pre-roll.jpg",
+      "bytes": 670313,
+      "sha256": "c7ac13235f8e882cec607586956555bfaa7032199e598e554d36acd0f766709d",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/593-mike-tyson-ko-super-exotics.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/593-mike-tyson-ko-super-exotics.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/593-mike-tyson-ko-super-exotics.jpg",
+      "bytes": 383409,
+      "sha256": "af851d07b92cb9dccf15a654ef57cd167a0eb7dd8d0b57aca3c0f02f4506e9b3",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/595-purple-space-queen.webp",
+      "publicPath": "/wp-content/uploads/2026/05/595-purple-space-queen.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/595-purple-space-queen.webp",
+      "bytes": 87832,
+      "sha256": "9b16b859dc8b4ff40748938da9a58b35955d9b96af5a5d2f2d69f0e024991161",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/596-pink-gooey-frost.webp",
+      "publicPath": "/wp-content/uploads/2026/05/596-pink-gooey-frost.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/596-pink-gooey-frost.webp",
+      "bytes": 68998,
+      "sha256": "1366e5d19fa4ef118353c46613bb2030cd9b4d9720a1ea464e00ac9d81106156",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/615-stellar-gummies-500mg.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/615-stellar-gummies-500mg.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/615-stellar-gummies-500mg.jpg",
+      "bytes": 566023,
+      "sha256": "3b8653f8956a830622d73a2c807233ecf9fe3bfd99f0b50c92fafbfb93caebeb",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/631-mindf-ck-choco-8000mg.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/631-mindf-ck-choco-8000mg.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/631-mindf-ck-choco-8000mg.jpg",
+      "bytes": 227544,
+      "sha256": "9e87a84a43bb3025c0e246ecc6aea694f25f5cfa349c285e80b72d0d3640a15a",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/633-mindf-ck-gummies-bar-5000mg.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/633-mindf-ck-gummies-bar-5000mg.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/633-mindf-ck-gummies-bar-5000mg.jpg",
+      "bytes": 299079,
+      "sha256": "a68e20611acd1d96d8f7f2ff48d77268a41ef24e3eb861f8b4cc032deaebdaa8",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/635-tripnotik-choco-5000mg.jpeg",
+      "publicPath": "/wp-content/uploads/2026/05/635-tripnotik-choco-5000mg.jpeg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/635-tripnotik-choco-5000mg.jpeg",
+      "bytes": 268067,
+      "sha256": "0dc80668a434434b24505d467116200d61392795326f8753a75483ea579a997a",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/637-tripnotik-gummies-4000mg.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/637-tripnotik-gummies-4000mg.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/637-tripnotik-gummies-4000mg.jpg",
+      "bytes": 380362,
+      "sha256": "04ddaf7713256e85ca52da8a879cbe7aabf10c97fa04822a11b801c6b27bd30a",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/638-well-spore-co-mushroom-bar.webp",
+      "publicPath": "/wp-content/uploads/2026/05/638-well-spore-co-mushroom-bar.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/638-well-spore-co-mushroom-bar.webp",
+      "bytes": 23492,
+      "sha256": "f24d08b50023bc637b7ceede293ea94c9becdc81edb1d3e78b6ff5248deb0008",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/643-shatter-chews-150-mg.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/643-shatter-chews-150-mg.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/643-shatter-chews-150-mg.jpg",
+      "bytes": 313486,
+      "sha256": "e027f6a437ed432c8b67604fb28d77e55df61f82b02e32a1dc4c4399c2bb589b",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/645-shatter-chews-600-mg.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/645-shatter-chews-600-mg.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/645-shatter-chews-600-mg.jpg",
+      "bytes": 308668,
+      "sha256": "b8c6a824fed7bc9bc4bdccaf71d58c149533f732f81953ab18fef1ec65ae78bd",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/650-galaxy-gummies-6000mg.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/650-galaxy-gummies-6000mg.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/650-galaxy-gummies-6000mg.jpg",
+      "bytes": 378911,
+      "sha256": "201c719687e563e7cd5da3e8c27adf0ca0183ba399ec15dd4a80dd5b42669c28",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/680-live-resin-gummies-ind-sat-in-assorted-flavors.webp",
+      "publicPath": "/wp-content/uploads/2026/05/680-live-resin-gummies-ind-sat-in-assorted-flavors.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/680-live-resin-gummies-ind-sat-in-assorted-flavors.webp",
+      "bytes": 68264,
+      "sha256": "bc1bef8e066d2506924c169a03f3a19b8a1c2a457d44984350bd525fab871e4e",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/686-wesley-tea.webp",
+      "publicPath": "/wp-content/uploads/2026/05/686-wesley-tea.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/686-wesley-tea.webp",
+      "bytes": 35114,
+      "sha256": "e27e4b99d2321b428a88663e3573b73aa268d1c883f57fd9c21b04dd9aa38d93",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/687-wesley-hot-chocolate-40mg-thc-40mg-cbd-20mg-cbd-20mg-thc.webp",
+      "publicPath": "/wp-content/uploads/2026/05/687-wesley-hot-chocolate-40mg-thc-40mg-cbd-20mg-cbd-20mg-thc.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/687-wesley-hot-chocolate-40mg-thc-40mg-cbd-20mg-cbd-20mg-thc.webp",
+      "bytes": 56124,
+      "sha256": "b92116b4ecd93a60da109dc2b707abac4c854803887b1679d810834813949cd8",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/690-drizzle-lean-thc-syrup.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/690-drizzle-lean-thc-syrup.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/690-drizzle-lean-thc-syrup.jpg",
+      "bytes": 349431,
+      "sha256": "c58c20599e2d2ede87bed08a037daeeb010fa76179a152e80f237291c4c2246a",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/691-stoner-patch.webp",
+      "publicPath": "/wp-content/uploads/2026/05/691-stoner-patch.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/691-stoner-patch.webp",
+      "bytes": 24888,
+      "sha256": "cf8b196c8e19d7f0bc5388ce7c6b7e34efc5ef2a232cd0bad88352421818f1ec",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/699-thc-lollipop.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/699-thc-lollipop.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/699-thc-lollipop.jpg",
+      "bytes": 418980,
+      "sha256": "064939bb96964466b5b6c3eb03c45d051bd1299c3614e8c3d16cc13b343191e8",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/705-backwoods.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/705-backwoods.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/705-backwoods.jpg",
+      "bytes": 353397,
+      "sha256": "279ad45271d38da03600507d5570cc6e906f28fa9d80df567230d07ea7784cbb",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/710-raw-paper-king-size.webp",
+      "publicPath": "/wp-content/uploads/2026/05/710-raw-paper-king-size.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/710-raw-paper-king-size.webp",
+      "bytes": 28504,
+      "sha256": "576bad77d955e29ab4cbaff4e938b1a36a2bc65e34b24416e260dad2f8227579",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/800-gas-gang-dispo-vape-1g.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/800-gas-gang-dispo-vape-1g.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/800-gas-gang-dispo-vape-1g.jpg",
+      "bytes": 438433,
+      "sha256": "7ca99ee492d8052fa654bee6070e7bb26cb8313d0d3e1c6ed65f7f48f4a42668",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/810-drizzle-switch-3in1-1g.png",
+      "publicPath": "/wp-content/uploads/2026/05/810-drizzle-switch-3in1-1g.png",
+      "repositoryPath": "public/wp-content/uploads/2026/05/810-drizzle-switch-3in1-1g.png",
+      "bytes": 670738,
+      "sha256": "1adf210c7b16cbfb89db1b4ddbe5e072e7e21a38bffe48a34b81d5aa0c04be3f",
+      "contentType": "image/png",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/820-drizzle-dispo-vape-1g.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/820-drizzle-dispo-vape-1g.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/820-drizzle-dispo-vape-1g.jpg",
+      "bytes": 344726,
+      "sha256": "329a6768ad17269d93bd380ad289f65c7445c0e565c8e72c77a578b10932289f",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/836-zlab-zpods-assorted-2-ml.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/836-zlab-zpods-assorted-2-ml.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/836-zlab-zpods-assorted-2-ml.jpg",
+      "bytes": 279574,
+      "sha256": "6a4552c43388c4707fc1beb38498fb4522b3019208030192c6e9247466bdb3f3",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/854-hash-on-sale-afgan-black-moroccan-turkish.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/854-hash-on-sale-afgan-black-moroccan-turkish.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/854-hash-on-sale-afgan-black-moroccan-turkish.jpg",
+      "bytes": 375189,
+      "sha256": "afaa8da18b63f6674d57410119af525fd430bf38d28855faf4c834d3e25591a2",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/863-hash-3g.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/863-hash-3g.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/863-hash-3g.jpg",
+      "bytes": 243750,
+      "sha256": "f2686b25590f19fdd45df5cf449636d038c190f84a9ab1ec75dd583db2664edb",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/868-afghan-hash.webp",
+      "publicPath": "/wp-content/uploads/2026/05/868-afghan-hash.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/868-afghan-hash.webp",
+      "bytes": 34668,
+      "sha256": "25c4a105c2ac1ff90c2000e3bc4f13cb6494368842dfe1a45bbb0b2d6063a895",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/873-gen-live-resin-1g.jpeg",
+      "publicPath": "/wp-content/uploads/2026/05/873-gen-live-resin-1g.jpeg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/873-gen-live-resin-1g.jpeg",
+      "bytes": 184533,
+      "sha256": "30870bfca68ddd530f63fb69f899604e62608e9e4c94221dcd51db7a6e0c2e30",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/876-resin-tag-along-2g-hybrid-ind-sat.webp",
+      "publicPath": "/wp-content/uploads/2026/05/876-resin-tag-along-2g-hybrid-ind-sat.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/876-resin-tag-along-2g-hybrid-ind-sat.webp",
+      "bytes": 22648,
+      "sha256": "33362586b1e5be401a0b4e1aa2c06b6a34ae4a20f57324b3e07764b7b08c728d",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/880-2g-dual-chamber-goober-vape-pen.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/880-2g-dual-chamber-goober-vape-pen.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/880-2g-dual-chamber-goober-vape-pen.jpg",
+      "bytes": 303039,
+      "sha256": "c59c283acf05a0187f92a98fd7db5f7fdeea0a20446acfbceff71a42eacd0038",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/883-1-5-goober-thc-vape-pens.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/883-1-5-goober-thc-vape-pens.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/883-1-5-goober-thc-vape-pens.jpg",
+      "bytes": 457493,
+      "sha256": "00ef09370c8fb7c8582f14559842d907c181e930c2687ce553414a1d55203348",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/887-goober-vape-pen-1g.jpeg",
+      "publicPath": "/wp-content/uploads/2026/05/887-goober-vape-pen-1g.jpeg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/887-goober-vape-pen-1g.jpeg",
+      "bytes": 201533,
+      "sha256": "14da5c89f4cd62759c3754cc3e3024293605463fd153cbc245879600bbbb6353",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/900-drizzle-diamond-pre-rolls-1g.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/900-drizzle-diamond-pre-rolls-1g.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/900-drizzle-diamond-pre-rolls-1g.jpg",
+      "bytes": 261372,
+      "sha256": "cf09bf4b41b0d67aed3763126d402599eb1e61b1c144a81a076091851bf916e5",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/910-drizzle-delta-d9.jpg",
+      "publicPath": "/wp-content/uploads/2026/05/910-drizzle-delta-d9.jpg",
+      "repositoryPath": "public/wp-content/uploads/2026/05/910-drizzle-delta-d9.jpg",
+      "bytes": 316202,
+      "sha256": "af2eefa30a25ae62a47d08e2487836ba68d933e02e1ee40ef2af05b0390d07b3",
+      "contentType": "image/jpeg",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/920-deadly-moonrock-preroll.png",
+      "publicPath": "/wp-content/uploads/2026/05/920-deadly-moonrock-preroll.png",
+      "repositoryPath": "public/wp-content/uploads/2026/05/920-deadly-moonrock-preroll.png",
+      "bytes": 509935,
+      "sha256": "c8215646ca6c2cf4cb6c9b17e24691f0ad897b6bc46a10169d218d00b940dfde",
+      "contentType": "image/png",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/930-knock-out-prerolls-x2-each.png",
+      "publicPath": "/wp-content/uploads/2026/05/930-knock-out-prerolls-x2-each.png",
+      "repositoryPath": "public/wp-content/uploads/2026/05/930-knock-out-prerolls-x2-each.png",
+      "bytes": 1850851,
+      "sha256": "0ca5d1038064c4f787fb7f70435e324605309f8d5c70e001d51d65628723f5d9",
+      "contentType": "image/png",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/999-10-x-premium-mix-cigarettes.webp",
+      "publicPath": "/wp-content/uploads/2026/05/999-10-x-premium-mix-cigarettes.webp",
+      "repositoryPath": "public/wp-content/uploads/2026/05/999-10-x-premium-mix-cigarettes.webp",
+      "bytes": 27150,
+      "sha256": "3c4674b6d2bf0b29cbe36197a5604d2af35e77efe08e1238b1c1db1b4d5679b5",
+      "contentType": "image/webp",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/hero-bg-2-desktop.png",
+      "publicPath": "/wp-content/uploads/2026/05/hero-bg-2-desktop.png",
+      "repositoryPath": "public/wp-content/uploads/2026/05/hero-bg-2-desktop.png",
+      "bytes": 1509984,
+      "sha256": "11618e527856da5db9663952195f0eafe12b9e95338af3f08beb4d85643d2ed2",
+      "contentType": "image/png",
+      "sources": [
+        "app/layout.tsx",
+        "app/page.module.css",
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/hero-bg-2-mobile.png",
+      "publicPath": "/wp-content/uploads/2026/05/hero-bg-2-mobile.png",
+      "repositoryPath": "public/wp-content/uploads/2026/05/hero-bg-2-mobile.png",
+      "bytes": 1500528,
+      "sha256": "0d19fb8831b1bdd0066ed7d2e7a6ed4614fb3d33b331d60ef6ae158a020423c4",
+      "contentType": "image/png",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/hero-bg-3.mp4",
+      "publicPath": "/wp-content/uploads/2026/05/hero-bg-3.mp4",
+      "repositoryPath": "public/wp-content/uploads/2026/05/hero-bg-3.mp4",
+      "bytes": 3745759,
+      "sha256": "79c52e55871142880644b454f8ddcbfae5688b2769b7b30d69f8b220eebed145",
+      "contentType": "video/mp4",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/wp-content/uploads/2026/05/pre-rolls-toronto-dispensary-332424.png",
+      "publicPath": "/wp-content/uploads/2026/05/pre-rolls-toronto-dispensary-332424.png",
+      "repositoryPath": "public/wp-content/uploads/2026/05/pre-rolls-toronto-dispensary-332424.png",
+      "bytes": 2150973,
+      "sha256": "2f44c71c1f43f5e368f0eb0e937886b73d98389dd16dd7107a4de6abecea24cf",
+      "contentType": "image/png",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    }
+  ],
+  "failures": [],
+  "excluded": [
+    {
+      "url": "https://stclaircannabis.ca/#breadcrumblist",
+      "reason": "dynamic, private, plugin runtime, or non-static URL",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/#organization",
+      "reason": "dynamic, private, plugin runtime, or non-static URL",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/#store",
+      "reason": "dynamic, private, plugin runtime, or non-static URL",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/#webpage",
+      "reason": "dynamic, private, plugin runtime, or non-static URL",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/#website",
+      "reason": "dynamic, private, plugin runtime, or non-static URL",
+      "sources": [
+        "public/takeover/index.html"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/$",
+      "reason": "dynamic, private, plugin runtime, or non-static URL",
+      "sources": [
+        "app/flower/[slug]/page.tsx",
+        "app/[tier]/page.tsx"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/contact",
+      "reason": "dynamic, private, plugin runtime, or non-static URL",
+      "sources": [
+        "app/contact/page.tsx"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/delivery",
+      "reason": "dynamic, private, plugin runtime, or non-static URL",
+      "sources": [
+        "app/delivery/page.tsx"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/faq",
+      "reason": "dynamic, private, plugin runtime, or non-static URL",
+      "sources": [
+        "app/faq/page.tsx"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/flower/$",
+      "reason": "dynamic, private, plugin runtime, or non-static URL",
+      "sources": [
+        "app/flower/[slug]/page.tsx"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/games",
+      "reason": "dynamic, private, plugin runtime, or non-static URL",
+      "sources": [
+        "app/games/page.tsx"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/info/$",
+      "reason": "dynamic, private, plugin runtime, or non-static URL",
+      "sources": [
+        "app/info/[seoPage]/page.tsx"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/item/$",
+      "reason": "dynamic, private, plugin runtime, or non-static URL",
+      "sources": [
+        "app/item/[slug]/page.tsx"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/items/$",
+      "reason": "dynamic, private, plugin runtime, or non-static URL",
+      "sources": [
+        "app/item/[slug]/page.tsx",
+        "app/items/[category]/page.tsx"
+      ]
+    },
+    {
+      "url": "https://stclaircannabis.ca/sitemap.xml",
+      "reason": "dynamic, private, plugin runtime, or non-static URL",
+      "sources": [
+        "app/robots.ts"
+      ]
+    }
+  ]
+}
