@@ -31,7 +31,9 @@ export async function generateMetadata({
   const seo = TIER_SEO[tierInfo.key];
 
   return {
-    title: seo?.seoTitle || `${tierInfo.config.name} Cannabis Flower — ${flowers.length} Strains`,
+    title: {
+      absolute: seo?.seoTitle || `${tierInfo.config.name} Cannabis Flower — ${flowers.length} Strains`,
+    },
     description: seo?.seoIntro || `Shop ${flowers.length} ${tierInfo.config.name.toLowerCase()} cannabis strains at St Clair Cannabis.`,
     alternates: {
       canonical: `https://stclaircannabis.com/${tierSlug}`,
@@ -75,7 +77,7 @@ export default async function TierPage({
         <section className={styles.bannerSection}>
           <img
             src={config.banner}
-            alt={`${config.name} Cannabis Flower — ${config.tagline}`}
+            alt={`${config.name} cannabis flower at St Clair Cannabis`}
             className={styles.bannerImg}
           />
         </section>

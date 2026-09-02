@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: "%s | St Clair Cannabis",
   },
   description:
-    "Shop 200+ premium cannabis strains at St Clair Cannabis. Exotic, Premium, AAA+, AA & Budget flower from $3/g. Toronto's uplifting dispensary at 875 St Clair Ave W. Open 24 Hours.",
+    "Explore Exotic Weed, Premium Weed, AAA+ Weed, AA Weed and Budget Weed flower collections at St Clair Cannabis in Toronto. Open 24 Hours.",
   keywords: [
     "cannabis dispensary Toronto",
     "weed store Toronto",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     siteName: "St Clair Cannabis",
     title: "St Clair Cannabis — Premium Toronto Cannabis Dispensary",
     description:
-      "200+ strains from $3/g. Exotic to Budget. Toronto's uplifting dispensary at 875 St Clair Ave W. Open 24 Hours.",
+      "Explore five Weed flower collections at St Clair Cannabis in Toronto. Open 24 Hours.",
     images: [
       {
         url: "https://stclaircannabis.com/wp-content/uploads/2026/04/46Oi5.jpg",
@@ -75,7 +75,7 @@ const jsonLd = {
   additionalType: "https://schema.org/Store",
   "@id": "https://stclaircannabis.com",
   name: "St Clair Cannabis",
-  description: "Cannabis dispensary at 875 St Clair Ave W in Toronto, ON. Shop exotic, premium, AAA+, AA, and budget flower tiers plus edibles, prerolls, and vapes. Open 24 Hours.",
+  description: "Cannabis dispensary at 875 St Clair Ave W in Toronto, ON. Explore Exotic Weed, Premium Weed, AAA+ Weed, AA Weed and Budget Weed flower collections. Open 24 Hours.",
   url: "https://stclaircannabis.com",
   telephone: "+14375953295",
   image: "https://stclaircannabis.com/wp-content/uploads/2026/04/7Clmh.jpg",

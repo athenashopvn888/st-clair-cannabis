@@ -91,7 +91,7 @@ function getJsonLd(flower: FlowerProduct) {
 /* -- Breadcrumb JSON-LD -- */
 function getBreadcrumbJsonLd(flower: FlowerProduct) {
   const tierConfig = TIER_CONFIG[flower.tier];
-  const tierSlug = tierConfig?.slug || "exotic";
+  const tierSlug = tierConfig?.slug || "exotic-weed";
   const tierName = tierConfig?.name || flower.tier;
   return {
     "@context": "https://schema.org",
@@ -182,7 +182,7 @@ export default async function FlowerPage({
           <nav className={styles.breadcrumb}>
             <Link href="/">Home</Link>
             <span>/</span>
-            <Link href={`/${tierConfig?.slug || "exotic"}`}>{tierName}</Link>
+            <Link href={`/${tierConfig?.slug || "exotic-weed"}`}>{tierName}</Link>
             <span>/</span>
             <span className={styles.breadcrumbCurrent}>{flower.name}</span>
           </nav>
