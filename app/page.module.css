@@ -26,27 +26,6 @@
   animation: heroPulse 6s ease-in-out infinite;
 }
 
-.welcomeBannerSection {
-  width: 100%;
-  overflow: hidden;
-  margin-top: 92px;
-  background-color: #020617;
-}
-
-.welcomeBannerContainer {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 24px 24px 0;
-}
-
-.welcomeBannerImg {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: var(--radius-lg, 16px);
-  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.4);
-}
-
 .heroBg {
   position: absolute;
   inset: 0;

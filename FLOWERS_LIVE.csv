@@ -28,7 +28,7 @@
 114,PINK NORTHERN LIGHTS (SHREDS),Budget,IH,25%,,,,$40,https://athena-cannabis-images.vercel.app/products/114-Hell-Fire-Shake.jpg,
 119,PINK HINDU ( Shreds ),Budget,IH,25%,,,,$40,https://athena-cannabis-images.vercel.app/products/119-Pink-Hindu-shake.jpg,
 168,OG KUSH,Budget,IH,26%,$10,,,$55,https://athena-cannabis-images.vercel.app/products/168-OG-KUSH-2.webp,
-172,LAVENDER KUSH,Budget,IH,26%,$10,,,$50,https://afterdarkcannabis.com/wp-content/uploads/2025/06/172-Lavender-Kush.jpg,
+172,LAVENDER KUSH,Budget,IH,26%,$10,,,$50,,
 173,BLUE GOD OGs,Budget,IH,26%,$10,,,$70,https://athena-cannabis-images.vercel.app/products/172-Blue-God-Og.jpg,
 175,PINE TAR KUSH,Budget,IH,26%,$10,,,$60,https://athena-cannabis-images.vercel.app/products/175.jpg,
 176,CAKE FACE,Budget,IH,26%,$10,,,$60,https://athena-cannabis-images.vercel.app/products/176.jpg,
@@ -58,8 +58,8 @@
 254,PINK DIABLO,AA,IH,27%,,20,$55,$90,https://athena-cannabis-images.vercel.app/products/254-PINK-DIABLO-OG-I.jpg,
 256,ICE CREAM VANILLA,AA,SH,27%,,20,$45,$80,https://athena-cannabis-images.vercel.app/products/256-ICE-CREAM-VANILLA-99134.jpg,
 257,PURPLE COOKIES,AA,IH,27%,,20,$45,$75,https://athena-cannabis-images.vercel.app/products/257-PURPLE-COOKIES-99135.jpg,
-258,PINK JET FUEL,AA,IH,28%,,20,$55,$90,https://afterdarkcannabis.com/wp-content/uploads/2025/11/258-PINK-JET-FUEL-99136.jpg,
-260,RED RUNTZ,AA,IH,28%,,20,$45,$80,https://afterdarkcannabis.com/wp-content/uploads/2025/11/260-RED-RUNTZ-99122.jpg,
+258,PINK JET FUEL,AA,IH,28%,,20,$55,$90,/products/258-PINK-JET-FUEL-99136.jpg,
+260,RED RUNTZ,AA,IH,28%,,20,$45,$80,,
 261,DAYDREAM DIESEL,AA,SH,29%,,20,$45,$80,https://athena-cannabis-images.vercel.app/products/261-DAYDREAM-DIESEL-99140.jpg,
 266,COSMIC SATIVA,AA,SH,28%,,20,$40,$70,https://athena-cannabis-images.vercel.app/products/99141-266-COSMIC-SATIVA.webp,
 267,PINK MASTER KUSH,AA,IH,27%,,20,$45,$80,https://athena-cannabis-images.vercel.app/products/99143-PM-267-PINK-MASTER-KUSH.webp,
@@ -87,7 +87,7 @@
 310,PINK ESCOBAR,AAA+,SH,30%,$20,30,$70,,https://athena-cannabis-images.vercel.app/products/310-PINK-ESCOBAR.webp,
 311,PINK PHANTOM,AAA+,IH,31%,$20,$30,$70,,https://athena-cannabis-images.vercel.app/products/311-PNK-PHANTOM.webp,
 316,PINK PLATINUM,AAA+,IH,30%,$20,30,$70,,https://athena-cannabis-images.vercel.app/products/316-PINK-PLATINUM-99111-38lbs.jpg,
-317,CHERRY HAZE (SH),AAA+,SH SALE,31%,20|15,30,70|55,,https://afterdarkcannabis.com/wp-content/uploads/2025/11/317-CHERRY-HAZE-SATIVA.jpg,https://kennedyloudcannabis.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-7-2026-03_04_10-AM.png
+317,CHERRY HAZE (SH),AAA+,SH SALE,31%,20|15,30,70|55,,,https://kennedyloudcannabis.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-7-2026-03_04_10-AM.png
 319,WHITE WALKER OG,AAA+,IH,31%,$20,$30,$70,,https://athena-cannabis-images.vercel.app/products/99261-319-WHITEWALKEROG.webp,
 320,BLACK TUNA,AAA+,IH,31%,$20,$30,$70,,https://athena-cannabis-images.vercel.app/products/99267-320-BLACK-TUNA.webp,
 321,MK ULTRA,AAA+,IH,31%,$20,$30,$70,,https://athena-cannabis-images.vercel.app/products/99269-MK-ULTRA-321.webp,
@@ -175,7 +175,7 @@
 504,PINK BELLAGIO,EXOTIC,IH,36%,$40,60,$140,,https://athena-cannabis-images.vercel.app/products/99205-504PINK-BELLAGIO.webp,
 505,PINK LIZARD,EXOTIC,IH,36%,$40,60,$140,,https://athena-cannabis-images.vercel.app/products/99207-505PINK-LIZARD.webp,
 507,PINK DEATHSTAR,EXOTIC,IH,36%,$40,60,$140,,https://athena-cannabis-images.vercel.app/products/99216-507PINK-DEATHSTAR.webp,
-510,JACK HERER,EXOTIC,IH,36%,$40,60,$140,,https://afterdarkcannabis.com/wp-content/uploads/2025/05/510-Jack-Herer.jpeg,
+510,JACK HERER,EXOTIC,IH,36%,$40,60,$140,,,
 511,SUNBURST HAZE (SH),EXOTIC,SH SALE,36%,40|30,60|50,140|95,,https://athena-cannabis-images.vercel.app/products/511-LEMON-HAZE.jpeg,
 513,PINK TOMFORD,EXOTIC,IH,38%,$40,$60,$140,,https://athena-cannabis-images.vercel.app/products/99240-513-PINK-TOMFORD.webp,
 514,PINK PERMANENT MARKER,EXOTIC,IH,35%,$40,$60,$140,,https://athena-cannabis-images.vercel.app/products/544-PINK-PERMANENT-MARKER.webp,
@@ -207,20 +207,20 @@
 594,PINEAPPLE EXPRESS,EXOTIC,SH,38%,$40,$60,$140,,https://athena-cannabis-images.vercel.app/products/594-PINEAPPLE-EXPRESS2.webp,
 595,PURPLE SPACE QUEEN,EXOTIC,IH,38%,$40,$60,$140,,https://athena-cannabis-images.vercel.app/products/99224-595-PURPLE-SPACE-QUEEN.webp,
 596,PINK GOOEY FROST ,EXOTIC,IH,39%,40|30,60|45,140|95,,https://athena-cannabis-images.vercel.app/products/596-PINK-GOEY-FROST2.webp,
-9103,LAVENDER KUSH   LTD BAG,Budget,IH SALE,25%,$7,,,,https://afterdarkcannabis.com/wp-content/uploads/2025/06/172-Lavender-Kush.jpg,https://kennedyloudcannabis.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-7-2026-03_04_10-AM.png
+9103,LAVENDER KUSH   LTD BAG,Budget,IH SALE,25%,$7,,,,,https://kennedyloudcannabis.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-7-2026-03_04_10-AM.png
 9200,BLUE DREAM ( SATIVA) LTD BAG,AA,SH SALE,27%,,20|15,,,https://athena-cannabis-images.vercel.app/products/244-BLUE-DREAM-SATIVA.jpg,https://kennedyloudcannabis.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-7-2026-03_04_10-AM.png
-9202,CRITICAL KUSH LTD BAG,AA,SH SALE,28%,,20|15,,,https://afterdarkcannabis.com/wp-content/uploads/2025/06/236-CRITICAL-KUSH.jpg,https://kennedyloudcannabis.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-7-2026-03_04_10-AM.png
+9202,CRITICAL KUSH LTD BAG,AA,SH SALE,28%,,20|15,,,,https://kennedyloudcannabis.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-7-2026-03_04_10-AM.png
 9203,GRANDDADDY PURPLE LTD BAG,AA,IH SALE,27%,,20|15,,,https://athena-cannabis-images.vercel.app/products/242-GRANDDADDY-PURPLE.jpg,https://kennedyloudcannabis.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-7-2026-03_04_10-AM.png
 9307,PINK KOSHER KUSH LTD BAG,AAA+,IH SALE,31%,20|15,,,,https://athena-cannabis-images.vercel.app/products/354-PINK-KOSHER-KUSHs.jpg,https://kennedyloudcannabis.com/wp-content/uploads/2026/01/ChatGPT-Image-Jan-7-2026-03_04_10-AM.png
 9308,PURPLE RUNTZ LTD BAG,AAA+,IH SALE,30%,20|15,,,,https://athena-cannabis-images.vercel.app/products/325-PURPLE-RUNTZ-99112-38lbs.jpg,
 9330,PURPLE CANDY LAND LTD BAG,AAA+,SH SALE,31%,20|15,,,,https://athena-cannabis-images.vercel.app/products/364-PURPLE-CANDY-LAND.jpg,
-9400,LEMON HAZE LTD BAG,PREMIUM,SH SALE,32%,30|20,,,,https://afterdarkcannabis.com/wp-content/uploads/2025/05/442-LEMON-HAZE.jpeg,
-9401,PINK BUBBLEGUM LTD BAG,PREMIUM,IH SALE,33%,30|20,,,,https://afterdarkcannabis.com/wp-content/uploads/2025/05/446-Pink-Bubblegum.jpg,
-9402,BLACKBERRY KUSH LTD BAG,PREMIUM,IH SALE,33%,30|20,,,,https://afterdarkcannabis.com/wp-content/uploads/2025/05/448-Blackberry-Kush.jpg,
+9400,LEMON HAZE LTD BAG,PREMIUM,SH SALE,32%,30|20,,,,,
+9401,PINK BUBBLEGUM LTD BAG,PREMIUM,IH SALE,33%,30|20,,,,,
+9402,BLACKBERRY KUSH LTD BAG,PREMIUM,IH SALE,33%,30|20,,,,,
 9403,PINK GOD   LTD BAG,PREMIUM,IH SALE,33%,30|20,,,,https://athena-cannabis-images.vercel.app/products/406-PINK-GOD.jpg,
 9404,DEATH BUBBA LTD BAG,PREMIUM,IH SALE,32%,30|20,,,,https://athena-cannabis-images.vercel.app/products/401-DEATH-BUBBA.jpg,
-9500,JACK HERER LTD BAG,EXOTIC,IH SALE,36%,40|30,,,,https://afterdarkcannabis.com/wp-content/uploads/2025/05/510-Jack-Herer.jpeg,
-9501,PINK PINETAR LTD BAG,EXOTIC,IH SALE,39%,40|30,,,,https://afterdarkcannabis.com/wp-content/uploads/2025/05/516-PinkTar.jpg,
-9502,PINK WAGYU STAR LTD BAG,EXOTIC,IH SALE,39%,40|30,,,,https://afterdarkcannabis.com/wp-content/uploads/2025/06/525-PINK-WAGYU-STAR.jpg,
-9503,MOTOR BREATHE LTD BAG,EXOTIC,IH SALE,36%,40|30,,,,https://afterdarkcannabis.com/wp-content/uploads/2025/05/520-MOTO-BREAK.jpeg,
+9500,JACK HERER LTD BAG,EXOTIC,IH SALE,36%,40|30,,,,,
+9501,PINK PINETAR LTD BAG,EXOTIC,IH SALE,39%,40|30,,,,,
+9502,PINK WAGYU STAR LTD BAG,EXOTIC,IH SALE,39%,40|30,,,,,
+9503,MOTOR BREATHE LTD BAG,EXOTIC,IH SALE,36%,40|30,,,,/products/520-Motor-Breath2e.webp,
 9504,PINK ASTRO LTD BAG,EXOTIC,IH SALE,36%,40|30,,,,https://bloudsdispensary.ca/wp-content/uploads/2025/07/527-Pink-Astro.jpg,
