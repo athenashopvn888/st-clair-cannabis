@@ -1,4 +1,4 @@
-/* ── Tier-specific SEO content for below-the-fold sections ── */
+/* Store-specific, non-volatile copy for the five Weed flower collections. */
 
 export interface TierSeoData {
   seoTitle: string;
@@ -7,112 +7,37 @@ export interface TierSeoData {
   faqs: { q: string; a: string }[];
 }
 
+function tierCopy(name: string): TierSeoData {
+  return {
+    seoTitle: `${name} & Cannabis Flower Toronto | St Clair Cannabis`,
+    seoIntro: `Explore the ${name} flower collection presented by St Clair Cannabis. Use the current menu details shown with each selection while you browse.`,
+    sections: [
+      {
+        heading: `Browse ${name} in Toronto`,
+        body: `${name} is one of five Weed flower collections at St Clair Cannabis. Compare the selections currently presented in this collection with Exotic Weed, Premium Weed, AAA+ Weed, AA Weed and Budget Weed.`,
+      },
+      {
+        heading: "Choose from the current menu",
+        body: "Each product card presents the details available for that selection. Open a product to review its current information before visiting the store.",
+      },
+    ],
+    faqs: [
+      {
+        q: `What is the ${name} collection?`,
+        a: `${name} is one of the five Weed flower collections used to organize the St Clair Cannabis menu. Browse the current collection for the details shown with each selection.`,
+      },
+      {
+        q: `Where can I compare ${name} with other Weed tiers?`,
+        a: "Use the St Clair Cannabis Weed & Flower Guide to move between all five flower collections.",
+      },
+    ],
+  };
+}
+
 export const TIER_SEO: Record<string, TierSeoData> = {
-  EXOTIC: {
-    seoTitle: "Exotic Cannabis Flower Toronto — Ultra-Rare, Top-Shelf Genetics",
-    seoIntro: "Explore the Exotic tier at St Clair Cannabis — our most exclusive cannabis flower selection. Hand-picked strains with THC levels up to 39%, stunning bag appeal, and unique terpene profiles you won't find anywhere else in Toronto.",
-    sections: [
-      {
-        heading: "What Makes Exotic Flower Special?",
-        body: "Exotic cannabis flower represents the absolute pinnacle of cannabis cultivation. These strains are grown by elite craft cultivators, hand-trimmed to perfection, and selected for their exceptional terpene profiles, bag appeal, and potency. At St Clair Cannabis, our Exotic tier features strains with THC levels ranging from 35% to 39% — the highest potency flower available in Toronto.",
-      },
-      {
-        heading: "Exotic Pricing — $20/g with 3g bundle pricing",
-        body: "Our Exotic flower starts at $20 per gram. With our 3g bundle pricing, you get 3 grams for just $40 — that's $13.33/g. For even better value, our 6g bundle offer gives you 6 grams for $60 — just $10.00/g. 14g is available for $140 ($10/g) and full ounces (28g) for $250 ($8.93/g).",
-      },
-      {
-        heading: "Why Shop Exotic at St Clair Cannabis?",
-        body: "St Clair Cannabis is located at 875 St Clair Ave W in the heart of Toronto's ByWard Market neighbourhood. Our live digital menu is updated in real time, so you can check exactly what Exotic strains are in stock before you visit. Our knowledgeable budtenders can help you find the perfect strain based on your preferred effects, aroma, and potency level.",
-      },
-    ],
-    faqs: [
-      { q: "What is Exotic cannabis flower?", a: "Exotic flower is our top-tier cannabis, featuring ultra-rare genetics with THC levels from 35% to 39%. These strains are hand-selected for exceptional bag appeal, unique terpene profiles, and maximum potency." },
-      { q: "How much does Exotic flower cost?", a: "Exotic flower is $20/g. With our 3g bundle pricing, 3g is just $40. 6g bundle pricing gives you 6g for $60. 14g is $140 and 28g is $250." },
-      { q: "What strains are available in the Exotic tier?", a: "Our Exotic selection rotates frequently. Check our live online menu for the current strains in stock — it updates in real time." },
-      { q: "Is Exotic worth the price?", a: "If you value the highest potency, rarest genetics, and best bag appeal, Exotic is absolutely worth it. Our bundle pricing brings the per-gram price down significantly — as low as $8.93/g for an ounce." },
-    ],
-  },
-
-  PREMIUM: {
-    seoTitle: "Premium Cannabis Flower Toronto — Hand-Picked Connoisseur Grade",
-    seoIntro: "Shop Premium cannabis flower at St Clair Cannabis, Toronto. Connoisseur-grade strains with THC 32-34%, exceptional flavour, and smooth smoke. Starting at $15/g.",
-    sections: [
-      {
-        heading: "What is Premium Cannabis Flower?",
-        body: "Premium flower sits just below Exotic in our quality hierarchy. These are connoisseur-grade strains with THC levels between 32% and 34%, offering exceptional flavour, smooth smoke, and consistent potency. Premium is the sweet spot for cannabis enthusiasts who want top-quality flower without the Exotic price tag.",
-      },
-      {
-        heading: "Premium Pricing — $15/g with Bundle Pricing",
-        body: "Premium flower starts at $15 per gram. Our 3g bundle pricing gets you 3 grams for $30 ($10/g). The 6g bundle offer delivers 6 grams for just $45 ($7.50/g). 14g is available for $100 ($7.14/g) and 28g for $180 ($6.43/g).",
-      },
-      {
-        heading: "Best Value in ByWard Market",
-        body: "At St Clair Cannabis on Toronto St, our Premium tier offers the best quality-to-price ratio in the neighbourhood. Every strain in this tier has been personally vetted by our team for potency, flavour, and bag appeal.",
-      },
-    ],
-    faqs: [
-      { q: "What is Premium cannabis flower?", a: "Premium is our connoisseur-grade tier featuring strains with THC 32-34%. Hand-picked for exceptional flavour, smooth smoke, and consistent quality." },
-      { q: "How much does Premium flower cost?", a: "Premium starts at $15/g. 3g bundle pricing = $30/3g. 6g bundle pricing = $45/6g. 14g = $100. 28g = $180." },
-      { q: "What's the difference between Exotic and Premium?", a: "Exotic features ultra-rare genetics with THC 35-39%, while Premium offers excellent connoisseur-grade strains at THC 32-34% — still top-shelf, but at a lower price point." },
-    ],
-  },
-
-  "AAA+": {
-    seoTitle: "AAA+ Cannabis Flower Toronto — Heavy Hitters at Great Prices",
-    seoIntro: "Shop AAA+ cannabis flower at St Clair Cannabis, Toronto. Strong, reliable strains with THC 30-32% starting at just $10/g. The best value for experienced smokers.",
-    sections: [
-      {
-        heading: "What is AAA+ Cannabis Flower?",
-        body: "AAA+ is where potency meets value. These heavy-hitting strains deliver THC levels from 30% to 32%, making them perfect for daily smokers who want solid potency without paying the premium markup. AAA+ flower at St Clair Cannabis is sourced from trusted Canadian craft growers.",
-      },
-      {
-        heading: "AAA+ Pricing — $10/g with Bundle Pricing",
-        body: "AAA+ flower starts at just $10 per gram. Our 3g bundle pricing delivers 3 grams for $20 ($6.67/g). The 6g bundle offer gives you 6 grams for $30 — just $5.00/g. 14g is $60 ($4.29/g) and full ounces (28g) start at $100 ($3.57/g).",
-      },
-    ],
-    faqs: [
-      { q: "What is AAA+ cannabis flower?", a: "AAA+ is our value-potency tier featuring strains with THC 30-32%. Heavy hitters with proven genetics at unbeatable prices." },
-      { q: "How much does AAA+ flower cost?", a: "AAA+ starts at $10/g. 3g bundle pricing = $20/3g. 6g bundle pricing = $30/6g. 14g = $60. 28g from $100." },
-      { q: "Is AAA+ good quality?", a: "Absolutely. AAA+ strains deliver THC 30-32% with excellent potency and smoke quality. They're the best value-to-potency ratio in our lineup." },
-    ],
-  },
-
-  AA: {
-    seoTitle: "AA Cannabis Flower Toronto — Quality Daily Drivers",
-    seoIntro: "Shop AA cannabis flower at St Clair Cannabis, Toronto. Solid everyday strains with THC 27-29% at just $5/g. Perfect for regular smokers on a budget.",
-    sections: [
-      {
-        heading: "What is AA Cannabis Flower?",
-        body: "AA flower is designed for the everyday smoker. These quality daily drivers deliver consistent THC levels between 27% and 29%, providing reliable effects at an affordable price. AA is perfect for regular smokers who want quality without overspending.",
-      },
-      {
-        heading: "AA Pricing — $5/g, 5g bundle for $20",
-        body: "AA flower is just $5 per gram. Our 5g bundle for $20 gives you 5 grams total ($4.00/g). 14g is available for $50 ($3.57/g) and 28g for $90 ($3.21/g). Great value for daily use.",
-      },
-    ],
-    faqs: [
-      { q: "What is AA cannabis flower?", a: "AA is our everyday-value tier with strains at THC 27-29%. Reliable quality at an affordable price point." },
-      { q: "How much does AA flower cost?", a: "AA starts at $5/g. 5g bundle = $20/5g ($4.00/g). 14g = $50. 28g = $90." },
-    ],
-  },
-
-  BUDGET: {
-    seoTitle: "Budget Cannabis Toronto — Cheap Weed From $3/g",
-    seoIntro: "Cheap weed in Toronto starting at $3/g. St Clair Cannabis Budget tier features shreds and value ounces for cost-conscious smokers. Check current store hours before visiting St Clair Cannabis.",
-    sections: [
-      {
-        heading: "Affordable Cannabis Without Compromise",
-        body: "Our Budget tier proves that affordable cannabis doesn't mean low quality. With THC levels from 24% to 27%, these value strains deliver solid effects at rock-bottom prices. Whether you're looking for shreds or value ounces, St Clair Cannabis has the cheapest weed in Toronto's ByWard Market neighbourhood.",
-      },
-      {
-        heading: "Budget Pricing — From $3/g, OZs from $40",
-        body: "Budget flower starts at just $3 per gram. Value ounces start from $40 — some of the best prices you'll find in Toronto. Our 3g bundle pricing applies here too, giving you even more savings.",
-      },
-    ],
-    faqs: [
-      { q: "What is the cheapest weed at St Clair Cannabis?", a: "Our Budget tier starts at $3/g with value ounces from $40. These are quality strains at the lowest possible price." },
-      { q: "Is budget flower still good quality?", a: "Yes! Budget strains still deliver THC 24-27%. They're perfect for daily smokers who want value without sacrificing potency." },
-      { q: "Do you have shreds?", a: "Yes, our Budget tier includes shredded flower options — great for rolling and value pricing." },
-    ],
-  },
+  EXOTIC: tierCopy("Exotic Weed"),
+  PREMIUM: tierCopy("Premium Weed"),
+  "AAA+": tierCopy("AAA+ Weed"),
+  AA: tierCopy("AA Weed"),
+  BUDGET: tierCopy("Budget Weed"),
 };

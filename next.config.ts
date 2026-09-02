@@ -12,6 +12,11 @@ const nextConfig: NextConfig = {
     return [
       { source: "/blog", destination: "/", permanent: true },
       { source: "/blog/:path*", destination: "/", permanent: true },
+      { source: "/exotic", destination: "/exotic-weed", permanent: true },
+      { source: "/premium", destination: "/premium-weed", permanent: true },
+      { source: "/aaa", destination: "/aaa-weed", permanent: true },
+      { source: "/aa", destination: "/aa-weed", permanent: true },
+      { source: "/budget", destination: "/budget-weed", permanent: true },
       { source: "/edibles", destination: "/items/edibles", permanent: true },
       { source: "/vapes", destination: "/items/vapes", permanent: true },
       { source: "/vape-disposables", destination: "/items/vape-disposables", permanent: true },
