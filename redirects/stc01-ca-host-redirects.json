@@ -1,0 +1,6877 @@
+[
+  {
+    "source": "/product/goober-vape-pen-1g",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/mike-tyson-ko-super-exotics",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/mike-tyson-ko-super-exotics",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/zyn-nicotine-pouches",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/zyn-nicotine-pouches",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/mike-tyson-og",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/platinum-tuna",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/platinum-tuna",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/mk-ultra",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/ovns-2500-5-2-5k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/ovns-10000-5-10k-puffs-nvape",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/mindfck-choco-8000mg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/mindfck-choco-8000mg",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/khalifa-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/drizzle-lean-thc-syrup",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/2g-dual-chamber-goober-vape-pen",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/jungle-juice",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/northern-lights",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/northern-lights-shreds",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-rozay",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/thunder-fck",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/bluefin-tuna",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/chocolope-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/stoner-patch",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/stoner-patch",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/grease-monkey",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/strawberry-cough",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/black-gas",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/grabba",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/grabba",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/shatter-chews-150-mg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/shatter-chews-150-mg",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/drizzle-dispo-vape-1g",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pineapple-express",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/geek-supreme-60000-5-60k-puffs-many-flavors",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/bruce-banner",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/mango-haze",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/1-5-goober-thc-vape-pens",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/chemdawg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/happy-dad-6mgx20-nicotine-pouches",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/add-ons",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/donnie-burger",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/wesley-tea",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/jack-herer",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/king-louis-xiii",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/king-louis-xiii",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/skunk-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/afghan-hash",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/new-afghan-hash",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/birthday-cake",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/purple-space-queen",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/10-x-premium-mix-cigarettes",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/blackberry-kush-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/laughing-buddha-1g-sat-pre-roll",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/laughing-buddha-1g-sat-pre-roll",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-godfather-og-1g-ind-pre-roll",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/pink-godfather-og-1g-ind-pre-roll",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-yoda",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/thc-syrup-500mg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/tripnotik-choco-5000mg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/tripnotik-choco-5000mg",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/black-tuna",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-tuna",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-tuna",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-wagyu-star-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/critical-kush-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/galaxy-gummies-6000mg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/galaxy-gummies-6000mg",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/london-poundcake",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-god",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-jet-fuel",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/grabba-redrose-redherring",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/grabba-redrose-redherring",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/dank-choco-bar-1500mg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/dank-choco-bar-1500mg",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/drizzle-delta-d9",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/drizzle-diamond-pre-rolls-1g",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/prerolls",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/kosher-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/amneisa-haze",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/cosmic-sativa",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/lavender-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/lavender-kush",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/ovns-disposable-5-8ml-many-flavors",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/ovns-disposable-5-8ml-many-flavors-nvape",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-alien",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-death-star",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-zombie",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/vanilla-ice-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/og-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/og-kush-aa",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/godfather-og",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/white-widow",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/granddaddy-purple",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/grandaddy-purple-shreds",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/canadian-classics-original",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/canadian-classics-original",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/gary-payton",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-bubba",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/red-congolese",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/about",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/weed-dispensary-toronto",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/bb-full-carton",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/bb-full-carton",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/forbidden-fruits",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-glizzy",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-phantom",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/pink-tomford",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/add-ons",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/24k-gold",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/canadian-goose-lights",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/canadian-goose-lights",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/gorilla-glue%E2%9C%A8sale",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/gorilla-glue-4",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/gorilla-glue✨sale",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/gorilla-glue-4",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/blue-dream-sativa",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/mendo-breathe",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-animal-1g-ind-pre-roll",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/pink-animal-1g-ind-pre-roll",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/zlab-zpods-assorted-2-ml",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/dummy-bears",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/dummy-bears-200mg-2000mg-5000mg",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/blue-dream-sativa-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/canadian-lights",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/canadian-lights",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/han-solo",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/jealousy",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-bubblegum-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-cookie-og",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-northern-lights-shreds",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-space-queen",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/purple-cookies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/acapulco-gold",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/bc-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/black-diamonds-%E2%9C%A8sale",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/black-diamonds-✨sale",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/blue-god-ogs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/cake-face",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/elf-bar-ice-king-5-30k-puffs-many-flavors",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/geek-max-5-20k-30k-puffs-many-flavors",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/green-gelato-%E2%9C%A8sale",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/green-gelato-✨sale",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/hash-on-sale-afgan-black-moroccan-turkish",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/concentrates",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/la-confidential",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/o-pink",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/o-pink",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-chapo",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-gas",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/escobar-pink-gas",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/purple-runtz",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/putters",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/putters",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/stellar-gummies-500mg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/stellar-gummies-500mg",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/breeze-2000-5-2k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/canadian-classics-silver",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/canadian-classics-silver",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/cocobar-5-12k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/daydream-diesel",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/daydream-diesel",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/deadly-moonrock-preroll",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/prerolls",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/death-bubba",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/frosted-cookies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/ice-cream-vanilla",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/jack-herer-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/level-x-boost-g2-device-kit",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/mindfck-gummies-bar-5000mg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/mindfck-gummies-bar-5000mg",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/nyc-sour-diesel",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/oreo-cookies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-astro",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-death",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-diablo",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-gelato-shreds",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-gelato",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-gooey-frost",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-hellfire",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-lizards",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-lizard",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-starkiller",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/purple-dream-sh",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/purple-skunk",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/purple-skunk",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/resin-tag-along-2g-hybrid-ind-sat",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/concentrates",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/skunk-ape-shreds",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/time-full",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/time-full",
+    "statusCode": 301
+  },
+  {
+    "source": "/sample-page",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/flower/pink-atomic-bomb",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-atomic-bomb",
+    "statusCode": 301
+  },
+  {
+    "source": "/flower/pink-atomic-bomb-3g-30-5g-45",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-atomic-bomb",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/bb-lights-carton",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/bb-lights-carton",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/belmont-ks-pack-only",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/cigarettes",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/black-jack-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/canadian-full",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/canadian-full",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/canadian-goose-full",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/canadian-goose-full",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/cherry-haze-sh",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/fcking-incredible",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/god-og",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/granddaddy-purple-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/grandaddy-purple-shreds",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/icecream-cake",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/jackhaze",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/lemon-cherry-gelato",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/level-x-g2-pod",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/master-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/master-kush-aa",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/mosmo-storm-x-5-10k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/motor-breathe",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/peanutbutter-breathe",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/permanent-marker",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-permanent-marker",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-atomic-bomb",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-atomic-bomb",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-bugatti",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-godzilla",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-hindu-shreds",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-icky-sticky",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-icky-sticky",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-kosher-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-panties",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-tom-gas",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-velvet",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/platinum-kush-og",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/purple-candy-land-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/purple-gelato",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/quantum-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/rainbow-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/rolled-gold-full",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/cigarettes",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/sale-crown-bar-al-fakher-10k",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/skywalker-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/slurricane",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/slurricane",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/super-drip",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/super-drip",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/super-lemon",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/toasted-strudel",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/tropical-queen-stv",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/tropicana-cookies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/uwell-caliburn-pod",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/yoda-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/1001-bb-lights-carton",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/bb-lights-carton",
+    "statusCode": 301
+  },
+  {
+    "source": "/1003-bb-full-carton",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/bb-full-carton",
+    "statusCode": 301
+  },
+  {
+    "source": "/1005-canadian-lights",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/canadian-lights",
+    "statusCode": 301
+  },
+  {
+    "source": "/1006-canadian-full",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/canadian-full",
+    "statusCode": 301
+  },
+  {
+    "source": "/1008-putters",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/putters",
+    "statusCode": 301
+  },
+  {
+    "source": "/1009-playfare-ultra-lights",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/cigarettes",
+    "statusCode": 301
+  },
+  {
+    "source": "/1011-canadian-goose-full",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/canadian-goose-full",
+    "statusCode": 301
+  },
+  {
+    "source": "/1012-canadian-goose-lights",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/canadian-goose-lights",
+    "statusCode": 301
+  },
+  {
+    "source": "/1013-canadian-menthol",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/canadian-menthol",
+    "statusCode": 301
+  },
+  {
+    "source": "/1014-canadian-classics-original",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/canadian-classics-original",
+    "statusCode": 301
+  },
+  {
+    "source": "/1015-canadian-classics-silver",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/canadian-classics-silver",
+    "statusCode": 301
+  },
+  {
+    "source": "/1016-rolled-gold-lights",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/rolled-gold-lights",
+    "statusCode": 301
+  },
+  {
+    "source": "/1017-nexus-full",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/nexus-full",
+    "statusCode": 301
+  },
+  {
+    "source": "/1018-nexus-lights",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/nexus-lights",
+    "statusCode": 301
+  },
+  {
+    "source": "/1019-time-full",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/time-full",
+    "statusCode": 301
+  },
+  {
+    "source": "/1023-rolled-gold-full",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/cigarettes",
+    "statusCode": 301
+  },
+  {
+    "source": "/1026-belmont-ks-pack-only",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/cigarettes",
+    "statusCode": 301
+  },
+  {
+    "source": "/103-skunk-ape-shreds",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/104-nuken-shreds",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/1053-happy-dad-6mgx20-nicotine-pouches",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/add-ons",
+    "statusCode": 301
+  },
+  {
+    "source": "/1054-zyn-nicotine-pouches",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/zyn-nicotine-pouches",
+    "statusCode": 301
+  },
+  {
+    "source": "/1055-zpods-zpods-mango-pineapple-3-2-ml-pods-5-synthetic-nic",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/zpods-zpods-mango-pineapple-32-ml-pods-5-synthetic-nic",
+    "statusCode": 301
+  },
+  {
+    "source": "/1064-elf-bar-ice-king-5-30k-puffs-many-flavors",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/1065-elf-23000-5-23k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/1066-elf-bar-prime",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/1068-elf-bar-moonlight-70k",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/1070-geek-9000-pulse-2-9k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/1072-geek-promax-5-30k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/1073-geek-max-5-20k-30k-puffs-many-flavors",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/1074-geek-supreme-60000-5-60k-puffs-many-flavors",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/1080-ovns-2500-5-2-5k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/ovns-10000-5-10k-puffs-nvape",
+    "statusCode": 301
+  },
+  {
+    "source": "/1081-ovns-10000-5-10k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/ovns-10000-5-10k-puffs-nvape",
+    "statusCode": 301
+  },
+  {
+    "source": "/1082-ovns-pioneer-5-22k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/ovns-pioneer-5-22k-puffs-nvape",
+    "statusCode": 301
+  },
+  {
+    "source": "/1083-ovns-max-5-3k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/1084-ovns-disposable-5-8ml-many-flavors",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/ovns-disposable-5-8ml-many-flavors-nvape",
+    "statusCode": 301
+  },
+  {
+    "source": "/1085-level-x-boost-g2-device-kit",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/1086-level-x-g2-pod",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/1088-uwell-caliburn-pod",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/1090-breeze-2000-5-2k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/1091-beast-mode-max-many-flavors",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/1092-envi-drip-n-5-28k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/1093-flavour-beast-e-liquid-salt",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/1094-kraze-luna-many-flavors",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/1095-cocobar-5-12k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/1096-mosmo-storm-x-5-10k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/1097-movement-lv-18k-5-18k-puffs-many-flavors",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/1098-nexa-pix-5-35k-puffs-many-flavors",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/nexa-pix-30k-puffs-many-flavors-nvape",
+    "statusCode": 301
+  },
+  {
+    "source": "/1099-sale-crown-bar-al-fakher-10k",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/112-pink-biscuits-shreds",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/113-pink-gelato-shreds",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-gelato",
+    "statusCode": 301
+  },
+  {
+    "source": "/114-pink-northern-lights-shreds",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/119-pink-hindu-shreds",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/168-og-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/og-kush-aa",
+    "statusCode": 301
+  },
+  {
+    "source": "/172-lavender-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/lavender-kush",
+    "statusCode": 301
+  },
+  {
+    "source": "/173-blue-god-ogs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/175-pine-tar-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/176-cake-face",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/177-skunk-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/178-acapulco-gold",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/179-london-poundcake",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/182-yoda-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/188-pink-animal-1g-ind-pre-roll",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/pink-animal-1g-ind-pre-roll",
+    "statusCode": 301
+  },
+  {
+    "source": "/189-amnesia-haze-1g-sat-pre-roll",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/amnesia-haze-1g-sat-pre-roll",
+    "statusCode": 301
+  },
+  {
+    "source": "/203-black-diamonds-sale",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/210-white-champagne",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/white-champagne",
+    "statusCode": 301
+  },
+  {
+    "source": "/211-bc-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/212-black-jack-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/213-master-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/master-kush-aa",
+    "statusCode": 301
+  },
+  {
+    "source": "/223-alien-cookies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/228-pink-greasy",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/229-chocolope-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/230-platinum-kush-og",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/233-blueberry-og",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/234-pink-cookie-og",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/238-green-gelato-sale",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/240-grabba",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/grabba",
+    "statusCode": 301
+  },
+  {
+    "source": "/242-granddaddy-purple",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/grandaddy-purple-shreds",
+    "statusCode": 301
+  },
+  {
+    "source": "/244-blue-dream-sativa",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/245-gorilla-glue-sale",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/gorilla-glue-4",
+    "statusCode": 301
+  },
+  {
+    "source": "/252-purple-oreo-h",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/253-pink-berry",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/254-pink-diablo",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/256-ice-cream-vanilla",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/257-purple-cookies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/258-pink-jet-fuel",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/260-red-runtz",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/261-daydream-diesel",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/daydream-diesel",
+    "statusCode": 301
+  },
+  {
+    "source": "/266-cosmic-sativa",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/267-pink-master-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/268-icecream-cake",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/269-oreo-cookies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/271-dante-inferno",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/dante-inferno",
+    "statusCode": 301
+  },
+  {
+    "source": "/272-skywalker-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/273-la-confidential",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/274-chem-fire",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/275-sugar-cookies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/sugar-cookies",
+    "statusCode": 301
+  },
+  {
+    "source": "/277-nyc-sour-diesel",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/278-slurricane",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/slurricane",
+    "statusCode": 301
+  },
+  {
+    "source": "/280-vanilla-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/288-frosted-cookies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/289-jungle-juice",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/290-sweet-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/sweet-kush",
+    "statusCode": 301
+  },
+  {
+    "source": "/291-diamond-og",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/diamond-og",
+    "statusCode": 301
+  },
+  {
+    "source": "/292-quantum-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/293-vanilla-ice-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/300-pineapple-express",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/301-peanut-rockstar",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/302-durian-haze",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/303-pink-lobster",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/304-white-shark",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/305-pink-fire-og",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-fire-og",
+    "statusCode": 301
+  },
+  {
+    "source": "/307-death-bubba",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/310-pink-escobar",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/311-pink-phantom",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/312-mango-haze",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/313-super-lemon",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/314-tahoe-cookies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/315-grease-monkey",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/316-pink-platinum",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/317-cherry-haze-sh",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/318-pink-rozay",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/319-white-walker-og",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/320-black-tuna",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/321-mk-ultra",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/322-purple-gelato",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/323-pink-godzilla",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/324-pink-violator",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-violator",
+    "statusCode": 301
+  },
+  {
+    "source": "/325-purple-runtz",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/326-chemdawg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/327-pink-halo-og",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/328-pink-zombie",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/329-mueller-fuel",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/330-pink-champagne",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/354-pink-kosher-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/365-kosher-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/366-pink-bugatti",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/368-strawberry-cough",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/369-northern-lights",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/northern-lights-shreds",
+    "statusCode": 301
+  },
+  {
+    "source": "/372-pink-jealousy",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/373-purple-sunset-sherbert",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/374-pink-tom-gas",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/375-pink-kosher-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/376-purple-dream-sh",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/377-pink-gas",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/escobar-pink-gas",
+    "statusCode": 301
+  },
+  {
+    "source": "/380-peanutbutter-breathe",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/381-blackberry-haze",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/382-white-widow",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/383-tropicana-cookies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/384-gary-payton",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/385-sugarcane",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/386-pink-goo",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/388-pink-kush-1g-ind-pr-roll",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/pink-kush-1g-ind-pr-roll",
+    "statusCode": 301
+  },
+  {
+    "source": "/389-laughing-buddha-1g-sat-pre-roll",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/laughing-buddha-1g-sat-pre-roll",
+    "statusCode": 301
+  },
+  {
+    "source": "/390-super-pink",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/391-pink-frost",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/393-pink-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/394-tropical-queen-stv",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/395-god-og",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/396-khalifa-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/397-pink-hennessey",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/401-death-bubba",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/402-pink-lizards",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-lizard",
+    "statusCode": 301
+  },
+  {
+    "source": "/403-forbidden-fruits",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/405-amneisa-haze",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/406-pink-god",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/407-morning-mojo",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/408-pink-tuna-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/412-toasted-strudel",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/414-black-gas",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/415-death-valley",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/death-valley",
+    "statusCode": 301
+  },
+  {
+    "source": "/416-pink-death",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/461-pink-glizzy",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/462-pink-paralysis",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/463-pink-yoda",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/464-thunder-fck",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/466-pink-godzilla",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/467-pink-diablo",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/469-pink-bubba",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/470-pink-gelato",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-gelato",
+    "statusCode": 301
+  },
+  {
+    "source": "/471-poison-ivy",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/472-pink-bazooka",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/473-gmo-cookies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/474-pink-death-star",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/475-super-mario-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/476-truffle-cake",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/477-pink-rock-star",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/480-lemon-cherry-gelato",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/481-pink-panties",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/482-mendo-breathe",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/484-pink-chapo",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/486-fcking-incredible",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/487-birthday-cake",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/488-pink-predator-1g-ind-pre-roll",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/pink-predator-1g-ind-pre-roll",
+    "statusCode": 301
+  },
+  {
+    "source": "/489-maui-wowie-1g-sat-pre-roll",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/maui-wowie-1g-sat-pre-roll",
+    "statusCode": 301
+  },
+  {
+    "source": "/490-pink-joker",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/491-super-drip",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/super-drip",
+    "statusCode": 301
+  },
+  {
+    "source": "/492-platinum-tuna",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/platinum-tuna",
+    "statusCode": 301
+  },
+  {
+    "source": "/493-o-pink",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/o-pink",
+    "statusCode": 301
+  },
+  {
+    "source": "/494-pink-atomic-bomb",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-atomic-bomb",
+    "statusCode": 301
+  },
+  {
+    "source": "/495-king-louis-xiii",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/king-louis-xiii",
+    "statusCode": 301
+  },
+  {
+    "source": "/500-pink-godfather",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/504-pink-bellagio",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/505-pink-lizard",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-lizard",
+    "statusCode": 301
+  },
+  {
+    "source": "/507-pink-deathstar",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-deathstar",
+    "statusCode": 301
+  },
+  {
+    "source": "/510-jack-herer",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/511-sunburst-haze-sh",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/513-pink-tomford-2",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/add-ons",
+    "statusCode": 301
+  },
+  {
+    "source": "/513-pink-tomford",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/add-ons",
+    "statusCode": 301
+  },
+  {
+    "source": "/520-motor-breathe",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/522-han-solo",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/523-dead-head",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/524-pink-rockstar",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-rockstar",
+    "statusCode": 301
+  },
+  {
+    "source": "/526-pink-bazooka",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/527-pink-astro",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/528-pink-space-queen",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/529-jealousy",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/530-permanent-marker",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-permanent-marker",
+    "statusCode": 301
+  },
+  {
+    "source": "/531-mike-tyson-og",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/532-bluefin-tuna",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/534-red-eye-pink",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/535-jackhaze",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/536-pink-hellfire",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/537-godfather-og",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/538-pink-tuna",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-tuna",
+    "statusCode": 301
+  },
+  {
+    "source": "/539-peanut-butter-rockstar",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/540-pink-icky-sticky",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-icky-sticky",
+    "statusCode": 301
+  },
+  {
+    "source": "/541-bruce-banner",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/542-pink-velvet",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/543-pink-supreme",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-supreme",
+    "statusCode": 301
+  },
+  {
+    "source": "/544-pink-permanent-marker",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-permanent-marker",
+    "statusCode": 301
+  },
+  {
+    "source": "/545-pure-michigan",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/546-24k-gold",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/547-thc-syrup-500mg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/550-pink-starkiller",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/561-red-congolese",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/562-donnie-burger",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/563-purple-skunk",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/purple-skunk",
+    "statusCode": 301
+  },
+  {
+    "source": "/564-dank-choco-bar-1500mg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/dank-choco-bar-1500mg",
+    "statusCode": 301
+  },
+  {
+    "source": "/588-pink-godfather-og-1g-ind-pre-roll",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/pink-godfather-og-1g-ind-pre-roll",
+    "statusCode": 301
+  },
+  {
+    "source": "/589-strawberry-cough-1g-sat-pre-roll",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/strawberry-cough-1g-sat-pre-roll",
+    "statusCode": 301
+  },
+  {
+    "source": "/593-mike-tyson-ko-super-exotics",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/mike-tyson-ko-super-exotics",
+    "statusCode": 301
+  },
+  {
+    "source": "/595-purple-space-queen",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/596-pink-gooey-frost",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/600-nrthrn-extracts-gummies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/nrthrn-extracts-gummies",
+    "statusCode": 301
+  },
+  {
+    "source": "/613-stellar-gummies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/stellar-gummies-500mg",
+    "statusCode": 301
+  },
+  {
+    "source": "/615-stellar-gummies-500mg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/stellar-gummies-500mg",
+    "statusCode": 301
+  },
+  {
+    "source": "/631-mindf-ck-choco-8000mg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/633-mindf-ck-gummies-bar-5000mg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/635-tripnotik-choco-5000mg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/tripnotik-choco-5000mg",
+    "statusCode": 301
+  },
+  {
+    "source": "/637-tripnotik-gummies-4000mg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/tripnotik-gummies-4000mg",
+    "statusCode": 301
+  },
+  {
+    "source": "/638-well-spore-co-mushroom-bar",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/magic",
+    "statusCode": 301
+  },
+  {
+    "source": "/643-shatter-chews-150-mg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/shatter-chews-150-mg",
+    "statusCode": 301
+  },
+  {
+    "source": "/645-shatter-chews-600-mg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/shatter-chews-600-mg",
+    "statusCode": 301
+  },
+  {
+    "source": "/650-galaxy-gummies-6000mg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/galaxy-gummies-6000mg",
+    "statusCode": 301
+  },
+  {
+    "source": "/655-knock-out-gummies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/knock-out-gummies",
+    "statusCode": 301
+  },
+  {
+    "source": "/668-grabba-shaker-redrose-red-herring",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/grabba-shaker-redrose-red-herring-x2-available",
+    "statusCode": 301
+  },
+  {
+    "source": "/680-live-resin-gummies-ind-sat-in-assorted-flavors",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/686-wesley-tea",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/687-wesley-hot-chocolate-40mg-thc-40mg-cbd-20mg-cbd-20mg-thc",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/wesley-hot-chocolate-40mg-thc-40mg-cbd-20mg-cbd-20mg-thc",
+    "statusCode": 301
+  },
+  {
+    "source": "/690-drizzle-lean-thc-syrup",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/691-stoner-patch",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/stoner-patch",
+    "statusCode": 301
+  },
+  {
+    "source": "/699-thc-lollipop",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/701-backwoods",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/add-ons",
+    "statusCode": 301
+  },
+  {
+    "source": "/705-backwoods",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/add-ons",
+    "statusCode": 301
+  },
+  {
+    "source": "/710-raw-paper-king-size",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/raw-paper-king-size",
+    "statusCode": 301
+  },
+  {
+    "source": "/800-gas-gang-dispo-vape-1g",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/810-drizzle-switch-3in1-1g",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/drizzle-switch-3in1-2g-thcvape",
+    "statusCode": 301
+  },
+  {
+    "source": "/820-drizzle-dispo-vape-1g",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/836-zlab-zpods-assorted-2-ml",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/854-hash-on-sale-afgan-black-moroccan-turkish",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/concentrates",
+    "statusCode": 301
+  },
+  {
+    "source": "/856-blondie-morocon-hash",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/concentrates",
+    "statusCode": 301
+  },
+  {
+    "source": "/859-grand-cannabis-star-hash-afghan-dark-vader",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/grand-cannabis-star-hash-afghan-dark-vader",
+    "statusCode": 301
+  },
+  {
+    "source": "/863-hash-3g",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/concentrates",
+    "statusCode": 301
+  },
+  {
+    "source": "/868-afghan-hash",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/new-afghan-hash",
+    "statusCode": 301
+  },
+  {
+    "source": "/873-gen-live-resin-1g",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/concentrates",
+    "statusCode": 301
+  },
+  {
+    "source": "/876-resin-tag-along-2g-hybrid-ind-sat",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/concentrates",
+    "statusCode": 301
+  },
+  {
+    "source": "/880-2g-dual-chamber-goober-vape-pen",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/883-1-5-goober-thc-vape-pens",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/887-goober-vape-pen-1g",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/900-drizzle-diamond-pre-rolls-1g",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/prerolls",
+    "statusCode": 301
+  },
+  {
+    "source": "/910-drizzle-delta-d9",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/920-deadly-moonrock-preroll",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/prerolls",
+    "statusCode": 301
+  },
+  {
+    "source": "/9202-critical-kush-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/9203-granddaddy-purple-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/grandaddy-purple-shreds",
+    "statusCode": 301
+  },
+  {
+    "source": "/930-knock-out-prerolls-x2-each",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/prerolls",
+    "statusCode": 301
+  },
+  {
+    "source": "/9330-purple-candy-land-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/9400-lemon-haze-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/9401-pink-bubblegum-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/9402-blackberry-kush-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/9501-pink-pinetar-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/9502-pink-wagyu-star-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/961-dummy-bears",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/dummy-bears-200mg-2000mg-5000mg",
+    "statusCode": 301
+  },
+  {
+    "source": "/970-drink-euphoria-ext",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/999-10-x-premium-mix-cigarettes",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/cigarettes",
+    "statusCode": 301
+  },
+  {
+    "source": "/backwoods",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/add-ons",
+    "statusCode": 301
+  },
+  {
+    "source": "/blondie-morocon-hash",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/concentrates",
+    "statusCode": 301
+  },
+  {
+    "source": "/category/uncategorized",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/category/uncategorized/page/2",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/drink-euphoria-ext",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/grabba-shaker-redrose-red-herring",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/grabba-shaker-redrose-red-herring-x2-available",
+    "statusCode": 301
+  },
+  {
+    "source": "/grand-cannabis-star-hash-afghan-dark-vader",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/grand-cannabis-star-hash-afghan-dark-vader",
+    "statusCode": 301
+  },
+  {
+    "source": "/hello-world",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/hero-bg-2-desktop",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/hero-bg-2-mobile",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/hero-bg-3",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/hero-bg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/knock-out-gummies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/knock-out-gummies",
+    "statusCode": 301
+  },
+  {
+    "source": "/nrthrn-extracts-gummies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/nrthrn-extracts-gummies",
+    "statusCode": 301
+  },
+  {
+    "source": "/pre-rolls-toronto-dispensary-332424",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/prerolls",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/alien-cookies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/amnesia-haze-1g-sat-pre-roll",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/amnesia-haze-1g-sat-pre-roll",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/backwoods",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/add-ons",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/beast-mode-max-many-flavors",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/black-diamonds-%e2%9c%a8sale",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/blackberry-haze",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/blueberry-og",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/canadian-menthol",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/canadian-menthol",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/chem-fire",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/dante-inferno",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/dante-inferno",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/dead-head",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/death-bubba-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/death-valley",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/death-valley",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/diamond-og",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/diamond-og",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/drizzle-switch-3in1-1g",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/drizzle-switch-3in1-2g-thcvape",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/durian-haze",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/elf-23000-5-23k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/elf-bar-10k",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/elf-bar-moonlight-70k",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/elf-bar-prime",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/envi-dripn-5-28k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/flavour-beast-e-liquid-salt",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/gas-gang-dispo-vape-1g",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/geek-9000-pulse-2-9k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/geek-promax-5-30k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/gen-live-resin-1g",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/concentrates",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/gmo-cookies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/gorilla-glue%e2%9c%a8sale",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/gorilla-glue-4",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/green-gelato-%e2%9c%a8sale",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/hash-3g",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/concentrates",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/knock-out-prerolls-x2-each",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/prerolls",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/kraze-luna-many-flavors",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/lavender-kush-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/lavender-kush",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/lemon-haze-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/live-resin-gummies-ind-sat-in-assorted-flavors",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/maui-wowie-1g-sat-pre-roll",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/maui-wowie-1g-sat-pre-roll",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/morning-mojo",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/motor-breathe-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/movement-lv-18k-5-18k-puffs-many-flavors",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/mueller-fuel",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/nexa-pix-5-35k-puffs-many-flavors",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/nexa-pix-30k-puffs-many-flavors-nvape",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/nexus-full",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/nexus-full",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/nexus-lights",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/nexus-lights",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/nuken-shreds",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/ovns-10000-5-10k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/ovns-10000-5-10k-puffs-nvape",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/ovns-max-5-3k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vape-disposables",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/ovns-pioneer-5-22k-puffs",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/ovns-pioneer-5-22k-puffs-nvape",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/peanut-butter-rockstar",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/peanut-rockstar",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pine-tar-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-astro-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-bazooka",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-bellagio",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-berry",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-biscuits-shreds",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-champagne",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-deathstar",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-deathstar",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-escobar",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-fire-og",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-fire-og",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-frost",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-gelato",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-gelato",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-god-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-godfather",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-goo",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-greasy",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-halo-og",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-hennessey",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-jealousy",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-joker",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-kosher-kush-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-kush-1g-ind-pr-roll",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/pink-kush-1g-ind-pr-roll",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-lizard",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-lizard",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-lobster",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-master-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-paralysis",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-permanent-marker",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-permanent-marker",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-pinetar-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-platinum",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-predator-1g-ind-pre-roll",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/pink-predator-1g-ind-pre-roll",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-rock-star",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-rockstar",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-rockstar",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-supreme",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-supreme",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-tuna-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pink-violator",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/pink-violator",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/playfare-ultra-lights",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/cigarettes",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/poison-ivy",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/pure-michigan",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/purple-oreo-h",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/purple-runtz-ltd-bag",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/purple-sherbet-shreds",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/budget-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/purple-sunset-sherbert",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/raw-paper-king-size",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/raw-paper-king-size",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/red-eye-pink",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/red-runtz",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/rolled-gold-lights",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/rolled-gold-lights",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/stlth-type-c-device",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/strawberry-cough-1g-sat-pre-roll",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/strawberry-cough-1g-sat-pre-roll",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/sugar-cookies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/sugar-cookies",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/sugarcane",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/sunburst-haze-sh",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/exotic-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/super-mario-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/super-pink",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/sweet-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/sweet-kush",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/tahoe-cookies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/thc-lollipop",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/edibles",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/time-lights",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/cigarettes",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/tripnotik-gummies-4000mg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/tripnotik-gummies-4000mg",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/truffle-cake",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/premium-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/vanilla-kush",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/vice-disposable-25k",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/well-spore-co-mushroom-bar",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/magic",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/wesley-hot-chocolate-40mg-thc-40mg-cbd-20mg-cbd-20mg-thc",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/wesley-hot-chocolate-40mg-thc-40mg-cbd-20mg-cbd-20mg-thc",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/white-champagne",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/flower/white-champagne",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/white-shark",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/white-walker-og",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/aaa-weed",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/zpods-zpods-mango-pineapple-3x2-ml-pods-5-synthetic-nic",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/items/vapes",
+    "statusCode": 301
+  },
+  {
+    "source": "/shatter-chews-600-mg",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/shatter-chews-600-mg",
+    "statusCode": 301
+  },
+  {
+    "source": "/st-clair-importer-base64-of-gzip",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/st-clair-main-js",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/stellar-gummies",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com/item/stellar-gummies-500mg",
+    "statusCode": 301
+  },
+  {
+    "source": "/test",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/product/page/:n",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/wp-content/:path*",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  },
+  {
+    "source": "/:path*",
+    "has": [
+      {
+        "type": "host",
+        "value": "(www\\.)?stclaircannabis\\.ca"
+      }
+    ],
+    "destination": "https://stclaircannabis.com",
+    "statusCode": 301
+  }
+]
