@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect, useCallback, useRef } from "react";
 import styles from "./tv2.module.css";
+import { showPromo } from "./cigWindow";
 
 /* -- TYPES -- */
 interface Item {
@@ -17,8 +18,6 @@ const CARD_CONFIG = [
   { id:"CIGARETTES",      title:"🚬 CIGARETTES",         accent:"#78350f", filter:(it:Item)=>it.category==="CIGARETTES", preset:"" },
   { id:"MAGIC",           title:"🍄 MAGIC & OTHERS",     accent:"#9333ea", filter:(it:Item)=>it.category==="MAGIC & OTHERS", preset:"🍫 START SMALL · WAIT 45 MIN · THEN MORE" },
 ];
-
-function isDaytime() { const h = new Date().getHours(); return h >= 10 && h < 17; }
 
 /* -- HELPERS -- */
 const fmtPrice = (v?:string) => { const s=String(v||"").trim(); if(!s)return""; return /^\$/.test(s)?s:"$"+s; };
@@ -184,12 +183,12 @@ export default function TV2Page() {
   const [items, setItems] = useState<Item[]>([]);
   const [highlights, setHighlights] = useState<Record<string,number>>({});
   const [lastUpdate, setLastUpdate] = useState("");
-  const [daytime, setDaytime] = useState(false);
+  const [showCigPromo, setShowCigPromo] = useState(false);
   const wrapRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    setDaytime(isDaytime());
-    const iv = setInterval(() => setDaytime(isDaytime()), 60_000);
+    setShowCigPromo(showPromo());
+    const iv = setInterval(() => setShowCigPromo(showPromo()), 60_000);
     return () => clearInterval(iv);
   }, []);
 
@@ -246,7 +245,7 @@ export default function TV2Page() {
             {CARD_CONFIG.map(card => {
               const filtered = items.filter(card.filter);
 
-              if (card.id === "CIGARETTES" && daytime) {
+              if (card.id === "CIGARETTES" && showCigPromo) {
                 return (
                   <div key={card.id} className={styles.card} style={{"--accent":card.accent} as React.CSSProperties}>
                     <div className={styles.cardHeader}>PROMO</div>
