@@ -77,7 +77,7 @@ const jsonLd = {
   name: "St Clair Cannabis",
   description: "Cannabis dispensary at 875 St Clair Ave W in Toronto, ON. Explore Exotic Weed, Premium Weed, AAA+ Weed, AA Weed and Budget Weed flower collections. Open 24 Hours.",
   url: "https://stclaircannabis.com",
-  telephone: "+14375953295",
+  telephone: "+14377832483",
   image: "https://stclaircannabis.com/wp-content/uploads/2026/04/7Clmh.jpg",
   priceRange: "$3 - $12/g",
   address: {

@@ -78,7 +78,7 @@ const LOCAL_FAQS = [
   },
   {
     q: "Where is St Clair Cannabis located?",
-    a: "We are located at 875 St Clair Ave W, Toronto, ON M6C 1C4. Visit us in person or call us at (437) 595-3295. Free evening street parking is available.",
+    a: "We are located at 875 St Clair Ave W, Toronto, ON M6C 1C4. Visit us in person or call us at (437) 783-2483. Free evening street parking is available.",
   },
   {
     q: "What is the cheapest weed at St Clair Cannabis?",

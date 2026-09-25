@@ -9,8 +9,8 @@ export const gbpLocation = {
   address: "875 St Clair Ave W, Toronto, ON M6C 1C4",
   streetAddress: "875 St Clair Ave W",
   postalCode: "M6C 1C4",
-  phone: "(437) 595-3295",
-  phoneIntl: "+14375953295",
+  phone: "(437) 783-2483",
+  phoneIntl: "+14377832483",
   neighborhood: "St. Clair / Toronto",
   nearbyAreas: ["St. Clair Avenue", "Wychwood", "Corso Italia", "Oakwood Village", "Hillcrest", "Casa Loma area", "TTC", "Midtown West"],
   products: [
