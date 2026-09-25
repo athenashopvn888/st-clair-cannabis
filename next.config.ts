@@ -1,6 +1,19 @@
+import { readFileSync } from "node:fs";
+import path from "node:path";
 import type { NextConfig } from "next";
 
+// Host-conditioned .ca → .com rules. Sources are slashless; Next's matcher
+// already accepts one trailing slash, so these fire in one hop.
+// skipTrailingSlashRedirect stops Next from 308-stripping /path/ before they
+// run. The /:path+/ rule below is the same permanent redirect Next inserts
+// when that flag is off, placed after the .ca rules so .com slash behaviour
+// stays the same and .ca URLs are not stripped first.
+const caHostRedirects = JSON.parse(
+  readFileSync(path.join(process.cwd(), "redirects/stc01-ca-host-redirects.json"), "utf8"),
+);
+
 const nextConfig: NextConfig = {
+  skipTrailingSlashRedirect: true,
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "stclaircannabis.com" },
@@ -10,6 +23,8 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      ...caHostRedirects,
+      { source: "/:path+/", destination: "/:path+", permanent: true },
       { source: "/blog", destination: "/", permanent: true },
       { source: "/blog/:path*", destination: "/", permanent: true },
       { source: "/exotic", destination: "/exotic-weed", permanent: true },

@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test:brand-isolation": "node scripts/check-stc-brand-isolation.mjs"
+    "test:brand-isolation": "node scripts/check-stc-brand-isolation.mjs",
+    "test:ca-redirects": "node scripts/check-stc01-ca-redirects.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.105.4",
