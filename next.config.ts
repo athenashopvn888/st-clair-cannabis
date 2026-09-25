@@ -24,6 +24,16 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       ...caHostRedirects,
+      // www → apex in one hop, including a trailing slash. Next treats the
+      // slash as optional and leaves it out of :path*, so /contact/ goes
+      // straight to the slashless apex URL. Query strings are preserved.
+      // Legacy paths (/blog, /exotic, …) continue through the rules below.
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www\\.stclaircannabis\\.com" }],
+        destination: "https://stclaircannabis.com/:path*",
+        permanent: true,
+      },
       { source: "/:path+/", destination: "/:path+", permanent: true },
       { source: "/blog", destination: "/", permanent: true },
       { source: "/blog/:path*", destination: "/", permanent: true },
