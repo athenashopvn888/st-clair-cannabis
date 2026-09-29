@@ -10,6 +10,7 @@
   color: #f8fafc;
   font-family: 'Outfit', system-ui, sans-serif;
   overflow-x: hidden;
+  padding-top: 102.4px;
   padding-bottom: 60px;
 }
 
@@ -911,3 +912,4 @@
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
+.homeMenuActions{display:grid;width:min(100%,380px);grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:16px}.homeMenuCta{display:inline-flex;min-height:52px;align-items:center;justify-content:center;padding:10px 12px;border:2px solid rgba(251,191,36,.85);border-radius:10px;color:#fff;background:rgba(15,23,42,.76);font-size:12px;font-weight:900;text-decoration:none}.homeMenuCta.homeMenuPrimary{color:#111827;background:linear-gradient(180deg,#fde68a,#fbbf24);border-color:#fbbf24}.homeMenuCta.homeVisitSecondary{color:#fff;background:#334155;border-color:#94a3b8}
