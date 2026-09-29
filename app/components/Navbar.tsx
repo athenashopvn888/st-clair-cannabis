@@ -25,6 +25,7 @@ const ALL_LINKS = [
 
 export default function Navbar() {
   const pathname = usePathname();
+  const isStoreMenuActive = ["/exotic-weed", "/premium-weed", "/aaa-weed", "/aa-weed", "/budget-weed"].includes(pathname);
 
   return (
     <nav className={styles.navbar} id="main-nav">
@@ -44,6 +45,10 @@ export default function Navbar() {
           </span>
         </Link>
         <div className={styles.topBarRight}>
+          <div className={styles.menuChoices} aria-label="Choose a store action">
+            <Link href="/exotic-weed" className={`${styles.menuChoice} ${isStoreMenuActive ? styles.menuChoiceActive : ""}`}>STORE MENU</Link>
+            <Link href="/#visit" className={`${styles.menuChoice} ${styles.visitMenuChoice}`}>Visit / Hours</Link>
+          </div>
           <Link href="/games" className={styles.gamesBtn}>
             🎮 Play Games
           </Link>

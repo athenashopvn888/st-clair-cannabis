@@ -4,9 +4,11 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import styles from "./page.module.css";
 import Navbar from "./components/Navbar";
+import HomeVisitSection from "./components/HomeVisitSection";
 import Footer from "./components/Footer";
 import FlowerCard from "./components/FlowerCard";
 import { allFlowers } from "./lib/products";
+import { HOME_TITLE } from "./lib/homeStorefront";
 
 /* ── Bento Mosaic Config ── */
 const BENTO_TIERS = [
@@ -210,9 +212,13 @@ export default function HomePage() {
           {/* Brand branding */}
           <div className={styles.brandBlock}>
             <img src="/storeFavicon.webp" alt="St Clair Cannabis Icon" style={{ height: "60px", width: "60px", objectFit: "contain", borderRadius: "8px", marginBottom: "8px" }} />
-            <h1 className={styles.brandTitle}>ST CLAIR CANNABIS</h1>
+            <h1 className={styles.brandTitle}>{HOME_TITLE}</h1>
             <p className={styles.brandSub}>Premium Cannabis Dispensary</p>
             <div className={styles.brandBadge}>Open 24 Hours</div>
+            <div className={styles.homeMenuActions}>
+              <Link href="/exotic-weed" className={`${styles.homeMenuCta} ${styles.homeMenuPrimary}`}>STORE MENU</Link>
+              <Link href="/#contact" className={`${styles.homeMenuCta} ${styles.homeVisitSecondary}`}>Visit / Hours</Link>
+            </div>
           </div>
 
           {/* Bento Grid */}
@@ -237,6 +243,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <HomeVisitSection />
 
       {/* ── EXPLORE CATEGORIES ── */}
       <section className={styles.categoriesSection} id="menu">

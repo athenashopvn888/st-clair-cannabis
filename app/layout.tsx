@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import AgeGate from "./components/AgeGate";
+import { HOME_TITLE } from "./lib/homeStorefront";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://stclaircannabis.com"),
   title: {
-    default: "St Clair Cannabis — Premium Cannabis Dispensary, Toronto",
+    default: HOME_TITLE,
     template: "%s | St Clair Cannabis",
   },
   description:
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
     locale: "en_CA",
     url: "https://stclaircannabis.com",
     siteName: "St Clair Cannabis",
-    title: "St Clair Cannabis — Premium Toronto Cannabis Dispensary",
+    title: HOME_TITLE,
     description:
       "Explore five Weed flower collections at St Clair Cannabis in Toronto. Open 24 Hours.",
     images: [
@@ -45,7 +46,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "St Clair Cannabis — Toronto's Uplifting Dispensary",
+    title: HOME_TITLE,
     description: "200+ strains from $3/g. Open 24 Hours at 875 St Clair Ave W, Toronto.",
     images: ["https://stclaircannabis.com/wp-content/uploads/2026/04/46Oi5.jpg"],
   },
