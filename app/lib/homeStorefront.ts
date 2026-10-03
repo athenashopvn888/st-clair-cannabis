@@ -6,10 +6,12 @@ export const HOME_VISIT_PARAGRAPHS = [
   "This pass does not add a weed-delivery promise or an order-now claim. Adults 19+ should bring valid government-issued photo ID for a walk-in.",
 ] as const;
 export const HOME_VISIT_CARDS = [
-  { href: "/contact", title: "Contact St Clair Cannabis", text: "Open the existing contact page for store information." },
-  { href: "/faq", title: "Store FAQ", text: "Read the current St Clair Cannabis store answers." },
-  { href: "/weed-dispensary-toronto", title: "Dispensary guide", text: "Review the existing dispensary information page." },
-  { href: "/exotic-weed", title: "Browse Exotic Weed", text: "Start with the existing top flower tier menu." },
+  { href: "/weed-dispensary-st-clair-west", title: "St Clair West Dispensary", text: "Local walk-in context for Wychwood, Corso Italia, Oakwood Village, and Hillcrest." },
+  { href: "/24-hour-dispensary-st-clair-west", title: "24-Hour Store Guide", text: "Use the hours-specific guide for late-night or early-morning visit planning." },
+  { href: "/native-cigarettes-st-clair-west", title: "Native Cigarettes", text: "Open the adult tobacco guide, then check today’s cigarette board." },
+  { href: "/nicotine-vape-st-clair-west", title: "Nicotine Vape", text: "Browse nicotine devices separately from the THC vape shelf." },
+  { href: "/guides", title: "Name Guides", text: "Compare current strain, cigarette, nicotine-vape, and THC-vape names." },
+  { href: "/exotic-weed", title: "Top Weed Tiers", text: "Start with Exotic Weed, then compare Premium Weed and AAA+ Weed." },
 ] as const;
 export const HOME_VISIT_FAQS = [
   { q: "Where is St Clair Cannabis?", a: "St Clair Cannabis is at 875 St Clair Ave W in St Clair West, Toronto." },

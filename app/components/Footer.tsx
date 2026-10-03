@@ -50,6 +50,12 @@ export default function Footer() {
               <Link href="/aa-weed">AA Weed</Link>
               <Link href="/budget-weed">Budget Weed</Link>
               <Link href="/resources/weed-flower-guide">Weed &amp; Flower Guide</Link>
+              <Link href="/resources">Resources</Link>
+              <Link href="/guides">Guides</Link>
+              <Link href="/visit">Plan a Visit</Link>
+              <Link href="/24-hour-dispensary-st-clair-west">24-Hour Dispensary Guide</Link>
+              <Link href="/native-cigarettes-st-clair-west">Native Cigarettes</Link>
+              <Link href="/nicotine-vape-st-clair-west">Nicotine Vape</Link>
               <Link href="/items/edibles">Edibles</Link>
               <Link href="/items/cigarettes">Cigarettes</Link>
               <Link href="/items/vapes">Nicotine Vape</Link>

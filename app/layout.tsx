@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "vapes",
     "pre-rolls",
     "native cigarettes Toronto",
-    "weed store Mississauga",
+    "weed store St Clair West",
   ],
   openGraph: {
     type: "website",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: HOME_TITLE,
-    description: "200+ strains from $3/g. Open 24 Hours at 875 St Clair Ave W, Toronto.",
+    description: "Browse the St Clair West menu and plan a walk-in at 875 St Clair Ave W, Toronto. Open 24 Hours.",
     images: ["https://stclaircannabis.com/wp-content/uploads/2026/04/46Oi5.jpg"],
   },
   robots: {
@@ -74,13 +74,12 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Store",
   additionalType: "https://schema.org/Store",
-  "@id": "https://stclaircannabis.com",
+  "@id": "https://stclaircannabis.com/#store",
   name: "St Clair Cannabis",
   description: "Cannabis dispensary at 875 St Clair Ave W in Toronto, ON. Explore Exotic Weed, Premium Weed, AAA+ Weed, AA Weed and Budget Weed flower collections. Open 24 Hours.",
   url: "https://stclaircannabis.com",
   telephone: "+14377832483",
   image: "https://stclaircannabis.com/wp-content/uploads/2026/04/7Clmh.jpg",
-  priceRange: "$3 - $12/g",
   address: {
     "@type": "PostalAddress",
     streetAddress: "875 St Clair Ave W",
@@ -110,15 +109,18 @@ const jsonLd = {
     "closes": "23:59"
   }
 ],
-  sameAs: [
-    "https://stclaircannabis.com/",
-    "https://stclaircannabis.com/",
-  ],
-  hasMap: "https://stclaircannabis.com/",
   areaServed: {
     "@type": "City",
     name: "Toronto",
   },
+};
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://stclaircannabis.com/#website",
+  url: "https://stclaircannabis.com",
+  name: "St Clair Cannabis",
+  publisher: { "@id": "https://stclaircannabis.com/#store" },
 };
 
 export default function RootLayout({
@@ -142,6 +144,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-TNWC4CGQ1M"></script>
         <script
