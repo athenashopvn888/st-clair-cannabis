@@ -63,11 +63,8 @@ export default function Footer() {
               <Link href="/faq">FAQ</Link>
               <Link href="/delivery">Delivery (Coming Soon)</Link>
               <Link href="/games">Games Arcade</Link>
-              <Link href="/info/york-weed-dispensary">Toronto Dispensary</Link>
-              <Link href="/info/cheap-weed-york">Cheap Weed Toronto</Link>
-              <Link href="/info/native-cigarettes-york">Native Cigarettes</Link>
-              <Link href="/info/weed-store-near-mississauga">Weed Store Near Mississauga</Link>
-              <Link href="/weed-dispensary-toronto/">St Clair Cannabis Weed Dispensary in Toronto</Link>
+              <Link href="/weed-dispensary-st-clair-west">St Clair West Dispensary</Link>
+              <Link href="/24-hour-dispensary-st-clair-west">Open 24 Hours</Link>
               <Link href="/contact">Contact Us</Link>
               <a
                 href="https://stclaircannabis.com/"

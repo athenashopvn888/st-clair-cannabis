@@ -38,8 +38,7 @@ export default function NotFound() {
             lineHeight: 1.6,
           }}
         >
-          This page doesn&apos;t exist — but our shelves are fully stocked.
-          Browse 200+ strains at Toronto&apos;s most fire dispensary.
+          This page doesn&apos;t exist. Browse the current flower and item boards at St Clair Cannabis.
         </p>
         <div style={{ display: "flex", gap: 12, flexWrap: "wrap", justifyContent: "center" }}>
           <Link

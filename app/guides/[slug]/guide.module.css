@@ -16,6 +16,12 @@
 .tldr li, .section p, .finalCta p, .faqs p { color: #46534b; line-height: 1.75; }
 .section p { margin: 0 0 16px; }
 .section a { color: #176a38; font-weight: 700; }
+.body h2 { margin: 34px 0 14px; font-size: clamp(1.35rem, 3vw, 2rem); letter-spacing: -.02em; }
+.body h2:first-child { margin-top: 0; }
+.body h3 { margin: 22px 0 8px; font-size: 1.08rem; }
+.body p { margin: 0 0 16px; color: #46534b; line-height: 1.75; }
+.body ul { display: grid; gap: 10px; margin: 0 0 22px; padding-left: 22px; color: #46534b; line-height: 1.7; }
+.body a { color: #176a38; font-weight: 750; }
 .related { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 20px; }
 .related a { display: flex; flex-direction: column; gap: 4px; padding: 16px; border: 1px solid #dbe7df; border-radius: 14px; background: #f8faf9; text-decoration: none; }
 .related span { color: #6b776f; font-size: .8rem; font-weight: 600; }

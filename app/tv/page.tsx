@@ -676,7 +676,7 @@ function AddOnsCard({ items, hiIdx }: { items: Item[]; hiIdx: number }) {
    ============================================================ */
 const TICKER_SLIDES = [
   "🔥 St Clair Cannabis — 875 St Clair Ave W, Toronto",
-  "200+ Strains In Stock",
+  "Current Flower Board",
   "Open 24 Hours",
   "ALL SALES ARE FINAL",
   "🎮 Play Games at stclaircannabis.com/games",

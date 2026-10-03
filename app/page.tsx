@@ -421,7 +421,7 @@ export default function HomePage() {
               <p className={styles.storeCardText}>
                 No appointment needed
                 <br />
-                <span className={styles.storeHighlight}>875 St Clair Ave W & Nearby Expressway, Toronto</span>
+                <span className={styles.storeHighlight}>St Clair West, Toronto</span>
               </p>
             </div>
           </div>
