@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { TIER_CONFIG, CATEGORY_CONFIG, allFlowers, allItems } from "./lib/products";
 import { SEO_PAGES } from "./lib/seoPages";
+import { GUIDE_REGISTRY } from "./lib/guideRegistry";
 
 const BASE = "https://stclaircannabis.com";
 
@@ -14,6 +15,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/faq`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/delivery`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE}/resources/weed-flower-guide`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/resources`, lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE}/guides`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE}/visit`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE}/weed-dispensary-st-clair-west`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE}/24-hour-dispensary-st-clair-west`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE}/native-cigarettes-st-clair-west`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE}/nicotine-vape-st-clair-west`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/games`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
   ];
 
@@ -57,5 +65,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...tierPages, ...itemPages, ...flowerPages, ...itemDetailPages, ...seoPages];
+  const guidePages: MetadataRoute.Sitemap = GUIDE_REGISTRY.map((guide) => ({
+    url: `${BASE}/guides/${guide.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.65,
+  }));
+
+  return [...staticPages, ...tierPages, ...itemPages, ...flowerPages, ...itemDetailPages, ...seoPages, ...guidePages];
 }

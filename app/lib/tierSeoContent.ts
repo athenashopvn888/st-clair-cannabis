@@ -9,12 +9,12 @@ export interface TierSeoData {
 
 function tierCopy(name: string): TierSeoData {
   return {
-    seoTitle: `${name} & Cannabis Flower Toronto | St Clair Cannabis`,
-    seoIntro: `Explore the ${name} flower collection presented by St Clair Cannabis. Use the current menu details shown with each selection while you browse.`,
+    seoTitle: `${name} in St Clair West | St Clair Cannabis`,
+    seoIntro: `Explore the ${name} flower collection at St Clair Cannabis on St Clair Avenue West. Use the current menu details shown with each selection while you browse.`,
     sections: [
       {
-        heading: `Browse ${name} in Toronto`,
-        body: `${name} is one of five Weed flower collections at St Clair Cannabis. Compare the selections currently presented in this collection with Exotic Weed, Premium Weed, AAA+ Weed, AA Weed and Budget Weed.`,
+        heading: `Browse ${name} in St Clair West`,
+        body: `${name} is one of five Weed flower collections at St Clair Cannabis near Wychwood and Corso Italia. Compare the selections currently presented in this collection with Exotic Weed, Premium Weed, AAA+ Weed, AA Weed and Budget Weed.`,
       },
       {
         heading: "Choose from the current menu",

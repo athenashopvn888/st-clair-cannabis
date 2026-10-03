@@ -12,6 +12,10 @@ import {
 } from "../lib/products";
 import { TIER_SEO } from "../lib/tierSeoContent";
 import styles from "./tier.module.css";
+import FlowerBogoStrip from "../components/FlowerBogoStrip";
+import { buildTierCollectionJsonLd } from "../lib/tierStructuredData";
+import Link from "next/link";
+import { getTierGuideLinks } from "../lib/guideRegistry";
 
 /* -- Generate all tier pages at build -- */
 export function generateStaticParams() {
@@ -58,6 +62,14 @@ export default async function TierPage({
   const flowers = getFlowersByTier(tierInfo.key);
   const { config } = tierInfo;
   const seo = TIER_SEO[tierInfo.key];
+  const canonicalPath = `/${tierSlug}`;
+  const collectionJsonLd = buildTierCollectionJsonLd({
+    canonicalPath,
+    name: `${config.name} at St Clair Cannabis`,
+    description: seo?.seoIntro || `Browse the ${config.name} flower collection at St Clair Cannabis in St Clair West.`,
+    flowers,
+  });
+  const guideLinks = getTierGuideLinks(canonicalPath);
 
   const saleFlowers = flowers.filter((f) => f.isSale);
   const regularFlowers = flowers.filter((f) => !f.isSale);
@@ -70,7 +82,9 @@ export default async function TierPage({
 
   return (
     <main className={styles.main}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd).replace(/</g, "\\u003c") }} />
       <Navbar />
+      <FlowerBogoStrip />
 
       {/* ── Banner Image (standalone, no overlay text) ── */}
       {bannerExists && (
@@ -210,6 +224,8 @@ export default async function TierPage({
           </div>
         </section>
       )}
+
+      {guideLinks.length > 0 && <nav className="guide-link-strip" aria-label={`${config.name} name guides`}><strong>{config.name} guides</strong>{guideLinks.map((guide)=><Link key={guide.slug} href={`/guides/${guide.slug}`}>{guide.name}</Link>)}</nav>}
 
       <Footer />
     </main>

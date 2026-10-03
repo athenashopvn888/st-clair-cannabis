@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import FlowerCard from "./components/FlowerCard";
 import { allFlowers } from "./lib/products";
 import { HOME_TITLE } from "./lib/homeStorefront";
+import FleetAnnouncementBanner from "./components/FleetAnnouncementBanner";
 
 /* ── Bento Mosaic Config ── */
 const BENTO_TIERS = [
@@ -201,6 +202,7 @@ export default function HomePage() {
     <main className={styles.main}>
       {/* ── NAVBAR ── */}
       <Navbar />
+      <FleetAnnouncementBanner />
 
       {/* ── BENTO MOSAIC HERO ── */}
       <section className={styles.hero}>
@@ -285,7 +287,7 @@ export default function HomePage() {
           <div className={styles.sectionHeader}>
             <h2 className={styles.sectionTitle}>Featured Strains</h2>
             <p className={styles.sectionSubtitle}>
-              Staff picks and top sellers dynamically updated from our real-time stock sheet.
+              A rotating look at current menu-file entries. Open each product page and check today&apos;s board before travelling.
             </p>
           </div>
 
@@ -303,15 +305,15 @@ export default function HomePage() {
       <section className={styles.seoSection}>
         <div className={styles.container}>
           <div className={styles.seoPanel}>
-            <h2 className={styles.seoPanelTitle}>875 St Clair Ave W & Nearby Expressway's Premier Cannabis Dispensary — Open 24 Hours</h2>
+            <h2 className={styles.seoPanelTitle}>St Clair West Cannabis Dispensary at 875 St Clair Ave W — Open 24 Hours</h2>
             <p className={styles.seoPanelText}>
-              Welcome to <strong>St Clair Cannabis</strong>, Toronto's premier cannabis destination at 875 St Clair Ave W. We carry an electrifying selection of top-shelf strains — from ultra-rare exotics to solid everyday budget picks.
+              <strong>St Clair Cannabis</strong> is the walk-in cannabis dispensary at 875 St Clair Ave W, near Wychwood, Corso Italia, Oakwood Village, and Hillcrest. Browse five flower collections from Exotic Weed through Budget Weed, then use the current product page for published details.
             </p>
             <p className={styles.seoPanelText}>
-              Open 24 Hours — St Clair Cannabis is here to serve you. Our live menu is constantly refreshed with the freshest drops, premium prerolls, artisan edibles, and everything in between. Whether you're winding down or stocking up for the weekend, our knowledgeable staff can help 24 hours a day.
+              The site posts Open 24 Hours. Use the dedicated 24-hour guide to plan a late-night or early-morning walk-in, and check the homepage for any temporary notice before travelling. Adults 19+ should bring valid government-issued photo ID.
             </p>
             <p className={styles.seoPanelText}>
-              Searching for a cannabis dispensary in Toronto or the surrounding area? St Clair Cannabis is your go-to destination for premium flower, potent prerolls, and artisan edibles. Our six-tier pricing system means quality cannabis at every budget level — starting from just $3/g.
+              The menu keeps flower, Native Cigarettes, Nicotine Vape, and THC Vape in clearly labelled lanes. Use the Resource Centre and name guides for background, then move to today&apos;s category board for the current listing. Nicotine is addictive; nicotine products are kept separate from THC vape products.
             </p>
           </div>
         </div>
