@@ -44,7 +44,7 @@ export async function generateMetadata({
     },
     openGraph: {
       title: `${tierInfo.config.name} Flower | St Clair Cannabis`,
-      description: `${flowers.length} curated ${tierInfo.config.name.toLowerCase()} strains in stock now. From $${tierInfo.config.unitPrice}/g.`,
+      description: `Browse the current ${tierInfo.config.name.toLowerCase()} flower board at St Clair Cannabis in St Clair West.`,
     },
   };
 }

@@ -42,7 +42,7 @@ export default function ContactPage() {
                 <br />
                 Toronto, ON M6C 1C4
                 <br />
-                <span className={styles.infoMuted}>875 St Clair Ave W & Nearby Expressway</span>
+                <span className={styles.infoMuted}>St Clair West, Toronto</span>
               </p>
             </div>
 
@@ -79,7 +79,7 @@ export default function ContactPage() {
               <div className={styles.featureList}>
                 <div className={styles.featureItem}>
                   <span className={styles.featureCheck}>✓</span>
-                  200+ strains in stock
+                  Browse the current flower board
                 </div>
                 <div className={styles.featureItem}>
                   <span className={styles.featureCheck}>✓</span>
