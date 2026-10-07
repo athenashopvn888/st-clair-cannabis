@@ -80,9 +80,17 @@
   height: auto;
   min-height: 0;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   grid-template-rows: repeat(2, minmax(0, 1fr));
   gap: 48px;
+}
+
+.grid > .card {
+  grid-column: span 2;
+}
+
+.grid > .card:nth-child(n + 4) {
+  grid-column: span 3;
 }
 
 /* ── CARD ── */
