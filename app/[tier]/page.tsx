@@ -16,6 +16,9 @@ import FlowerBogoStrip from "../components/FlowerBogoStrip";
 import { buildTierCollectionJsonLd } from "../lib/tierStructuredData";
 import Link from "next/link";
 import { getTierGuideLinks } from "../lib/guideRegistry";
+import { getResolvedProducts } from "../lib/resolvedProducts";
+
+export const revalidate = 300;
 
 /* -- Generate all tier pages at build -- */
 export function generateStaticParams() {
@@ -31,7 +34,8 @@ export async function generateMetadata({
   const { tier: tierSlug } = await params;
   const tierInfo = getTierFromSlug(tierSlug);
   if (!tierInfo) return {};
-  const flowers = getFlowersByTier(tierInfo.key);
+  const { flowers: resolvedFlowers } = await getResolvedProducts();
+  const flowers = getFlowersByTier(tierInfo.key, resolvedFlowers);
   const seo = TIER_SEO[tierInfo.key];
 
   return {
@@ -59,7 +63,8 @@ export default async function TierPage({
   const tierInfo = getTierFromSlug(tierSlug);
   if (!tierInfo) notFound();
 
-  const flowers = getFlowersByTier(tierInfo.key);
+  const { flowers: resolvedFlowers } = await getResolvedProducts();
+  const flowers = getFlowersByTier(tierInfo.key, resolvedFlowers);
   const { config } = tierInfo;
   const seo = TIER_SEO[tierInfo.key];
   const canonicalPath = `/${tierSlug}`;

@@ -10,7 +10,7 @@
     "lint": "eslint",
     "test:brand-isolation": "node scripts/check-stc-brand-isolation.mjs",
     "test:ca-redirects": "node scripts/check-stc01-ca-redirects.mjs",
-    "test:cig-window": "node --experimental-strip-types scripts/check-tv2-cig-window.mjs"
+    "test:tv-policy": "node scripts/check-tv-tobacco-free.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.105.4",
