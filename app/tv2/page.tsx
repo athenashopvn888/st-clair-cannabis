@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect, useCallback, useRef } from "react";
 import styles from "./tv2.module.css";
-import { showPromo } from "./cigWindow";
 import HiringRibbon from "../components/HiringRibbon";
 import TvStoreHeader from "../components/TvStoreHeader";
 import { tvHiring } from "../lib/tvHiring";
@@ -19,7 +18,6 @@ const CARD_CONFIG = [
   { id:"VAPES",           title:"💨 VAPES",              accent:"#0284c7", filter:(it:Item)=>["VAPE PENS","VAPE DISPOSABLE"].includes(it.category), preset:"💨 1–2 PUFFS · WAIT 2–3 MIN · REPEAT" },
   { id:"EDIBLES",         title:"🍬 EDIBLES",            accent:"#7c3aed", filter:(it:Item)=>it.category==="EDIBLES", preset:"🍬 START SMALL · WAIT 45 MIN · THEN MORE" },
   { id:"CONCENTRATES",    title:"⚗️ CONCENTRATES",       accent:"#b45309", filter:(it:Item)=>it.category==="CONCENTRATES", preset:"⚠️ VERY STRONG · TINY AMOUNT · WAIT 10–15 MIN" },
-  { id:"CIGARETTES",      title:"🚬 CIGARETTES",         accent:"#78350f", filter:(it:Item)=>it.category==="CIGARETTES", preset:"" },
   { id:"MAGIC",           title:"🍄 MAGIC & OTHERS",     accent:"#9333ea", filter:(it:Item)=>it.category==="MAGIC & OTHERS", preset:"🍫 START SMALL · WAIT 45 MIN · THEN MORE" },
 ];
 
@@ -188,14 +186,7 @@ export default function TV2Page() {
   const [highlights, setHighlights] = useState<Record<string,number>>({});
   const [lastUpdate, setLastUpdate] = useState("");
   const [stockUpdated, setStockUpdated] = useState<string | null>(null);
-  const [showCigPromo, setShowCigPromo] = useState(false);
   const wrapRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    setShowCigPromo(showPromo());
-    const iv = setInterval(() => setShowCigPromo(showPromo()), 60_000);
-    return () => clearInterval(iv);
-  }, []);
 
   const loadData = useCallback(async () => {
     try {
@@ -220,10 +211,17 @@ export default function TV2Page() {
   }, []);
 
   useEffect(() => {
-    loadData(); fitToScreen();
+    const frame = window.requestAnimationFrame(() => {
+      loadData();
+      fitToScreen();
+    });
     window.addEventListener("resize", fitToScreen);
     const refresh = setInterval(loadData, 5*60*1000);
-    return () => { window.removeEventListener("resize", fitToScreen); clearInterval(refresh); };
+    return () => {
+      window.cancelAnimationFrame(frame);
+      window.removeEventListener("resize", fitToScreen);
+      clearInterval(refresh);
+    };
   }, [loadData, fitToScreen]);
 
   useEffect(() => {
@@ -252,24 +250,6 @@ export default function TV2Page() {
           <div className={styles.grid}>
             {CARD_CONFIG.map(card => {
               const filtered = items.filter(card.filter);
-
-              if (card.id === "CIGARETTES" && showCigPromo) {
-                return (
-                  <div key={card.id} className={styles.card} style={{"--accent":card.accent} as React.CSSProperties}>
-                    <div className={styles.cardHeader}>PROMO</div>
-                    <div className={styles.promoMain}>
-                      <div className={styles.promoViewport}>
-                        <img
-                          className={`${styles.promoImg} ${styles.promoActive}`}
-                          src="/banners/cig-poster-1.png"
-                          alt="Cigarettes Promo"
-                          referrerPolicy="no-referrer"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                );
-              }
 
               return (
                 <ItemCard key={card.id} title={card.title} accent={card.accent}
