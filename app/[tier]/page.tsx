@@ -18,7 +18,7 @@ import Link from "next/link";
 import { getTierGuideLinks } from "../lib/guideRegistry";
 import { getResolvedProducts } from "../lib/resolvedProducts";
 
-export const revalidate = 300;
+export const dynamic = "force-dynamic";
 
 /* -- Generate all tier pages at build -- */
 export function generateStaticParams() {
