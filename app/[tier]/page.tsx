@@ -89,6 +89,23 @@ export default async function TierPage({
     <main className={styles.main}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd).replace(/</g, "\\u003c") }} />
       <Navbar />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "@id": `https://stclaircannabis.com/${tierInfo.config.slug}#collection`,
+            url: `https://stclaircannabis.com/${tierInfo.config.slug}`,
+            name: `${tierInfo.config.name} flower | St Clair Cannabis`,
+            mainEntity: {
+              "@type": "ItemList",
+              numberOfItems: flowers.length,
+              itemListElement: flowers.map((f, i) => ({ "@type": "ListItem", position: i + 1, name: f.name, url: `https://stclaircannabis.com/flower/${f.slug}` })),
+            },
+          }),
+        }}
+      />
       <FlowerBogoStrip />
 
       {/* ── Banner Image (standalone, no overlay text) ── */}
