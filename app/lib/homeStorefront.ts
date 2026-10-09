@@ -21,3 +21,6 @@ export const HOME_VISIT_FAQS = [
   { q: "Can I walk in without an appointment?", a: "The existing homepage says no appointment is needed for the walk-in." },
   { q: "Does this homepage promise weed delivery?", a: "No. This St Clair pass is limited to dispensary, visit, hours, and existing menu information." },
 ] as const;
+
+// Document <title>/og/twitter: exact Google name | area. H1 keeps HOME_TITLE (previous keyword text).
+export const HOME_DOC_TITLE = "St Clair Cannabis Dispensary Weed Delivery | St Clair West";
