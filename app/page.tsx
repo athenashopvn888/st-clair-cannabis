@@ -10,6 +10,8 @@ import FlowerCard from "./components/FlowerCard";
 import { HOME_TITLE } from "./lib/homeStorefront";
 import FleetAnnouncementBanner from "./components/FleetAnnouncementBanner";
 import { useLiveFlowers } from "./lib/useLiveMenu";
+import NearMeFaq from "./components/NearMeFaq";
+import nearMeFaq from "./lib/nearMeFaq.json";
 
 /* ── Bento Mosaic Config ── */
 const BENTO_TIERS = [
@@ -435,6 +437,7 @@ export default function HomePage() {
       </section>
 
       {/* ── FOOTER ── */}
+      <NearMeFaq id="local-near-me" q={nearMeFaq.home.q} a={nearMeFaq.home.a} />
       <Footer />
     </main>
   );
