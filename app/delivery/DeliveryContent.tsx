@@ -4,6 +4,8 @@ import { useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import styles from "./delivery.module.css";
+import NearMeFaq from "../components/NearMeFaq";
+import nearMeFaq from "../lib/nearMeFaq.json";
 
 export default function DeliveryContent() {
   const [email, setEmail] = useState("");
@@ -105,6 +107,7 @@ export default function DeliveryContent() {
           </p>
         </div>
       </div>
+      <NearMeFaq id="delivery-near-me" q={nearMeFaq.delivery.q} a={nearMeFaq.delivery.a} />
       <Footer />
     </main>
   );
