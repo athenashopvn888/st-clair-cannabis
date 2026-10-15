@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect, useCallback, useRef } from "react";
 import styles from "./tv2.module.css";
+import { hideNicotineNow, isNicotineVape } from "./nicotineWindow";
 import HiringRibbon from "../components/HiringRibbon";
 import TvStoreHeader from "../components/TvStoreHeader";
 import { tvHiring } from "../lib/tvHiring";
@@ -182,6 +183,13 @@ export default function TV2Page() {
       })
       .catch(err => console.warn("[BG] Load failed:", err));
   }, []);
+  const [dayQuiet, setDayQuiet] = useState(false);
+  useEffect(() => {
+    const sync = () => setDayQuiet(hideNicotineNow());
+    sync();
+    const t = setInterval(sync, 30_000);
+    return () => clearInterval(t);
+  }, []);
   const [items, setItems] = useState<Item[]>([]);
   const [highlights, setHighlights] = useState<Record<string,number>>({});
   const [lastUpdate, setLastUpdate] = useState("");
@@ -249,7 +257,7 @@ export default function TV2Page() {
           <HiringRibbon hiring={tvHiring} />
           <div className={styles.grid}>
             {CARD_CONFIG.map(card => {
-              const filtered = items.filter(card.filter);
+              const filtered = items.filter(card.filter).filter(it => !(dayQuiet && isNicotineVape(it)));
 
               return (
                 <ItemCard key={card.id} title={card.title} accent={card.accent}

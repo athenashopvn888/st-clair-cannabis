@@ -1,3 +1,4 @@
+import CigaretteSeasonalNotice from "./CigaretteSeasonalNotice";
 import Link from "next/link";
 import FlowerBogoStrip from "./FlowerBogoStrip";
 
@@ -17,6 +18,7 @@ export default function FleetAnnouncementBanner() {
         <img src="/banners/st-clair-vapes-nicotine-thc.webp" alt="Nicotine vapes and THC vapes at St Clair Cannabis Dispensary in St Clair West. Adults 19+." title="St Clair Cannabis nicotine vapes and THC vapes" />
       </Link>
       <p data-top-tier-lanes="" data-vape-banner-bar="">NICOTINE VAPES + THC VAPES</p>
+      <CigaretteSeasonalNotice />
       <p data-cigarette-deal="">CIGARETTE DEAL ! 2 PACK $5 MIX AND MATCH</p>
       <p data-bb-light-deal="">EXCLUSIVE SPECIAL PREMIUM GRADE BB FULL, BB LIGHT &amp; BELMONT KING SIZE!</p>
       <Link href="/items/cigarettes" data-cig-mix-banner="" aria-label="Shop cigarette mix-and-match deals">

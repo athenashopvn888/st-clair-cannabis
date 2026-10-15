@@ -1,3 +1,4 @@
+import CigaretteSeasonalNotice from "./CigaretteSeasonalNotice";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "./Navbar";
@@ -32,7 +33,7 @@ export default function LocalIntentPage({path,kind}:{path:string;kind:LocalKind}
     {"@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:"Home",item:STC.base},{"@type":"ListItem",position:2,name:c.title,item:canonical}]},
     {"@type":"FAQPage",mainEntity:faqs.map(f=>({"@type":"Question",name:f.q,acceptedAnswer:{"@type":"Answer",text:f.a}}))},
   ]};
-  return <><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(graph).replace(/</g,"\\u003c")}}/><Navbar/><main className={styles.main}>
+  return <><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(graph).replace(/</g,"\\u003c")}}/><Navbar/>{kind==="cigarettes"&&<CigaretteSeasonalNotice sticky />}<main className={styles.main}>
     <section className={styles.hero}><p className={styles.eyebrow}>{c.eyebrow}</p><h1>{c.title}</h1><p className={styles.lede}>{c.intro}</p></section>
     <section className={styles.nap}><h2>Store details</h2><p><strong>{STC.name}</strong><br/>{STC.address}<br/><a href={STC.tel}>{STC.phone}</a><br/>{STC.hours}</p><div className={styles.actions}><Link href={c.category}>Open the {c.categoryLabel}</Link><Link href="/guides">Browse name guides</Link><Link href="/visit">Plan a visit</Link></div></section>
     <section><h2>{c.title}: the correct St Clair West lane</h2><p>{c.distinction} This route is written for the St Clair Avenue West corridor and the nearby Wychwood, Corso Italia, Oakwood Village, and Hillcrest areas already documented by the store. It does not invent a second address, delivery zone, product, or availability claim.</p><p>The homepage remains the main store hub. Use this page for local context, then use the linked category for what the website currently publishes. If one exact item is the reason for the trip, open its item page immediately before travelling or call {STC.phone}.</p></section>
