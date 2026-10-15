@@ -2,6 +2,7 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import styles from "./tv2.module.css";
 import { hideNicotineNow, isNicotineVape } from "./nicotineWindow";
+import { NightBoardCard, NightBoardTicker, useNightWindow } from "../components/TvNightBoard";
 import HiringRibbon from "../components/HiringRibbon";
 import TvStoreHeader from "../components/TvStoreHeader";
 import { tvHiring } from "../lib/tvHiring";
@@ -183,6 +184,7 @@ export default function TV2Page() {
       })
       .catch(err => console.warn("[BG] Load failed:", err));
   }, []);
+  const night = useNightWindow();
   const [dayQuiet, setDayQuiet] = useState(false);
   useEffect(() => {
     const sync = () => setDayQuiet(hideNicotineNow());
@@ -255,7 +257,7 @@ export default function TV2Page() {
         {/* GRID */}
         <div className={styles.stage}>
           <HiringRibbon hiring={tvHiring} />
-          <div className={styles.grid}>
+          <div className={`${styles.grid} ${styles.grid6}`}>
             {CARD_CONFIG.map(card => {
               const filtered = items.filter(card.filter).filter(it => !(dayQuiet && isNicotineVape(it)));
 
@@ -264,10 +266,12 @@ export default function TV2Page() {
                   items={filtered} hiIdx={highlights[card.id]||0} preset={card.preset} />
               );
             })}
+            <NightBoardCard night={night} />
           </div>
         </div>
         
       </div>
+      <NightBoardTicker night={night} />
       {lastUpdate ? <div className={styles.lastUpdated}>Refreshed {lastUpdate}</div> : null}
     </div>
   );

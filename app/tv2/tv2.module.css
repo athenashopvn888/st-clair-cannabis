@@ -473,3 +473,10 @@
   padding: 6px 10px;
   font-size: 20px;
 }
+
+/* 6 cards (night price card / day promo added): 3 per row. */
+.grid.grid6 > .card { grid-column: span 2; }
+.nightList { flex: 1 1 auto; display: flex; flex-direction: column; justify-content: space-evenly; padding: 18px 22px; gap: 10px; }
+.nightRow { display: flex; justify-content: space-between; align-items: baseline; gap: 14px; font-size: 30px; font-weight: 800; color: #111; border-bottom: 2px dashed #e5e7eb; padding-bottom: 8px; }
+.nightRow b { color: #4d1769; font-weight: 900; white-space: nowrap; }
+.dayPromoImg { flex: 1 1 auto; min-height: 0; width: 100%; object-fit: contain; border-radius: 0 0 16px 16px; background: #0b0b0b; }
