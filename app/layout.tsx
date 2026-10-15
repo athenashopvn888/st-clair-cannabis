@@ -1,3 +1,4 @@
+import PinnedNavClearance from "./components/PinnedNavClearance";
 import type { Metadata } from "next";
 import "./globals.css";
 import AgeGate from "./components/AgeGate";
@@ -163,6 +164,7 @@ export default function RootLayout({
       </head>
       <body>
         {children}
+        <PinnedNavClearance />
         <AgeGate />
       </body>
     </html>
