@@ -1,4 +1,5 @@
 "use client";
+import { FULL_NAME_NAP } from "./lib/fullNameNap";
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
@@ -206,6 +207,7 @@ export default function HomePage() {
       {/* ── NAVBAR ── */}
       <Navbar />
       <h1 data-home-store-title="" style={{ margin: 0, padding: "14px 16px", background: "#111827", color: "#ffffff", textAlign: "center", fontSize: "clamp(1.1rem, 3vw, 2rem)", fontWeight: 900, lineHeight: 1.2, position: "relative", zIndex: 60 }}>{HOME_TITLE}</h1>
+      <p data-fullname-subline="" style={{ margin: "4px 0 0", fontSize: "13px", fontWeight: 600, lineHeight: 1.35, opacity: 0.85, color: "inherit", overflowWrap: "anywhere" }}>{FULL_NAME_NAP.fullName}</p>
       <FleetAnnouncementBanner />
 
       {/* ── BENTO MOSAIC HERO ── */}
