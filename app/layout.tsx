@@ -1,3 +1,4 @@
+import FullNameNap from "./components/FullNameNap";
 import PinnedNavClearance from "./components/PinnedNavClearance";
 import type { Metadata } from "next";
 import "./globals.css";
@@ -76,7 +77,10 @@ const jsonLd = {
   "@type": "Store",
   additionalType: "https://schema.org/Store",
   "@id": "https://stclaircannabis.com/#store",
-  name: "St Clair Cannabis",
+  name: "St Clair Cannabis Dispensary Weed Delivery",
+  alternateName: "St Clair Cannabis",
+  hasMap: "https://www.google.com/maps/place/?q=place_id:ChIJ_XEXu-83K4gRPYwmtch7b_8",
+  sameAs: ["https://www.google.com/maps/place/?q=place_id:ChIJ_XEXu-83K4gRPYwmtch7b_8"],
   description: "Cannabis dispensary at 875 St Clair Ave W in Toronto, ON. Explore Exotic Weed, Premium Weed, AAA+ Weed, AA Weed and Budget Weed flower collections. Open 24 Hours.",
   url: "https://stclaircannabis.com",
   telephone: "+14377832483",
@@ -164,6 +168,7 @@ export default function RootLayout({
       </head>
       <body>
         {children}
+        <FullNameNap />
         <PinnedNavClearance />
         <AgeGate />
       </body>
