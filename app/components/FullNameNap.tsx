@@ -48,6 +48,13 @@ export default function FullNameNap() {
             Phone: <a href={n.phoneTel} style={linkStyle}>{n.phoneDisplay}</a>
           </p>
           <p style={{ margin: 0 }}>Hours: {n.hours}</p>
+          {n.neighbourhood ? (
+            <div data-fullname-area="" style={{ marginTop: 12, paddingTop: 10, borderTop: "1px solid rgba(255,255,255,0.14)" }}>
+              <p style={{ margin: "0 0 4px", fontWeight: 700, color: "#ffffff" }}>Cannabis Dispensary in {n.neighbourhood}</p>
+              {n.intersection ? <p style={{ margin: "0 0 4px" }}>Nearest intersection: {n.intersection}</p> : null}
+              {n.transit ? <p style={{ margin: 0 }}>Transit: {n.transit}</p> : null}
+            </div>
+          ) : null}
         </div>
       ) : (
         <p style={{ margin: 0 }}>
@@ -56,6 +63,8 @@ export default function FullNameNap() {
           <a href={n.mapsUrl} target="_blank" rel="noopener noreferrer" style={linkStyle}>{FULL_NAME_NAP_ADDRESS}</a>
           {" · "}
           <a href={n.phoneTel} style={linkStyle}>{n.phoneDisplay}</a>
+          {" · "}
+          <a href={n.visitPath} style={linkStyle} data-fullname-visit-link="">Visit &amp; contact</a>
         </p>
       )}
     </section>

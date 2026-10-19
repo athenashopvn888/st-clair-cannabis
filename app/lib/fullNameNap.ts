@@ -13,7 +13,11 @@ export const FULL_NAME_NAP = {
   "phoneTel": "tel:+14377832483",
   "hours": "Open 24 hours, 7 days a week",
   "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ_XEXu-83K4gRPYwmtch7b_8",
-  "placeId": "ChIJ_XEXu-83K4gRPYwmtch7b_8"
+  "placeId": "ChIJ_XEXu-83K4gRPYwmtch7b_8",
+  "neighbourhood": "St Clair West",
+  "intersection": "",
+  "transit": "Accessible via the 512 St. Clair streetcar and local TTC transit routes.",
+  "visitPath": "/visit"
 } as const;
 
 export const FULL_NAME_NAP_ADDRESS = `${FULL_NAME_NAP.street}, ${FULL_NAME_NAP.city}, ${FULL_NAME_NAP.region} ${FULL_NAME_NAP.postal}`;
