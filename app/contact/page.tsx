@@ -5,6 +5,8 @@ import { CODED_NAP } from "../lib/fleet/coded";
 import { getFleetContent } from "../lib/fleetContent";
 import styles from "./contact.module.css";
 
+export const dynamic = "force-dynamic";
+
 const CONTACT_METADATA: Metadata = {
   title: "Contact Us — St Clair Cannabis | 875 St Clair Ave W, Toronto",
   description:

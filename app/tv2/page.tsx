@@ -7,6 +7,9 @@ import HiringRibbon from "../components/HiringRibbon";
 import TvStoreHeader from "../components/TvStoreHeader";
 import { tvHiring } from "../lib/tvHiring";
 import { formatBoardTime, readStockUpdatedAt } from "../lib/tvStockTime";
+import FleetTvTakeover from "../components/fleet/FleetTvTakeover";
+import { useFleetTvManifest } from "../components/fleet/useFleetTvManifest";
+import { pickTv2Sheet } from "../lib/fleet/tv";
 
 /* -- TYPES -- */
 interface Item {
@@ -27,6 +30,42 @@ const CARD_CONFIG = [
 const fmtPrice = (v?:string) => { const s=String(v||"").trim(); if(!s)return""; return /^\$/.test(s)?s:"$"+s; };
 const fmtTHC = (v?:string) => { const s=String(v||"").trim(); if(!s)return""; if(/^\d+(\.\d+)?%?$/.test(s)){const n=parseFloat(s);return(n<=1?Math.round(n*100):Math.round(n))+"%";}return s; };
 const fmtMG = (v?:string) => { const s=String(v||"").trim(); if(!s)return""; if(/^\d+(\.\d+)?$/.test(s))return s+"mg"; return s; };
+
+function SheetBoardCard({
+  cardId,
+  accent,
+  title,
+  image,
+  alt,
+  kind,
+  onBroken,
+}: {
+  cardId: string;
+  accent: string;
+  title: string;
+  image: string;
+  alt: string;
+  kind: "promo" | "off";
+  onBroken: () => void;
+}) {
+  return (
+    <div className={styles.card} data-fleet-tv-card={cardId} data-fleet-tv-kind={kind} style={{ "--accent": accent } as React.CSSProperties}>
+      <div className={styles.cardHeader}>{kind === "promo" ? "PROMO" : title}</div>
+      <div className={styles.promoMain}>
+        <div className={styles.promoViewport}>
+          <img
+            className={`${styles.promoImg} ${styles.promoActive}`}
+            src={image}
+            alt={alt}
+            referrerPolicy="no-referrer"
+            ref={(node) => { if (node?.complete && node.naturalWidth === 0) onBroken(); }}
+            onError={onBroken}
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
 
 /* -- ITEM CARD -- */
 function ItemCard({ title, accent, items, hiIdx, preset }: {
@@ -185,6 +224,8 @@ export default function TV2Page() {
       .catch(err => console.warn("[BG] Load failed:", err));
   }, []);
   const night = useNightWindow();
+  const fleetTv = useFleetTvManifest();
+  const [sheetBroken, setSheetBroken] = useState<Record<string, { promo?: boolean; off?: boolean }>>({});
   const [dayQuiet, setDayQuiet] = useState(false);
   useEffect(() => {
     const sync = () => setDayQuiet(hideNicotineNow());
@@ -260,19 +301,46 @@ export default function TV2Page() {
           <div className={`${styles.grid} ${styles.grid6}`}>
             {CARD_CONFIG.map(card => {
               const filtered = items.filter(card.filter).filter(it => !(dayQuiet && isNicotineVape(it)));
+              const broken = sheetBroken[card.id] || {};
+              const sheet = pickTv2Sheet(fleetTv.cards[card.id], {
+                categoryOff: false,
+                noItems: filtered.length === 0,
+                promoBroken: Boolean(broken.promo),
+                offBroken: Boolean(broken.off),
+              });
+              if (sheet) {
+                const markBroken = () => setSheetBroken((prev) => ({ ...prev, [card.id]: { ...prev[card.id], [sheet.kind]: true } }));
+                return (
+                  <SheetBoardCard key={card.id} cardId={card.id} accent={card.accent} title={card.title} image={sheet.image} alt={sheet.alt} kind={sheet.kind} onBroken={markBroken} />
+                );
+              }
 
               return (
                 <ItemCard key={card.id} title={card.title} accent={card.accent}
                   items={filtered} hiIdx={highlights[card.id]||0} preset={card.preset} />
               );
             })}
-            <NightBoardCard night={night} />
+            {(() => {
+              const broken = sheetBroken.CIGARETTES || {};
+              const sheet = pickTv2Sheet(fleetTv.cards.CIGARETTES, {
+                categoryOff: !night,
+                noItems: false,
+                promoBroken: Boolean(broken.promo),
+                offBroken: Boolean(broken.off),
+              });
+              if (!sheet) return <NightBoardCard night={night} />;
+              const markBroken = () => setSheetBroken((prev) => ({ ...prev, CIGARETTES: { ...prev.CIGARETTES, [sheet.kind]: true } }));
+              return (
+                <SheetBoardCard cardId="CIGARETTES" accent="#4d1769" title="🚬 CIGARETTES" image={sheet.image} alt={sheet.alt} kind={sheet.kind} onBroken={markBroken} />
+              );
+            })()}
           </div>
         </div>
         
       </div>
       <NightBoardTicker night={night} />
       {lastUpdate ? <div className={styles.lastUpdated}>Refreshed {lastUpdate}</div> : null}
+      <FleetTvTakeover promos={fleetTv.fullscreenPromos} />
     </div>
   );
 }

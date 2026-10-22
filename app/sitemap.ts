@@ -3,6 +3,8 @@ import type { MetadataRoute } from "next";
 import { TIER_CONFIG, CATEGORY_CONFIG } from "./lib/products";
 import { SEO_PAGES } from "./lib/seoPages";
 import { GUIDE_REGISTRY } from "./lib/guideRegistry";
+import { loadFleetArticles } from "./lib/fleet/articles";
+import { CODED_RESOURCE_LINKS } from "./lib/fleet/config";
 
 // Products come from the same loader as /api/tv-data on every request.
 export const dynamic = "force-dynamic";
@@ -85,5 +87,21 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.65,
   }));
 
-  return [...staticPages, ...tierPages, ...itemPages, ...flowerPages, ...itemDetailPages, ...seoPages, ...guidePages];
+  let fleetArticlePages: MetadataRoute.Sitemap = [];
+  try {
+    const loaded = await loadFleetArticles();
+    if (loaded.ok) {
+      const codedSlugs = new Set<string>(CODED_RESOURCE_LINKS.map((page) => page.slug));
+      fleetArticlePages = loaded.articles.filter((article) => !codedSlugs.has(article.slug)).map((article) => ({
+        url: `${BASE}/articles/${article.slug}`,
+        lastModified: article.publishedAt,
+        changeFrequency: "weekly" as const,
+        priority: 0.6,
+      }));
+    }
+  } catch {
+    fleetArticlePages = [];
+  }
+
+  return [...staticPages, ...tierPages, ...itemPages, ...flowerPages, ...itemDetailPages, ...seoPages, ...guidePages, ...fleetArticlePages];
 }
