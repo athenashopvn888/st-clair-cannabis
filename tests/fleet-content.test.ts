@@ -136,8 +136,16 @@ test("a blank cell keeps coded copy and a missing image falls back to the coded 
   assert.equal(kept[0].render, "image");
   assert.equal(kept[0].image, "https://example.blob.vercel-storage.com/weed.webp");
   const bannerSource = readFileSync(new URL("../app/components/FleetAnnouncementBanner.tsx", import.meta.url), "utf8");
-  assert.match(bannerSource, /onError=\{/);
+  assert.match(bannerSource, /onError=\{fail\}/);
   assert.match(bannerSource, /setCurrent\(codedSrc\)/);
+  assert.match(bannerSource, /naturalWidth === 0/);
+  assert.match(bannerSource, /data-fleet-text-banner/);
+  assert.match(bannerSource, /categoryName/);
+  assert.match(bannerSource, /setText\(true\)/);
+  const textBranch = bannerSource.slice(bannerSource.indexOf("if (text)"), bannerSource.indexOf("no-img-element"));
+  assert.match(textBranch, /data-fleet-text-banner/);
+  assert.match(textBranch, /\{categoryName\}/);
+  assert.doesNotMatch(textBranch, /<img/);
 });
 
 test("Follow ALL, Custom, Coded and Hidden each resolve on their own", () => {
