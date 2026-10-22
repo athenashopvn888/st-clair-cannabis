@@ -1,4 +1,7 @@
 import CigaretteSeasonalNotice from "../../components/CigaretteSeasonalNotice";
+import CigaretteUnavailable from "../../components/CigaretteUnavailable";
+import { isRealCigaretteItem } from "../../lib/cigMarkers";
+import { getCigaretteSnapshot } from "../../lib/cigaretteFeed";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import fs from "fs";
@@ -59,6 +62,9 @@ export default async function ItemsCategoryPage({
   /* Pre-Rolls also shows accessories (ADD ONS) */
   const { items: resolvedItems } = await getResolvedProducts();
   let items = getItemsByCategory(catInfo.key, resolvedItems);
+  const showCigarettes = (await getCigaretteSnapshot()).web.show;
+  const cigClosed = catSlug === "cigarettes" && !showCigarettes;
+  if (cigClosed) items = items.filter((item) => !isRealCigaretteItem(item));
   if (catInfo.key === "PREROLLS") {
     const accessories = getItemsByCategory("ADD ONS", resolvedItems);
     const existingIds = new Set(items.map(i => i.sku));
@@ -77,6 +83,7 @@ export default async function ItemsCategoryPage({
     <main className={styles.main}>
       <Navbar />
       {catSlug === "cigarettes" && <CigaretteSeasonalNotice sticky />}
+      {cigClosed ? <CigaretteUnavailable /> : null}
 
       {/* Hero Banner */}
       <section style={{ width: "100%", overflow: "hidden", marginTop: "92px", marginBottom: "24px" }}>

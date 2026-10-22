@@ -30,3 +30,8 @@ export function isCigListWindow(date: Date = new Date()): boolean {
 export function showPromo(date: Date = new Date()): boolean {
   return !isCigListWindow(date);
 }
+
+/** tvOn can hide the /tv2 list. It cannot turn the list on outside this window. */
+export function tv2CigaretteListOn(tvOn: boolean, date: Date = new Date()): boolean {
+  return tvOn && isCigListWindow(date);
+}

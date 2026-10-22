@@ -1,7 +1,16 @@
+"use client";
+
 import Link from "next/link";
 import styles from "./Footer.module.css";
+import { useCigaretteState } from "./CigaretteStateProvider";
+import { useFleetContent } from "./FleetContentProvider";
+import { CODED_NAP } from "../lib/fleet/coded";
 
 export default function Footer() {
+  const showCigarettes = useCigaretteState().web;
+  const nap = useFleetContent().nap;
+  const phoneHref = nap.phoneTel.startsWith("tel:") ? nap.phoneTel : `tel:${nap.phoneTel}`;
+  const hoursLabel = nap.hours === CODED_NAP.hours ? "Open 24 Hours" : nap.hours;
   return (
     <footer className={styles.footer}>
       <div className={styles.inner}>
@@ -25,17 +34,17 @@ export default function Footer() {
             <h3 className={styles.colTitle}>Contact Info</h3>
             <div className={styles.infoBlock}>
               <span className={styles.infoLabel}>Address:</span>
-              <span>875 St Clair Ave W</span>
-              <span>Toronto, ON M6C 1C4</span>
+              <span>{nap.street}</span>
+              <span>{nap.cityLine}</span>
               <span>Canada</span>
             </div>
             <div className={styles.infoBlock}>
               <span className={styles.infoLabel}>Phone:</span>
-              <span><a href="tel:+14377832483" style={{color: "inherit"}}>(437) 783-2483</a></span>
+              <span><a href={phoneHref} style={{color: "inherit"}}>{nap.phoneDisplay}</a></span>
             </div>
             <div className={styles.infoBlock}>
               <span className={styles.infoLabel}>Hours:</span>
-              <span className={styles.highlight}>Open 24 Hours</span>
+              <span className={styles.highlight}>{hoursLabel}</span>
             </div>
           </div>
 
@@ -54,10 +63,10 @@ export default function Footer() {
               <Link href="/guides">Guides</Link>
               <Link href="/visit">Plan a Visit</Link>
               <Link href="/24-hour-dispensary-st-clair-west">24-Hour Dispensary Guide</Link>
-              <Link href="/native-cigarettes-st-clair-west">Native Cigarettes</Link>
+              {showCigarettes ? <Link href="/native-cigarettes-st-clair-west">Native Cigarettes</Link> : null}
               <Link href="/nicotine-vape-st-clair-west">Nicotine Vape</Link>
               <Link href="/items/edibles">Edibles</Link>
-              <Link href="/items/cigarettes">Cigarettes</Link>
+              {showCigarettes ? <Link href="/items/cigarettes">Cigarettes</Link> : null}
               <Link href="/items/vapes">Nicotine Vape</Link>
               <Link href="/items/vape-disposables">THC Vape</Link>
               <Link href="/faq">FAQ</Link>

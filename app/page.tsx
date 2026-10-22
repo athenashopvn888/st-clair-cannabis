@@ -1,5 +1,6 @@
 "use client";
-import { FULL_NAME_NAP } from "./lib/fullNameNap";
+import { useCigaretteState } from "./components/CigaretteStateProvider";
+import { useFleetContent } from "./components/FleetContentProvider";
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
@@ -105,6 +106,9 @@ interface ReviewStats {
 
 export default function HomePage() {
     const __liveFlowers = useLiveFlowers();
+  const showCigarettes = useCigaretteState().web;
+  const storeName = useFleetContent().nap.name;
+  const exploreCategories = showCigarettes ? EXPLORE_CATEGORIES : EXPLORE_CATEGORIES.filter((cat) => cat.slug !== "items/cigarettes");
   const [featuredStrains, setFeaturedStrains] = useState<any[]>([]);
   const [reviews, setReviews] = useState<Review[]>([]);
   const [reviewsStats, setReviewsStats] = useState<ReviewStats | null>(null);
@@ -207,7 +211,7 @@ export default function HomePage() {
       {/* ── NAVBAR ── */}
       <Navbar />
       <h1 data-home-store-title="" style={{ margin: 0, padding: "14px 16px", background: "#111827", color: "#ffffff", textAlign: "center", fontSize: "clamp(1.1rem, 3vw, 2rem)", fontWeight: 900, lineHeight: 1.2, position: "relative", zIndex: 60 }}>{HOME_TITLE}</h1>
-      <p data-fullname-subline="" style={{ margin: "4px 0 0", fontSize: "13px", fontWeight: 600, lineHeight: 1.35, opacity: 0.85, color: "inherit", overflowWrap: "anywhere" }}>{FULL_NAME_NAP.fullName}</p>
+      <p data-fullname-subline="" style={{ margin: "4px 0 0", fontSize: "13px", fontWeight: 600, lineHeight: 1.35, opacity: 0.85, color: "inherit", overflowWrap: "anywhere" }}>{storeName}</p>
       <FleetAnnouncementBanner />
 
       {/* ── BENTO MOSAIC HERO ── */}
@@ -265,7 +269,7 @@ export default function HomePage() {
           </div>
 
           <div className={styles.categoriesGrid}>
-            {EXPLORE_CATEGORIES.map((cat) => (
+            {exploreCategories.map((cat) => (
               <Link
                 key={cat.slug}
                 href={`/${cat.slug}`}

@@ -1,6 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
 import { isTobaccoWindow, NIGHT_FLASH_MESSAGE, NIGHT_PRICE_LIST } from "../lib/tobaccoWindow.mjs";
+import { gateTvWindow } from "../lib/cigDecision";
+import { useCigaretteState } from "./CigaretteStateProvider";
 import styles from "../tv2/tv2.module.css";
 
 /** True only 17:00-07:59 America/Toronto. Starts false so daytime never flashes tobacco content. */
@@ -17,7 +19,8 @@ export function useNightWindow(): boolean {
 
 /** Night: fleet cigarette price card. Day: a non-cigarette St Clair banner (no THC-only art exists). */
 export function NightBoardCard({ night }: { night: boolean }) {
-  if (night && isTobaccoWindow()) {
+  const tvOn = useCigaretteState().tv;
+  if (gateTvWindow(tvOn, night && isTobaccoWindow())) {
     return (
       <div className={styles.card} data-promo-card="CIGARETTES" style={{ "--accent": "#4d1769" } as React.CSSProperties}>
         <div className={styles.cardHeader}>🚬 CIGARETTES</div>
@@ -39,6 +42,8 @@ export function NightBoardCard({ night }: { night: boolean }) {
 }
 
 export function NightBoardTicker({ night }: { night: boolean }) {
+  const tvOn = useCigaretteState().tv;
+  if (!tvOn) return null;
   if (!night || !isTobaccoWindow()) return null;
   return (
     <div data-cigarette-ticker="" role="marquee" aria-label={NIGHT_FLASH_MESSAGE}

@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { FULL_NAME_NAP } from "../lib/fullNameNap";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { CODED_NAP } from "../lib/fleet/coded";
+import { getFleetContent } from "../lib/fleetContent";
 import styles from "./contact.module.css";
 
-export const metadata: Metadata = {
+const CONTACT_METADATA: Metadata = {
   title: "Contact Us — St Clair Cannabis | 875 St Clair Ave W, Toronto",
   description:
     "Visit St Clair Cannabis at 875 St Clair Ave W, Toronto, ON M6C 1C4. We are open 24 hours a day, 7 days a week. Walk-ins welcome.",
@@ -18,7 +19,23 @@ export const metadata: Metadata = {
   },
 };
 
-export default function ContactPage() {
+export async function generateMetadata(): Promise<Metadata> {
+  const fleet = await getFleetContent();
+  if (!fleet.active) return CONTACT_METADATA;
+  const page = fleet.pages.Contact;
+  const description = page?.metaDescription || "";
+  const title = page?.metaTitle || "";
+  if ((!description || description === CONTACT_METADATA.description) && !title) return CONTACT_METADATA;
+  return {
+    ...CONTACT_METADATA,
+    ...(description && description !== CONTACT_METADATA.description ? { description } : {}),
+    ...(title ? { title: { absolute: title } } : {}),
+  };
+}
+
+export default async function ContactPage() {
+  const fleet = await getFleetContent();
+  const hoursCustom = fleet.active && fleet.nap.hours !== CODED_NAP.hours;
   return (
     <main className={styles.main}>
       <Navbar />
@@ -27,7 +44,7 @@ export default function ContactPage() {
       <section className={styles.hero} style={{ paddingTop: "92px" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 20px" }}>
           <img src="/banners/08_Contact_Us.webp" alt="Contact Us" style={{ width: "100%", height: "auto", display: "block", borderRadius: "var(--radius-lg)" }} />
-          <h1 className={styles.heroTitle} data-fullname-contact-h1="" style={{ marginTop: "16px", textAlign: "center", fontSize: "clamp(22px, 4vw, 34px)", lineHeight: 1.2, overflowWrap: "anywhere" }}>Contact {FULL_NAME_NAP.fullName}</h1>
+          <h1 className={styles.heroTitle} data-fullname-contact-h1="" style={{ marginTop: "16px", textAlign: "center", fontSize: "clamp(22px, 4vw, 34px)", lineHeight: 1.2, overflowWrap: "anywhere" }}>Contact {fleet.nap.name}</h1>
         </div>
       </section>
 
@@ -40,11 +57,11 @@ export default function ContactPage() {
               <div className={styles.infoIcon}>📍</div>
               <h2 className={styles.infoTitle}>Location</h2>
               <p className={styles.infoText}>
-                875 St Clair Ave W
+                {fleet.nap.street}
                 <br />
-                Toronto, ON M6C 1C4
+                {fleet.nap.cityLine}
                 <br />
-                <span className={styles.infoMuted}>St Clair West, Toronto</span>
+                <span className={styles.infoMuted}>{fleet.nap.areaLine}</span>
               </p>
             </div>
 
@@ -63,7 +80,7 @@ export default function ContactPage() {
               </div>
               <div className={styles.openBadge}>
                 <div className={styles.openDot} />
-                Open 24 Hours
+                {hoursCustom ? fleet.nap.hours : "Open 24 Hours"}
               </div>
             </div>
 

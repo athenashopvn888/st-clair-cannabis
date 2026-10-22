@@ -1,11 +1,21 @@
+import CigaretteStateProvider from "./components/CigaretteStateProvider";
+import FleetContentProvider from "./components/FleetContentProvider";
 import FullNameNap from "./components/FullNameNap";
 import PinnedNavClearance from "./components/PinnedNavClearance";
 import type { Metadata } from "next";
 import "./globals.css";
 import AgeGate from "./components/AgeGate";
+import { getCigaretteSnapshot, toPublicCigaretteState } from "./lib/cigaretteFeed";
+import { CODED_BANNERS, CODED_NAP } from "./lib/fleet/coded";
+import { getFleetContent } from "./lib/fleetContent";
+import type { Nap } from "./lib/fleet/types";
 import { HOME_DOC_TITLE } from "./lib/homeStorefront";
 
-export const metadata: Metadata = {
+// Cigarette on/off is read in this layout. Refresh it about every minute
+// so nav, footer, and store copy follow the feed without a rebuild.
+export const revalidate = 60;
+
+const ROOT_METADATA: Metadata = {
   metadataBase: new URL("https://stclaircannabis.com"),
   title: {
     default: HOME_DOC_TITLE,
@@ -71,6 +81,19 @@ export const metadata: Metadata = {
   },
 };
 
+export async function generateMetadata(): Promise<Metadata> {
+  const fleet = await getFleetContent();
+  if (!fleet.active) return ROOT_METADATA;
+  const description = fleet.pages.Home?.metaDescription || "";
+  if (!description || description === ROOT_METADATA.description) return ROOT_METADATA;
+  return {
+    ...ROOT_METADATA,
+    description,
+    openGraph: { ...ROOT_METADATA.openGraph, description },
+    twitter: { ...ROOT_METADATA.twitter, description },
+  };
+}
+
 /* ── JSON-LD Structured Data ── */
 const jsonLd = {
   "@context": "https://schema.org",
@@ -119,6 +142,47 @@ const jsonLd = {
     name: "Toronto",
   },
 };
+function schemaUnchanged(nap: Nap) {
+  const address = jsonLd.address;
+  const geo = jsonLd.geo;
+  return nap.schemaName === jsonLd.name
+    && nap.name === CODED_NAP.name
+    && nap.phoneTel.replace(/^tel:/, "") === jsonLd.telephone
+    && nap.street === address.streetAddress
+    && nap.city === address.addressLocality
+    && nap.province === address.addressRegion
+    && nap.postalCode === address.postalCode
+    && nap.lat === String(geo.latitude)
+    && nap.lng === String(geo.longitude)
+    && nap.website === jsonLd.url
+    && nap.mapsSearchUrl === jsonLd.hasMap;
+}
+
+function storeJsonLdFor(nap: Nap) {
+  if (schemaUnchanged(nap)) return jsonLd;
+  const phone = nap.phoneTel.replace(/^tel:/, "");
+  return {
+    ...jsonLd,
+    name: nap.schemaName,
+    alternateName: nap.name,
+    telephone: phone,
+    url: nap.website,
+    hasMap: nap.mapsSearchUrl,
+    address: {
+      ...jsonLd.address,
+      streetAddress: nap.street,
+      addressLocality: nap.city,
+      addressRegion: nap.province,
+      postalCode: nap.postalCode,
+    },
+    geo: {
+      ...jsonLd.geo,
+      latitude: Number(nap.lat),
+      longitude: Number(nap.lng),
+    },
+  };
+}
+
 const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -128,14 +192,19 @@ const websiteJsonLd = {
   publisher: { "@id": "https://stclaircannabis.com/#store" },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const [cigaretteSnapshot, fleet] = await Promise.all([getCigaretteSnapshot(), getFleetContent()]);
+  const cigarettes = toPublicCigaretteState(cigaretteSnapshot);
+  const storeJsonLd = fleet.active ? storeJsonLdFor(fleet.nap) : jsonLd;
+  const banners = fleet.banners.length ? fleet.banners : CODED_BANNERS;
   return (
     <html lang="en">
       <head>
+        <meta name="fleet-content-version" content={fleet.version} />
         <meta name="geo.region" content="CA-ON" />
         <meta name="geo.placename" content="Toronto" />
         <meta name="geo.position" content="43.6797607;-79.433162" />
@@ -148,7 +217,7 @@ export default function RootLayout({
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(storeJsonLd) }}
         />
         <script
           type="application/ld+json"
@@ -167,10 +236,14 @@ export default function RootLayout({
         />
       </head>
       <body>
-        {children}
-        <FullNameNap />
-        <PinnedNavClearance />
-        <AgeGate />
+        <FleetContentProvider value={{ active: fleet.active, version: fleet.version, nap: fleet.nap, banners }}>
+          <CigaretteStateProvider value={cigarettes}>
+            {children}
+            <FullNameNap />
+            <PinnedNavClearance />
+            <AgeGate />
+          </CigaretteStateProvider>
+        </FleetContentProvider>
       </body>
     </html>
   );
