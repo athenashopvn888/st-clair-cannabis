@@ -8,6 +8,8 @@ import TvStoreHeader from "../components/TvStoreHeader";
 import { tvHiring } from "../lib/tvHiring";
 import { formatBoardTime, readStockUpdatedAt } from "../lib/tvStockTime";
 import TvReviewQr from "../TvReviewQr";
+import FleetTvTakeover from "../components/fleet/FleetTvTakeover";
+import { useFleetTvManifest } from "../components/fleet/useFleetTvManifest";
 
 /* -- Types -- */
 interface PricePoint { regular: number; sale: number | null; }
@@ -716,6 +718,7 @@ function VerticalTicker() {
    ============================================================ */
 export default function TVMenuPage() {
   const night = useNightWindow();
+  const fleetTv = useFleetTvManifest();
   const [bgUrl, setBgUrl] = useState("");
   useEffect(() => {
     fetch("https://athena-cannabis-images.vercel.app/backgrounds/list.json")
@@ -888,6 +891,7 @@ export default function TVMenuPage() {
       </div>
       <NightBoardTicker night={night} />
       {lastUpdate ? <div className={styles.lastUpdated}>Refreshed {lastUpdate}</div> : null}
+      <FleetTvTakeover promos={fleetTv.fullscreenPromos} />
     </div>
   );
 }
