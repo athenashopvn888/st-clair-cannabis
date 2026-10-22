@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import styles from "./Navbar.module.css";
 import FlowerBogoStrip from "./FlowerBogoStrip";
+import { useCigaretteState } from "./CigaretteStateProvider";
 
 const ALL_LINKS = [
   { href: "/exotic-weed", label: "Exotic Weed" },
@@ -28,6 +29,8 @@ const ALL_LINKS = [
 
 export default function Navbar() {
   const pathname = usePathname();
+  const showCigarettes = useCigaretteState().web;
+  const navLinks = showCigarettes ? ALL_LINKS : ALL_LINKS.filter((link) => link.href !== "/items/cigarettes");
   const isStoreMenuActive = ["/exotic-weed", "/premium-weed", "/aaa-weed", "/aa-weed", "/budget-weed"].includes(pathname);
 
   return (
@@ -65,7 +68,7 @@ export default function Navbar() {
       {/* Scrollable link bar */}
       <div className={styles.scrollBar}>
         <div className={styles.scrollInner}>
-          {ALL_LINKS.map((link) => {
+          {navLinks.map((link) => {
             const isActive = pathname === link.href;
             return (
               <Link
