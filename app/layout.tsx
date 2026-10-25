@@ -1,6 +1,7 @@
 import CigaretteStateProvider from "./components/CigaretteStateProvider";
 import FleetContentProvider from "./components/FleetContentProvider";
 import FullNameNap from "./components/FullNameNap";
+import MobileBottomBar from "./components/MobileBottomBar";
 import PinnedNavClearance from "./components/PinnedNavClearance";
 import type { Metadata } from "next";
 import "./globals.css";
@@ -10,6 +11,7 @@ import { CODED_BANNERS, CODED_NAP } from "./lib/fleet/coded";
 import { getFleetContent } from "./lib/fleetContent";
 import type { Nap } from "./lib/fleet/types";
 import { HOME_DOC_TITLE } from "./lib/homeStorefront";
+import { storeDirectionsUrl } from "./lib/mobileBottomBar";
 
 // Cigarette on/off is read in this layout. Refresh it about every minute
 // so nav, footer, and store copy follow the feed without a rebuild.
@@ -201,6 +203,10 @@ export default async function RootLayout({
   const cigarettes = toPublicCigaretteState(cigaretteSnapshot);
   const storeJsonLd = fleet.active ? storeJsonLdFor(fleet.nap) : jsonLd;
   const banners = fleet.banners.length ? fleet.banners : CODED_BANNERS;
+  const directionsUrl = storeDirectionsUrl(
+    fleet.nap.mapsSearchUrl,
+    `${fleet.nap.street}, ${fleet.nap.city}, ${fleet.nap.province} ${fleet.nap.postalCode}`,
+  );
   return (
     <html lang="en">
       <head>
@@ -241,6 +247,7 @@ export default async function RootLayout({
             {children}
             <FullNameNap />
             <PinnedNavClearance />
+            <MobileBottomBar directionsUrl={directionsUrl} />
             <AgeGate />
           </CigaretteStateProvider>
         </FleetContentProvider>

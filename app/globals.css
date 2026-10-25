@@ -69,6 +69,9 @@
   /* Typography */
   --font-display: 'Outfit', system-ui, -apple-system, sans-serif;
   --font-body: 'Space Grotesk', 'Outfit', system-ui, sans-serif;
+
+  /* Mobile sticky bar. 0 until a small screen actually has the bar in the document. */
+  --mobile-action-bar-height: 0px;
 }
 
 /* -- Global Reset -- */
@@ -91,6 +94,22 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --mobile-action-bar-height: calc(68px + env(safe-area-inset-bottom, 0px));
+  }
+
+  body:has([data-mobile-bottom-bar]) {
+    padding-bottom: var(--mobile-action-bar-height);
+  }
+}
+
+@media print {
+  body:has([data-mobile-bottom-bar]) {
+    padding-bottom: 0;
+  }
 }
 
 /* Subtle organic background */
