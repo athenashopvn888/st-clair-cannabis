@@ -33,6 +33,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${BASE}/resources/shake-vs-smalls`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/resources/indoor-vs-outdoor-vs-greenhouse-cannabis`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/resources/pink-gelato-strain`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/resources/dab-pen-vs-dab-rig`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/resources`, lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE}/guides`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE}/visit`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
