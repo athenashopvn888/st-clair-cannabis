@@ -47,6 +47,12 @@ export default function WeedFlowerGuidePage() {
           <p>Find store information and the broader Weed selection from the existing Toronto store guide.</p>
           <Link href="/weed-dispensary-toronto">Explore St Clair Cannabis Weed in Toronto</Link>
         </div>
+
+        <div className={styles.ownerCard}>
+          <h2>Related reading</h2>
+          <p>Adults 19+. Pink Gelato is a name that keeps turning up in Toronto strain searches, and a name on a jar is a label line, not a spec sheet.</p>
+          <Link href="/resources/pink-gelato-strain">Pink Gelato Strain, Explained: What the Name Tells You and What It Doesn&apos;t</Link>
+        </div>
       </section>
       <Footer />
     </main>
