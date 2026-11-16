@@ -186,3 +186,34 @@
   font-size: 0.92rem;
   font-weight: 700;
 }
+
+.latestArticles {
+  width: min(100% - 48px, 920px);
+  margin: 28px auto 48px;
+}
+
+.latestArticles h2 {
+  margin: 0 0 8px;
+  font-size: clamp(1.4rem, 3vw, 1.85rem);
+  font-weight: 800;
+}
+
+.latestArticles h3 {
+  margin: 0;
+  padding: 16px 18px 0;
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+.latestArticles a {
+  color: #86efac;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.latestArticles .faqItem p {
+  margin: 8px 18px 16px;
+  color: #cbd5e1;
+  line-height: 1.6;
+}
