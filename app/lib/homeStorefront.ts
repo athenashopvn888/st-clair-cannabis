@@ -23,4 +23,4 @@ export const HOME_VISIT_FAQS = [
 ] as const;
 
 // Document <title>/og/twitter: exact Google name | area. H1 keeps HOME_TITLE (previous keyword text).
-export const HOME_DOC_TITLE = "St Clair Cannabis Dispensary Weed Delivery | St Clair West";
+export const HOME_DOC_TITLE = "St Clair Cannabis Dispensary near me | Weed Delivery | St Clair West";
